@@ -6,9 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steve0Greatness</title>
     <style>
-        ref {
-            font-style: italic;
-            float: right;
+        .breadcrumbs {
+            display: flex;
+            list-style-type: none;
+            padding: 0;
+        }
+        .breadcrumbs li:not(:first-child)::before {
+            display: inline-block;
+            content: "»";
+            margin: 0 8px;
+        }
+
+        .direct-link {
+            text-decoration: none;
+            font-size: 12px;
         }
     </style>
 </head>
@@ -18,7 +29,14 @@
     <img src="ProfilePictureSpin.gif" width="50" alt="3D rotating cube of the cat from Stray">
     <i>Made with <a href="https://www.3dgifmaker.com">3D Gif Maker</a></i>
     <h2>Blog Posts</h2>
-    <ul></ul>
+    <table>
+        <thead>
+            <tr><th>Name</th><th>Date</th></tr>
+        </thead>
+        <tbody>
+            <tr><th><a href="/blog/How-to-Store-Passwords.htm">How to Store Passwords</a></th><td><date>2 Nov, 2023</date></td></tr>
+        </tbody>
+    </table>
 </body>
 
 </html>
