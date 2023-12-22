@@ -1,0 +1,9 @@
+{% extends "_layout.html" %}
+{% block title %}{{ Title }}{% endblock %}
+{% block content %}
+<article>
+    <h2 id="blog-post-titled">{{ Title }}</h2>
+    <time>{{PostDate}}</time>
+    {{ Content }}
+</article>
+{% endblock %}

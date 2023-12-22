@@ -1,0 +1,26 @@
+{% extends "_layout.html" %}
+{% block title %}Homepage{% endblock %}
+{% block content %}
+<h2 id="blog-posts">Blog Posts</h2>
+<table class="blog-list">
+    <tbody>
+        {% for post in PostList %}
+        <tr class="blog-list-title-and-date">
+            <td style="padding-right: 15px;">
+                <a href="/blog/{{post['pathname']}}">{{post["title"]}}</a>
+            </td>
+            <td>
+                <time>{{post["date"]}}</time>
+            </td>
+        </tr>
+        <!-- <tr class="blog-list-preview">
+            <td colspan="2">
+                <article style="max-height: 100px;overflow-y: hidden;">
+                    {{post["content"]}}
+                </article>
+            </td>
+        </tr> -->
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
