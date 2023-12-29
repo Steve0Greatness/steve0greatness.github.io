@@ -2,12 +2,14 @@ from Renderers import RenderTemplate, RenderMarkdown
 
 from shutil import rmtree as DeleteDirectory
 from os import mkdir as CreateDirectory, listdir as ListDirectory, unlink as DeleteFile
-from os.path import isfile as IsFile
+from os.path import isfile as IsFile, exists as PathExists
 from distutils.dir_util import copy_tree as CopyDirectory
 
 BUILD_DIRECTORY = "build"
 
 def WipeFinalDir():
+    if not PathExists(BUILD_DIRECTORY):
+        CreateDirectory(BUILD_DIRECTORY)
     for item in ListDirectory(BUILD_DIRECTORY):
         path = BUILD_DIRECTORY + "/" + item
         if IsFile(path):
