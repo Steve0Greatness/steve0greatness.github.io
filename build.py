@@ -5,7 +5,7 @@ from os import mkdir as CreateDirectory, listdir as ListDirectory, unlink as Del
 from os.path import isfile as IsFile, exists as PathExists
 from distutils.dir_util import copy_tree as CopyDirectory
 
-BUILD_DIRECTORY = "build"
+BUILD_DIRECTORY = "docs"
 
 def WipeFinalDir():
     if not PathExists(BUILD_DIRECTORY):
@@ -48,11 +48,16 @@ def RenderPage(PageInput: str, ContentDest: str, **kwargs):
         DestLocation.write(RenderTemplate(PageInput, **kwargs))
 
 if __name__ == "__main__":
+    print("Wiping directory")
     WipeFinalDir()
+    print("Creating blog holder")
     CreateDirectory(BUILD_DIRECTORY + "/blog")
+    print("Rendering posts...")
     RenderPosts()
+    print("Copying static directory")
     CopyDirectory("static", BUILD_DIRECTORY + "/static")
 
+    print("Building static files")
     RenderPage("index.html", "index.html", PostList=PostList)
     RenderPage("blog-list.html", "/blog/index.html", PostList=PostList)
     RenderPage("blog-feed.rss", "/blog/feed.rss", PostList=PostList)

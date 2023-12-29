@@ -20,9 +20,5 @@ jobs:
               with:
                 path: "requirements.txt"
             # You can test your matrix by printing the current Python version
-            - name: Display Python version
+            - name: Run Python Builder
               run: python build.py
-            - name: Deploy 🚀
-              uses: JamesIves/github-pages-deploy-action@v4
-              with:
-                folder: build # The folder the action should deploy.
