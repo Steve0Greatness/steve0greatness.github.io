@@ -15,7 +15,7 @@
             <p>Depending on your RSS reader, you may want to x<a href="https://steve0greatness.github.io/blog/blog-ini.html">read this article online</a>,</p>
             <p>Hello, World! Welcome to my epic cool blog hosted with GitHub pages, because I'm epic and cool and awesome and totally didn't need a first post so that git actually made sure an important directory exists. No sir.</p>
 
-<!--I'm really hopeful this will finally work -->
+<!--this stuff should really just let me deploy my bloody stupid little site.-->
 
         </description>
         <guid isPermaLink="false">blog-ini.html</guid>
