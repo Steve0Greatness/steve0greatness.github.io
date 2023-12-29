@@ -27,7 +27,6 @@ jobs:
               run: python build.py
             - name: Commit docs directory
               run: |
-                git pull
                 git add docs/
                 git config --global user.name 'github-actions'
                 git config --global user.email 'github-actions@github.com'
