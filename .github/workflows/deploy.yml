@@ -1,0 +1,28 @@
+name: Python package
+
+on: [push]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        strategy:
+          matrix:
+            python-version: ["pypy3.9", "pypy3.10", "3.9", "3.10", "3.11", "3.12"]
+        steps:
+            - uses: actions/checkout@v4
+            # this Action should follow steps to set up Python build environment
+            - name: Set up Python ${{ matrix.python-version }}
+              uses: actions/setup-python@v4
+              with:
+                python-version: ${{ matrix.python-version }}
+            - name: Install Python dependencies
+              uses: py-actions/py-dependency-install@v4
+              with:
+                path: "requirements.txt"
+            # You can test your matrix by printing the current Python version
+            - name: Display Python version
+              run: python build.py
+            - name: Deploy 🚀
+              uses: JamesIves/github-pages-deploy-action@v4
+              with:
+                folder: build # The folder the action should deploy.

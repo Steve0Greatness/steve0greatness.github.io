@@ -3,10 +3,11 @@
 {{super()}}
 <link rel="alternate" href="/blog/feed.rss" type="application/rss+xml" title="Steve0Greatness' Blog">
 {% endblock %}
-{% block title %}Homepage{% endblock %}
+{% block title %}Blog Index{% endblock %}
+{% from "_macros.html" import GenerateBreadcrumbs %}
+{% block breadcrumbs %}{{ GenerateBreadcrumbs([{ "href": "/blog","title": "Blog Index" }]) }}{% endblock %}
 {% block content %}
-<h1>Steve0Greatness</h1>
-<h2 id="blog-posts">Blog Posts</h2>
+<h1>Blog Posts</h1>
 <a href="/blog/feed.rss"><img src="/static/rss-feed-icon-96-by-96.png" width="16" height="16" alt="RSS Feed"></a>
 <table class="blog-list">
     <tbody>

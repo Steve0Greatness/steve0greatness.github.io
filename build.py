@@ -5,9 +5,11 @@ from os import mkdir as CreateDirectory, listdir as ListDirectory, unlink as Del
 from os.path import isfile as IsFile
 from distutils.dir_util import copy_tree as CopyDirectory
 
-def WipeDocsDir():
-    for item in ListDirectory("docs"):
-        path = "docs/" + item
+BUILD_DIRECTORY = "build"
+
+def WipeFinalDir():
+    for item in ListDirectory(BUILD_DIRECTORY):
+        path = BUILD_DIRECTORY + "/" + item
         if IsFile(path):
             DeleteFile(path)
             continue
@@ -36,20 +38,22 @@ def RenderPosts():
             Title = PostHTML.metadata["title"]
             PostDate = PostHTML.metadata["date"]
             RenderedHTML = RenderTemplate("blog-post.html", Title=Title, PostDate=PostDate, Content=PostHTML)
-        with open("docs/blog/" + post.replace(".md", ".html"), "w") as PostLocation:
+        with open(BUILD_DIRECTORY + "/blog/" + post.replace(".md", ".html"), "w") as PostLocation:
             PostLocation.write(RenderedHTML)
 
 def RenderPage(PageInput: str, ContentDest: str, **kwargs):
-    with open("docs/" + ContentDest, "w") as DestLocation:
+    with open(BUILD_DIRECTORY + "/" + ContentDest, "w") as DestLocation:
         DestLocation.write(RenderTemplate(PageInput, **kwargs))
 
 if __name__ == "__main__":
-    WipeDocsDir()
-    CreateDirectory("docs/blog")
+    WipeFinalDir()
+    CreateDirectory(BUILD_DIRECTORY + "/blog")
     RenderPosts()
-    CopyDirectory("static", "docs/static")
+    CopyDirectory("static", BUILD_DIRECTORY + "/static")
 
     RenderPage("index.html", "index.html", PostList=PostList)
-    RenderPage("index.html", "index.html", PostList=PostList)
+    RenderPage("blog-list.html", "/blog/index.html", PostList=PostList)
+    RenderPage("blog-feed.rss", "/blog/feed.rss", PostList=PostList)
+    RenderPage("404.html", "/404.html")
 
     pass
