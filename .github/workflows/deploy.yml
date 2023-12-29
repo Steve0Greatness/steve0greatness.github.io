@@ -27,6 +27,7 @@ jobs:
                 git config --global user.name 'github-actions'
                 git config --global user.email 'github-actions@github.com'
                 git commit -am "Automated report"
+                git add
                 git push
             - name: Deploy 🚀
               uses: JamesIves/github-pages-deploy-action@v4
