@@ -1,0 +1,77 @@
+body,
+html {
+    margin: 0;
+    width: 100vw;
+}
+
+main {
+    padding: 0 8px;
+}
+
+.breadcrumbs {
+    list-style: none;
+    padding: 16px 8px 0;
+    margin: 0;
+}
+
+.breadcrumbs li {
+    display: inline-block;
+}
+
+.breadcrumbs li + li::before {
+    content: "\0000BB";
+}
+
+body > header {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    background-color: #cecece;
+}
+
+body > header :any-link {
+    color: #1f1f1f;
+}
+
+body > header h2 {
+    flex: 1;
+    font-size: large;
+    margin: 0;
+}
+
+body > header nav {
+    font-size: large;
+}
+
+tr > :not(:last-child) {
+    padding-right: 15px;
+}
+
+body > footer {
+    display: flex;
+    align-items: first baseline;
+    margin: 8px;
+    margin-top: 12px;
+    width: calc(100vw - 16px);
+    padding-top: 3px;
+    border-top: 1px black solid;
+}
+
+.footer-link-list-holder {
+    flex: 1;
+}
+
+.footer-link-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.footer-link-list :any-link {
+    color: black;
+}
+
+.footer-link-list-label {
+    font-weight: 900;
+    font-size: 1.05rem;
+}
