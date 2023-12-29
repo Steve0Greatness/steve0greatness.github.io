@@ -22,6 +22,12 @@ jobs:
             # You can test your matrix by printing the current Python version
             - name: Run Python Builder
               run: python build.py
+            - name: Commit docs directory
+              run: |
+                git config --global user.name 'github-actions'
+                git config --global user.email 'github-actions@github.com'
+                git commit -am "Automated report"
+                git push
             - name: Deploy 🚀
               uses: JamesIves/github-pages-deploy-action@v4
               with:
