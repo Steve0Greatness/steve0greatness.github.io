@@ -1,11 +1,21 @@
 from Renderers import RenderTemplate, RenderMarkdown
-
+from sys import argv
 from shutil import rmtree as DeleteDirectory
 from os import mkdir as CreateDirectory, listdir as ListDirectory, unlink as DeleteFile
 from os.path import isfile as IsFile, exists as PathExists
 from distutils.dir_util import copy_tree as CopyDirectory
 
-BUILD_DIRECTORY = "docs"
+GITHUB_BUILD_DIR = "docs" # Separate because this site is built with an action that won't work if they aren't
+LOCAL_BUILD_DIR = "build"
+
+BUILD_DIRECTORY = GITHUB_BUILD_DIR if len(argv) > 1 and argv[1] == "gh-pages-deploy" else LOCAL_BUILD_DIR
+
+PAGES = {
+    "index.html": "index.html",
+    "blog-list.html": "blog/index.html",
+    "blog-feed.rss": "blog/feed.rss",
+    "404.html": "404.html"
+}
 
 def WipeFinalDir():
     if not PathExists(BUILD_DIRECTORY):
@@ -52,15 +62,13 @@ if __name__ == "__main__":
     WipeFinalDir()
     print("Creating blog holder")
     CreateDirectory(BUILD_DIRECTORY + "/blog")
-    print("Rendering posts...")
+    print("Rendering posts")
     RenderPosts()
     print("Copying static directory")
-    CopyDirectory("static", BUILD_DIRECTORY + "/static")
+    CopyDirectory("static", BUILD_DIRECTORY)
 
-    print("Building static files")
-    RenderPage("index.html", "index.html", PostList=PostList)
-    RenderPage("blog-list.html", "/blog/index.html", PostList=PostList)
-    RenderPage("blog-feed.rss", "/blog/feed.rss", PostList=PostList)
-    RenderPage("404.html", "/404.html")
+    print("Building pages")
+    for file, path in PAGES.items():
+        RenderPage(file, path, PostList=PostList)
 
     pass

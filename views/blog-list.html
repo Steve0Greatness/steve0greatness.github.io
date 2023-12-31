@@ -8,7 +8,7 @@
 {% block breadcrumbs %}{{ GenerateBreadcrumbs([{ "href": "/blog","title": "Blog Index" }]) }}{% endblock %}
 {% block content %}
 <h1>Blog Posts</h1>
-<a href="/blog/feed.rss"><img src="/static/rss-feed-icon-96-by-96.png" width="16" height="16" alt="RSS Feed"></a>
+<a href="/blog/feed.rss"><img src="/rss-feed-icon-96-by-96.png" width="16" height="16" alt="RSS Feed"></a>
 <table class="blog-list">
     <tbody>
         {% for post in PostList %}

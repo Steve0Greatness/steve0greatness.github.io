@@ -24,7 +24,7 @@ jobs:
               run: |
                 git pull
             - name: Run Python Builder
-              run: python build.py
+              run: python build.py gh-pages-deploy
             - name: Commit docs directory
               run: |
                 git add docs/
