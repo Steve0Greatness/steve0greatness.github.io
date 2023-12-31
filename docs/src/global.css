@@ -4,6 +4,23 @@ html {
     width: 100vw;
 }
 
+body {
+    background-color: #0c0c10;
+    color: #fff;
+}
+
+:any-link {
+    color: #9a9af0;
+}
+
+:any-link:visited {
+    color: #a99af0;
+}
+
+:any-link:active {
+    color: #f09a9a;
+}
+
 main {
     padding: 0 8px;
 }
@@ -26,11 +43,11 @@ body > header {
     display: flex;
     padding: 8px;
     align-items: center;
-    background-color: #cecece;
+    background-color: #ffffff05;
 }
 
 body > header :any-link {
-    color: #1f1f1f;
+    color: #f1f1f1 !important;
 }
 
 body > header h2 {
@@ -54,7 +71,7 @@ body > footer {
     margin-top: 12px;
     width: calc(100vw - 16px);
     padding-top: 3px;
-    border-top: 1px black solid;
+    border-top: 1px currentColor solid;
 }
 
 .footer-link-list-holder {
@@ -65,10 +82,6 @@ body > footer {
     list-style: none;
     padding-left: 0;
     margin: 0;
-}
-
-.footer-link-list :any-link {
-    color: black;
 }
 
 .footer-link-list-label {
