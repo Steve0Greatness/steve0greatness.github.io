@@ -1,5 +1,9 @@
 {% extends "_layout.html" %}
 {% block title %}{{ Title }}{% endblock %}
+{% block Head %}
+{{super()}}
+<link rel="stylesheet" href="/src/pygments-friendly.css" />
+{% endblock %}
 {% from "_macros.html" import GenerateBreadcrumbs %}
 {% block breadcrumbs %}{{ GenerateBreadcrumbs([{ "href": "/blog","title": "Blog Index" }, {"href": "#", "title": Title}]) }}{% endblock %}
 {% block content %}
