@@ -4,6 +4,7 @@ from shutil import rmtree as DeleteDirectory
 from os import mkdir as CreateDirectory, listdir as ListDirectory, unlink as DeleteFile
 from os.path import isfile as IsFile, exists as PathExists
 from distutils.dir_util import copy_tree as CopyDirectory
+from datetime import datetime
 
 GITHUB_BUILD_DIR = "docs" # Separate because this site is built with an action that won't work if they aren't
 LOCAL_BUILD_DIR = "build"
@@ -27,17 +28,21 @@ def WipeFinalDir():
             continue
         DeleteDirectory(path)
 
+def PostSortHelper(Post):
+    return datetime.strptime(Post["date"], "%Y %b %d")
+
 def GetBlogList():
     PostSlugs = ListDirectory("blog-posts")
     Posts = []
     for slug in PostSlugs:
-        with open("blog-posts/" + slug) as MDFile:
+        with open("blog-posts/" + slug, encoding="utf-8") as MDFile:
             PostHTML = RenderMarkdown(MDFile.read())
             Item = PostHTML.metadata
             Item["content"] = PostHTML
             Item["pathname"] = slug.replace(".md", ".html")
             Posts.append(Item)
-    return Posts
+    PostsByDate = sorted(Posts, key=PostSortHelper, reverse=True)
+    return PostsByDate
 
 PostList = GetBlogList()
 
@@ -45,16 +50,16 @@ def RenderPosts():
     for post in ListDirectory("blog-posts"):
         path = "blog-posts/" + post
         RenderedHTML: str
-        with open(path, "r") as PostContent:
+        with open(path, "r", encoding="utf-8") as PostContent:
             PostHTML = RenderMarkdown(PostContent.read())
             Title = PostHTML.metadata["title"]
             PostDate = PostHTML.metadata["date"]
             RenderedHTML = RenderTemplate("blog-post.html", Title=Title, PostDate=PostDate, Content=PostHTML)
-        with open(BUILD_DIRECTORY + "/blog/" + post.replace(".md", ".html"), "w") as PostLocation:
+        with open(BUILD_DIRECTORY + "/blog/" + post.replace(".md", ".html"), "w", encoding="utf-8") as PostLocation:
             PostLocation.write(RenderedHTML)
 
 def RenderPage(PageInput: str, ContentDest: str, **kwargs):
-    with open(BUILD_DIRECTORY + "/" + ContentDest, "w") as DestLocation:
+    with open(BUILD_DIRECTORY + "/" + ContentDest, "w", encoding="utf-8") as DestLocation:
         DestLocation.write(RenderTemplate(PageInput, **kwargs))
 
 if __name__ == "__main__":
