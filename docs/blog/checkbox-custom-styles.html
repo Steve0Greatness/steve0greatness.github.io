@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customize an HTML Checkbox - S0G</title>
+    <link rel="stylesheet" href="/src/global.css" />
+    
+<link rel="stylesheet" href="/src/pygments-friendly.css" />
+
+</head>
+
+<body>
+    <header>
+        <h2><a href="/">Steve0Greatness</a></h2>
+        <nav>
+            <a href="/blog">Blog</a>
+        </nav>
+    </header>
+    
+<ol role="navigation" class="breadcrumbs" aria-roledescription="Site breadcrumb">
+    <li>
+        <a href="/">Index</a>
+    </li>
+    
+    <li >
+        <a href="/blog">
+            Blog Index
+        </a>
+    </li>
+    
+    <li aria-current="location">
+        
+            Customize an HTML Checkbox
+        
+    </li>
+    
+</ol>
+    <main>
+<article>
+    <h2 id="blog-post-titled">Customize an HTML Checkbox</h2>
+    <time>2022 Feb 19</time>
+    <p><p>Checkboxes are hard to style. But when you're making a website, they may look ugly.</p><input type="checkbox" style="appearance:checkbox"><p>As you can see here, this bland checkbox does not fit into my clearly great website(/s). But really, it does not fit in at all.</p><p>The first step toward styling it how we want it is to give it an appearence of none, and a width and height that are what you want.</p><div class="code-container"><div class="code">input[type="checkbox"] {<div style="margin-left:1em">appearance: none;<br>width: 15px;<br>height: 15px;</div>}</div><div class="preview"><input type="checkbox" style="appearance:none;width:15px;height:15px"></div></div><p>Now we can do whatever we want to it. Also, remeber to add a checked pseudo</p><div class="code-container"><div class="code">input[type="checkbox"] {<div style="margin-left:1em">appearance: none;<br>width: 15px;<br>height: 15px;<br>background: #555;<br>border: 1px #252525 solid;<br>border-radius: 2px;</div>}<br><br>input[type="checkbox"]:checked {<div style="margin-left:1em">background: #ce5aff;</div>}</div><div class="preview"><style>input[type="checkbox"].examplecheckbox3_:checked {background: #ce5aff;}input[type="checkbox"].examplecheckbox3_ {background: #555;}</style><input type="checkbox" class="examplecheckbox3_" style="appearance:none;width:15px;height:15px;border-radius:2px;border:1px #252525 solid"></div></div></p>
+
+</article>
+</main>
+    <footer role="group">
+        <div class="footer-link-list-holder">
+            <span aria-hidden="true" id="footer-label-social-accounts" class="footer-link-list-label">Social Accounts</span>
+            <ol class="footer-link-list" aria-labelledby="footer-label-social-accounts">
+                <li><a href="https://mastodon.social/@S0G" rel="me">Mastodon</a></li>
+                <li><a href="https://youtube.com/@s0g">YouTube</a></li>
+            </ol>
+        </div>
+    </footer>
+</body>
+
+</html>
