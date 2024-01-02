@@ -15,6 +15,7 @@ PAGES = {
     "index.html": "index.html",
     "blog-list.html": "blog/index.html",
     "blog-feed.rss": "blog/feed.rss",
+    "link-tree.html": "link-tree.html",
     "404.html": "404.html"
 }
 
