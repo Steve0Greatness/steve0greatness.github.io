@@ -1,0 +1,5 @@
+.toolbar :any-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: monospace;
+}
