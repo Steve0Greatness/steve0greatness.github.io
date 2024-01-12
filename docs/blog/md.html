@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/src/global.css" />
     
 <link rel="stylesheet" href="/src/pygments-friendly.css" />
+<link rel="stylesheet" href="/src/blog.css" />
 
 </head>
 
@@ -42,8 +43,23 @@
 </ol>
     <main>
 <article>
-    <h2 id="blog-post-titled">MD now works here :)</h2>
-    <time>2022 Jan 20</time>
+    <header>
+        <h2 id="blog-post-titled">MD now works here :)</h2>
+        <div role="toolbar" class="toolbar">
+            <a href="https://toot.kytta.dev/?text=Take a look at this article by @S0G@mastodon.social: https://steve0greatness.github.io/blog/md.html" title="Share to Mastodon">
+                <img src="/toot-kytta-dev-icon.svg" width="16" height="16" aria-hidden="true" title="Share to Mastodon" />
+            </a>
+            <a href="/blog/md.html" title="Direct link">
+                <span aria-hidden="true">
+                    &#128279;
+                </span>
+            </a>
+            <a href="/blog/md.txt" title="Markdown source">
+                <img src="/md-src.svg" width="16" height="16" />
+            </a>
+        </div>
+        <time>2022 Jan 20</time>
+    </header>
     <p>I'd just like to say that my blog now works with _mark down_. So that's cool.</p>
 
 <p>Incase you're wondering, I used a library called <a href="https://marked.js.org/">marked.js</a>(a popular library used to convert <code>markdown</code> to <code>html</code>)</p>

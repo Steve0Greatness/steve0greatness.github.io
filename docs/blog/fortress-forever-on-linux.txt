@@ -1,0 +1,14 @@
+---
+title: Fortress Forever on Linux!
+date: 2022 Dec 16
+updated: 2023 Jan 1
+---
+Fortress Forever is finally playable fully on Linux using Proton-GE version 7-41(note: if you change the setting you will have to reboot the game).
+
+If you need a quick rundown on how to download and install Proton-GE, [I've made a video about that already](https://youtu.be/B2LZ8nYd3Bw). It is technically about a different game, however, the problem is still similar enough to apply pretty much the same steps.
+
+It plays pretty well, the only problem is when a local server changes maps, and the font for some of the menus(and the chat) being very... bad looking. It's not the game's fault for the second one, however, it is still something that's annoying if you don't want to do too much tinkering.
+
+I'm glad to be able to play this great game on my daily OS without having to open Bottles every time I want to play Fortress Forever.
+
+Whenever I'm playing Fortress Forever, I'm usually on [MaxTF's Midwest server](https://www.gametracker.com/server_info/server2.maxcommunity.net:27015/)... I have the lowest ping there, not good though.

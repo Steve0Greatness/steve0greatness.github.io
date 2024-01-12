@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-color: #0c0c10;
+    background-color: #161619;
     color: #fff;
 }
 
@@ -43,7 +43,7 @@ body > header {
     display: flex;
     padding: 8px;
     align-items: center;
-    background-color: #ffffff05;
+    background-color: #0c0c10;
 }
 
 body > header :any-link {
