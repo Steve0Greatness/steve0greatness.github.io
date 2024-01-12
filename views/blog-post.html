@@ -5,6 +5,8 @@
 <link rel="stylesheet" href="/src/pygments-friendly.css" />
 <link rel="stylesheet" href="/src/blog.css" />
 <link rel="alternate" href="/blog/{{PlaintextPath}}" type="text/plain" title="Post source" />
+<meta property="og:title" content="{{ Title }}" />
+<meta property="og:url" content="https://steve0greatness.github.io/blog/{{PostPath}}" />
 {% endblock %}
 {% from "_macros.html" import GenerateBreadcrumbs %}
 {% block breadcrumbs %}{{ GenerateBreadcrumbs([{ "href": "/blog","title": "Blog Index" }, {"href": "#", "title": Title}]) }}{% endblock %}

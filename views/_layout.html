@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us" prefix="og: https://ogp.me/ns#">
 
 <head>
     {% block Head %}
@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{% block title %}{% endblock %} - S0G</title>
     <link rel="stylesheet" href="/src/global.css" />
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:site_name" content="Steve0Greatness' Site"/>
     {% endblock %}
 </head>
 
