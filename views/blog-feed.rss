@@ -7,6 +7,7 @@
     <link>https://steve0greatness.github.io/</link>
     <description>A human being</description>
     <language>en-us</language>
+    <generator>Custom w/Jinja</generator>
     {% for post in PostList %}
     <item>
         <title>{{post["title"]}}</title>
