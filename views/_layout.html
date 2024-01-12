@@ -22,10 +22,17 @@
     <main>{% block content %}{% endblock %}</main>
     <footer role="group">
         <div class="footer-link-list-holder">
+            <span aria-hidden="true" id="footer-label-site-details" class="footer-link-list-label">Site Details</span>
+            <ol class="footer-link-list" aria-labelledby="footer-label-site-details">
+                <li><a href="https://github.com/Steve0Greatness/steve0greatness.github.io">Github Repository</a></li>
+            </ol>
+        </div>
+        <div class="footer-link-list-holder">
             <span aria-hidden="true" id="footer-label-social-accounts" class="footer-link-list-label">Social Accounts</span>
             <ol class="footer-link-list" aria-labelledby="footer-label-social-accounts">
                 <li><a href="https://mastodon.social/@S0G" rel="me">Mastodon</a></li>
                 <li><a href="https://youtube.com/@s0g">YouTube</a></li>
+                <li><a href="/link-tree.html">More...</a></li>
             </ol>
         </div>
     </footer>
