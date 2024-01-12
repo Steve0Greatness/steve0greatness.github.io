@@ -13,7 +13,7 @@
         <title>{{post["title"]}}</title>
         <link>https://steve0greatness.github.io/blog/{{post["pathname"]}}</link>
         <description>
-            <p>Depending on your RSS reader, you may want to x<a href="https://steve0greatness.github.io/blog/{{post['pathname']}}">read this article online</a>,</p>
+            <p>Depending on your RSS reader, you may want to <a href="https://steve0greatness.github.io/blog/{{post['pathname']}}">read this article online</a>,</p>
             {{post["content"]}}
         </description>
         <guid isPermaLink="false">{{post['pathname']}}</guid>
