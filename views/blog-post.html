@@ -3,13 +3,29 @@
 {% block Head %}
 {{super()}}
 <link rel="stylesheet" href="/src/pygments-friendly.css" />
+<link rel="stylesheet" href="/src/blog.css" />
 {% endblock %}
 {% from "_macros.html" import GenerateBreadcrumbs %}
 {% block breadcrumbs %}{{ GenerateBreadcrumbs([{ "href": "/blog","title": "Blog Index" }, {"href": "#", "title": Title}]) }}{% endblock %}
 {% block content %}
 <article>
-    <h2 id="blog-post-titled">{{ Title }}</h2>
-    <time>{{PostDate}}</time>
+    <header>
+        <h2 id="blog-post-titled">{{ Title }}</h2>
+        <div role="toolbar" class="toolbar">
+            <a href="https://toot.kytta.dev/?text=Take a look at this article by @S0G@mastodon.social: https://steve0greatness.github.io/blog/{{PostPath}}" title="Share to Mastodon">
+                <img src="/toot-kytta-dev-icon.svg" width="16" height="16" aria-hidden="true" title="Share to Mastodon" />
+            </a>
+            <a href="/blog/{{PostPath}}" title="Direct link">
+                <span aria-hidden="true">
+                    &#128279;
+                </span>
+            </a>
+            <a href="/blog/{{PlaintextPath}}" title="Markdown source">
+                <img src="/md-src.svg" width="16" height="16" />
+            </a>
+        </div>
+        <time>{{PostDate}}</time>
+    </header>
     {{ Content }}
 </article>
 {% endblock %}

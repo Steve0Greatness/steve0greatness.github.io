@@ -51,13 +51,19 @@ def RenderPosts():
     for post in ListDirectory("blog-posts"):
         path = "blog-posts/" + post
         RenderedHTML: str
+        PostMD: str
+        PostPath = post.replace(".md", ".html")
+        PlaintextPath = post.replace(".md", ".txt")
         with open(path, "r", encoding="utf-8") as PostContent:
-            PostHTML = RenderMarkdown(PostContent.read())
+            PostMD = PostContent.read()
+            PostHTML = RenderMarkdown(PostMD)
             Title = PostHTML.metadata["title"]
             PostDate = PostHTML.metadata["date"]
-            RenderedHTML = RenderTemplate("blog-post.html", Title=Title, PostDate=PostDate, Content=PostHTML)
-        with open(BUILD_DIRECTORY + "/blog/" + post.replace(".md", ".html"), "w", encoding="utf-8") as PostLocation:
-            PostLocation.write(RenderedHTML)
+            RenderedHTML = RenderTemplate("blog-post.html", Title=Title, PostDate=PostDate, Content=PostHTML, PostPath=PostPath, PlaintextPath=PlaintextPath)
+        with open(BUILD_DIRECTORY + "/blog/" + PostPath, "w", encoding="utf-8") as PostPlaintext:
+            PostPlaintext.write(RenderedHTML)
+        with open(BUILD_DIRECTORY + "/blog/" + PlaintextPath, "w", encoding="utf-8") as PostPlaintext:
+            PostPlaintext.write(PostMD)
 
 def RenderPage(PageInput: str, ContentDest: str, **kwargs):
     with open(BUILD_DIRECTORY + "/" + ContentDest, "w", encoding="utf-8") as DestLocation:
