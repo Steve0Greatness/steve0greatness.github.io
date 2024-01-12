@@ -9,7 +9,7 @@
 <meta property="og:url" content="https://steve0greatness.github.io/blog/{{PostPath}}" />
 {% endblock %}
 {% from "_macros.html" import GenerateBreadcrumbs %}
-{% block breadcrumbs %}{{ GenerateBreadcrumbs([{ "href": "/blog","title": "Blog Index" }, {"href": "#", "title": Title}]) }}{% endblock %}
+{% block breadcrumbs %}{{ GenerateBreadcrumbs([{ "href": "/blog","title": "Blog Index" }, {"href": "/blog/" + PostPath, "title": Title}]) }}{% endblock %}
 {% block content %}
 <article>
     <header>
