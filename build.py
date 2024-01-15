@@ -21,6 +21,7 @@ PAGES = {
 
 def WipeFinalDir():
     if not PathExists(BUILD_DIRECTORY):
+        print("Directory didn't existing.")
         CreateDirectory(BUILD_DIRECTORY)
     for item in ListDirectory(BUILD_DIRECTORY):
         path = BUILD_DIRECTORY + "/" + item
@@ -33,9 +34,11 @@ def PostSortHelper(Post):
     return datetime.strptime(Post["date"], "%Y %b %d")
 
 def GetBlogList():
+    print("Grabbing post list")
     PostSlugs = ListDirectory("blog-posts")
     Posts = []
     for slug in PostSlugs:
+        print("Grabbing post list blog-posts/%s" % (slug))
         with open("blog-posts/" + slug, encoding="utf-8") as MDFile:
             PostHTML = RenderMarkdown(MDFile.read())
             Item = PostHTML.metadata
@@ -60,12 +63,15 @@ def RenderPosts():
             Title = PostHTML.metadata["title"]
             PostDate = PostHTML.metadata["date"]
             RenderedHTML = RenderTemplate("blog-post.html", Title=Title, PostDate=PostDate, Content=PostHTML, PostPath=PostPath, PlaintextPath=PlaintextPath)
-        with open(BUILD_DIRECTORY + "/blog/" + PostPath, "w", encoding="utf-8") as PostPlaintext:
-            PostPlaintext.write(RenderedHTML)
+        print("Building blog/%s to %s/blog/%s" % (post, BUILD_DIRECTORY, PostPath))
+        with open(BUILD_DIRECTORY + "/blog/" + PostPath, "w", encoding="utf-8") as PostHTMLFile:
+            PostHTMLFile.write(RenderedHTML)
+        print("Copying blog/%s to %s/blog/%s" % (post, BUILD_DIRECTORY, PlaintextPath))
         with open(BUILD_DIRECTORY + "/blog/" + PlaintextPath, "w", encoding="utf-8") as PostPlaintext:
             PostPlaintext.write(PostMD)
 
 def RenderPage(PageInput: str, ContentDest: str, **kwargs):
+    print("Building views/%s to %s/%s" % (PageInput, BUILD_DIRECTORY, ContentDest))
     with open(BUILD_DIRECTORY + "/" + ContentDest, "w", encoding="utf-8") as DestLocation:
         DestLocation.write(RenderTemplate(PageInput, **kwargs))
 
