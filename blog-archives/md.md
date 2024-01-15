@@ -1,6 +1,7 @@
 ---
 title: MD now works here :)
 date: 2022 Jan 20
+removal-reason: Test post
 ---
 I'd just like to say that my blog now works with _mark down_. So that's cool.
 
