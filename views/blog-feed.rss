@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
 
 <channel>
-    <atom:link href="https://www.moddb.com/mods/timewarp/features/feed/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://steve0greatness.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
     <title>Steve0Greatness' Blog</title>
     <link>https://steve0greatness.github.io/</link>
     <description>A human being</description>
