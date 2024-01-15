@@ -19,6 +19,14 @@ PAGES = {
     "404.html": "404.html"
 }
 
+DISALLOWED_SITEMAP = [
+    "404.html",
+    "blog-feed.rss"
+]
+
+SITEMAP_HREF = "https://steve0greatness.github.io/"
+sitemap = []
+
 def WipeFinalDir():
     if not PathExists(BUILD_DIRECTORY):
         print("Directory didn't existing, creating it...")
@@ -71,9 +79,12 @@ def RenderPosts():
         print("Copying blog/%s to %s/blog/%s" % (post, BUILD_DIRECTORY, PlaintextPath))
         with open(BUILD_DIRECTORY + "/blog/" + PlaintextPath, "w", encoding="utf-8") as PostPlaintext:
             PostPlaintext.write(PostMD)
+        sitemap.append(SITEMAP_HREF + "/blog/" + PostPath)
 
-def RenderPage(PageInput: str, ContentDest: str, **kwargs):
+def RenderPage(PageInput: str, ContentDest: str, AllowSitemap: bool = True, **kwargs):
     print("Building views/%s to %s/%s" % (PageInput, BUILD_DIRECTORY, ContentDest))
+    if AllowSitemap:
+        sitemap.append(SITEMAP_HREF + ContentDest)
     with open(BUILD_DIRECTORY + "/" + ContentDest, "w", encoding="utf-8") as DestLocation:
         DestLocation.write(RenderTemplate(PageInput, **kwargs))
 
@@ -89,6 +100,12 @@ if __name__ == "__main__":
 
     print("Building pages")
     for file, path in PAGES.items():
+        if file in DISALLOWED_SITEMAP:
+            RenderPage(file, path, False, PostList=PostList)
+            continue
         RenderPage(file, path, PostList=PostList)
+
+    with open(BUILD_DIRECTORY + "/sitemap.txt", "w") as SitemapFile:
+        SitemapFile.write("\n".join(sitemap))
 
     pass

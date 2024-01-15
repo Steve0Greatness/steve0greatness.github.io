@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /src/
+Disallow: /favicon.ico
+Disallow: /.nojekyll
+Disallow: /md-src.svg
+Disallow: /rss-feed.png
+Disallow: /toot-kytta-dev-icon.svg
+Disallow: /blog/feed.rss
+
+sitemap: https://steve0greatness.github.io
