@@ -21,8 +21,10 @@ PAGES = {
 
 def WipeFinalDir():
     if not PathExists(BUILD_DIRECTORY):
-        print("Directory didn't existing.")
+        print("Directory didn't existing, creating it...")
         CreateDirectory(BUILD_DIRECTORY)
+        return
+    print("Directory exists, wiping it...")
     for item in ListDirectory(BUILD_DIRECTORY):
         path = BUILD_DIRECTORY + "/" + item
         if IsFile(path):
