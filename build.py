@@ -99,6 +99,15 @@ def CreateJSONFeed():
         "title": "Steve0Greatness' Blog",
         "home_page_url": "https://steve0greatness.github.io",
         "feed_url": "https://steve0greatness.github.io/blog/feed.rss",
+        "language": "en-US",
+        "favicon": "https://steve0greatness.github.io/favicon.ico",
+        "description": "A blog by a human being.",
+        "authors": [
+            {
+                "name": "Steve0Greatness",
+                "url": "https://steve0greatness.github.io"
+            }
+        ],
         "items": []
     }
     for post in PostList:

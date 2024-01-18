@@ -5,7 +5,7 @@
     <atom:link href="https://steve0greatness.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
     <title>Steve0Greatness' Blog</title>
     <link>https://steve0greatness.github.io/</link>
-    <description>A human being</description>
+    <description>A blog by a human being.</description>
     <language>en-us</language>
     <generator>Custom w/Jinja</generator>
     {% for post in PostList %}
