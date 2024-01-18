@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <id>https://steve0greatness.github.io/blog/</id>
+    <link type="text/html" rel="alternate" href="https://steve0greatness.github.io/blog/" />
+    <link type="application/atom+xml" rel="self" href="https://steve0greatness.github.io/blog/feed.atom" />
+    <title>Steve0Greatness' Blog</title>
+    <author>
+        <name>Steve0Greatness</name>
+        <uri>https://steve0greatness.github.io</uri>
+    </author>
+    <generator>Custom w/Jinja</generator>
+    {% for post in PostList %}
+    <entry>
+        <title>{{post["title"]}}</title>
+        <link type="text/html" rel="alternate" href="https://steve0greatness.github.io/blog/{{post['pathname']}}" />
+        <content type="html">
+            <p>Depending on your Atom reader, you may want to <a href="https://steve0greatness.github.io/blog/{{post['pathname']}}">read this article online</a>,</p>
+            {{post["content"]}}
+        </content>
+        <id>{{post['pathname']}}</id>
+    </entry>
+    {% endfor %}
+</feed>
