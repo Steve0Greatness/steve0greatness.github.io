@@ -5,6 +5,7 @@ from os import mkdir as CreateDirectory, listdir as ListDirectory, unlink as Del
 from os.path import isfile as IsFile, exists as PathExists
 from distutils.dir_util import copy_tree as CopyDirectory
 from datetime import datetime
+from json import dump as DumpJSON
 
 GITHUB_BUILD_DIR = "docs" # Separate because this site is built with an action that won't work if they aren't
 LOCAL_BUILD_DIR = "build"
@@ -91,6 +92,25 @@ def RenderPage(PageInput: str, ContentDest: str, AllowSitemap: bool = True, **kw
     with open(BUILD_DIRECTORY + "/" + ContentDest, "w", encoding="utf-8") as DestLocation:
         DestLocation.write(RenderTemplate(PageInput, **kwargs))
 
+def CreateJSONFeed():
+    CreatedJSON = {
+        "version": "https://jsonfeed.org/version/1",
+        "title": "Steve0Greatness' Blog",
+        "home_page_url": "https://steve0greatness.github.io",
+        "feed_url": "https://steve0greatness.github.io/blog/feed.rss",
+        "items": []
+    }
+    for post in PostList:
+        CreatedJSON["items"].append({
+            "id": "https://steve0greatness.github.io/blog/" + post["pathname"],
+			"title": "JSON Feed version 1.1",
+			"content_html": post["content"],
+			"date_published": post["date"],
+			"url": "https://steve0greatness.github.io/blog/" + post["pathname"]
+        })
+    with open("build/blog/feed.json", "w") as JSONFeedFile:
+        DumpJSON(CreatedJSON, JSONFeedFile)
+
 if __name__ == "__main__":
     print("Wiping directory")
     WipeFinalDir()
@@ -98,6 +118,7 @@ if __name__ == "__main__":
     CreateDirectory(BUILD_DIRECTORY + "/blog")
     print("Rendering posts")
     RenderPosts()
+    CreateJSONFeed()
     print("Copying static directory")
     CopyDirectory("static", BUILD_DIRECTORY)
 
