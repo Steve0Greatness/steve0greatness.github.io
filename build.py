@@ -118,7 +118,7 @@ def CreateJSONFeed():
 			"date_published": post["date"],
 			"url": "https://steve0greatness.github.io/blog/" + post["pathname"]
         })
-    with open("build/blog/feed.json", "w") as JSONFeedFile:
+    with open(BUILD_DIRECTORY + "/blog/feed.json", "w") as JSONFeedFile:
         DumpJSON(CreatedJSON, JSONFeedFile)
 
 if __name__ == "__main__":
