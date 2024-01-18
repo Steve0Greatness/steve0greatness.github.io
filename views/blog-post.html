@@ -16,15 +16,13 @@
         <h2 id="blog-post-titled">{{ Title }}</h2>
         <div role="toolbar" class="toolbar">
             <a href="https://toot.kytta.dev/?text=Take a look at this article by @S0G@mastodon.social: https://steve0greatness.github.io/blog/{{PostPath}}" title="Share to Mastodon">
-                <img src="/toot-kytta-dev-icon.svg" width="16" height="16" aria-hidden="true" title="Share to Mastodon" />
+                <img src="/toot-kytta-dev-icon.png" width="16" height="16" aria-hidden="true" title="Share to Mastodon" />
             </a>
             <a href="/blog/{{PostPath}}" title="Direct link">
-                <span aria-hidden="true">
-                    &#128279;
-                </span>
+                <img src="/link-icon.png" width="16" height="16" aria-hidden="true" title="Direct link" />
             </a>
             <a href="/blog/{{PlaintextPath}}" title="Markdown source">
-                <img src="/md-src.svg" width="16" height="16" aria-hidden="true" />
+                <img src="/md-src.png" width="16" height="16" aria-hidden="true" />
             </a>
         </div>
         <time>{{PostDate}}</time> {% if Revised %}- <span aria-hidden="true" style="font-style:italic">Revision as of: </span> <time aria-label="Revision">{{Revised}}</time>{% endif %}
