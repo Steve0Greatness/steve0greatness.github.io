@@ -1,7 +1,7 @@
 ---
 title: TF2 disguise Command
 date: 2022 Dec 17
-updated: 2022 Dec 24
+updated: 2024 Jan 17
 ---
 A Spy class-specific command
 
@@ -10,7 +10,7 @@ A Spy class-specific command
 The basic layout of the disguise command is very simple.
 
 ```
-disguise [class : number] [team : number]
+disguise [class] [team]
 ```
 
 ## `class` Parameter
@@ -33,7 +33,7 @@ disguise [class : number] [team : number]
 
 `9` : Engineer
 
-The reason the classes are in this order is that they were added in that order. As mentioned in the [Team Fortress wiki's article on _Quake World Team Fortress_](https://wiki.teamfortress.com/wiki/Team_Fortress#Versions)(A.K.A. _Quake Team Fortress_, or just _Team Fortress_), it mentions the classes were added in the order of _scout_, _sniper_, _soldier_, _demoman_, and _medic_; then _heavy_; _pyro_; and finally _spy_ and _engineer_.
+The reason the classes are in this order is that they were added in that order. As mentioned in [*Quake World Team Fortress* § Versions](https://wiki.teamfortress.com/wiki/Team_Fortress#Versions) on the Team Fortress wiki, it mentions the classes were added in the order of *scout*, *sniper*, *soldier*, *demoman*, and *medic*; then *heavy*; *pyro*; and finally *spy* and *engineer*.
 
 ## `team` Parameter
 
