@@ -72,7 +72,10 @@ def RenderPosts():
             PostHTML = RenderMarkdown(PostMD)
             Title = PostHTML.metadata["title"]
             PostDate = PostHTML.metadata["date"]
-            RenderedHTML = RenderTemplate("blog-post.html", Title=Title, PostDate=PostDate, Content=PostHTML, PostPath=PostPath, PlaintextPath=PlaintextPath)
+            Revised = False
+            if "updated" in PostHTML.metadata:
+                Revised = PostHTML.metadata["updated"]
+            RenderedHTML = RenderTemplate("blog-post.html", Revised=Revised, Title=Title, PostDate=PostDate, Content=PostHTML, PostPath=PostPath, PlaintextPath=PlaintextPath)
         print("Building blog/%s to %s/blog/%s" % (post, BUILD_DIRECTORY, PostPath))
         with open(BUILD_DIRECTORY + "/blog/" + PostPath, "w", encoding="utf-8") as PostHTMLFile:
             PostHTMLFile.write(RenderedHTML)
