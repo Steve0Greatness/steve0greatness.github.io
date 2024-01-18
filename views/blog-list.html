@@ -32,4 +32,11 @@
         {% endfor %}
     </tbody>
 </table>
+<script>
+    function main() {
+        if (location.search != "") {
+            location = "/blog/" + location.search + ".html"
+        }
+    }
+</script>
 {% endblock %}
