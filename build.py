@@ -6,6 +6,7 @@ from os.path import isfile as IsFile, exists as PathExists
 from distutils.dir_util import copy_tree as CopyDirectory
 from datetime import datetime
 from json import dump as DumpJSON
+from yaml import safe_load as LoadYML
 
 GITHUB_BUILD_DIR = "docs" # Separate because this site is built with an action that won't work if they aren't
 LOCAL_BUILD_DIR = "build"
@@ -61,6 +62,63 @@ def GetBlogList():
     return PostsByDate
 
 PostList = GetBlogList()
+
+def ListParseCategory(Obj):
+    html = "<h1 id=\"%s\">%s</h1>" % (Obj["id"], Obj["title"])
+    if "paragraph" in Obj:
+        html += "<p>%s</p>" % Obj["paragraph"]
+    listType = "ul"
+    if "list-type" in Obj and Obj["list-type"] == "ordered":
+        listType = "ol"
+    html += "<%s>" % listType
+    for item in Obj["list"]:
+        html += "<li>" + LIST_PARSER_DICT[item["type"]](item) + "</li>"
+    html += "</%s>" % listType
+    return html
+
+def ListParseLink(Obj):
+    html = "<a href=\"%s\">" % Obj["href"]
+    text = Obj["text"]
+    if "text-type" in Obj and Obj["text-type"] == "text/markdown":
+        text = RenderMarkdown(text).replace("<p>", "").replace("</p>", "")
+    html += text + "</a>"
+    if "comment" in Obj:
+        html += "(%s)" % Obj["comment"]
+    return html
+
+def ListParseText(Obj):
+    text = Obj["text"]
+    # if "text-type" in Obj and Obj["text-type"] == "text/markdown":
+    #     print(RenderMarkdown(text))
+    #     text = RenderMarkdown(text) # this doesn't work???
+    if "comment" in Obj:
+        text += "(%s)" % Obj["comment"]
+    return text
+
+LIST_PARSER_DICT = {
+    "category": ListParseCategory,
+    "link": ListParseLink,
+    "text": ListParseText,
+}
+
+def GetLists():
+    ListSlugs = ListDirectory("lists")
+    Lists = []
+    for slug in ListSlugs:
+        List = {
+            "title": "",
+            "content": "",
+            "filename": slug
+        }
+        with open("lists/" + slug) as ListYML:
+            ListDict = LoadYML(ListYML.read())
+            List["title"] = ListDict["title"]
+            if "paragraph" in ListDict:
+                List["content"] += "<p>%s</p>" % ListDict["paragraph"]
+            for item in ListDict["list"]:
+                List["content"] += LIST_PARSER_DICT[item["type"]](item)
+        Lists.append(List)
+    return Lists
 
 def RenderPosts():
     for post in ListDirectory("blog-posts"):
@@ -121,6 +179,14 @@ def CreateJSONFeed():
     with open(BUILD_DIRECTORY + "/blog/feed.json", "w") as JSONFeedFile:
         DumpJSON(CreatedJSON, JSONFeedFile)
 
+def RenderLists():
+    Lists = GetLists()
+    CreateDirectory(BUILD_DIRECTORY + "/list/")
+    for List in Lists:
+        print("%s -> %s" % ("lists/" + List["filename"], BUILD_DIRECTORY + "/list/" + List["filename"].replace(".yml", ".html")))
+        with open(BUILD_DIRECTORY + "/list/" + List["filename"].replace(".yml", ".html"), "w") as file:
+            file.write(RenderTemplate("list.html", Content=List["content"], Title=List["title"]))
+
 if __name__ == "__main__":
     print("Wiping directory")
     WipeFinalDir()
@@ -131,6 +197,8 @@ if __name__ == "__main__":
     CreateJSONFeed()
     print("Copying static directory")
     CopyDirectory("static", BUILD_DIRECTORY)
+    print("Creating lists")
+    RenderLists()
 
     print("Building pages")
     for file, path in PAGES.items():

@@ -1,0 +1,318 @@
+title: Link-Tree
+paragraph: This is a master-list of accounts that I have on many different platforms.
+list:
+  - type: category
+    title: Microblogging
+    id: microblogging
+    list:
+      - type: link
+        href: https://mastodon.social/@S0G
+        text: Mastodon
+      - type: link
+        href: https://bsky.app/profile/steve0greatness.bsky.social
+        text: Bluesky
+      - type: link
+        href: https://www.tumblr.com/steve0greatness
+        text: Tumblr
+        comment: often inactive
+      - type: link
+        href: https://twitter.com/Steve0Greatness
+        text: Twitter(or X)
+        comment: often inactive
+      - type: link
+        href: https://wasteof.money/users/steve0greatness
+        text: wasteof.money
+        comment: often inactive
+  - type: category
+    title: Content/Cloud Hosts
+    id: content-hosting
+    list:
+      - type: link
+        href: https://youtube.com/@S0G
+        text: YouTube
+      - type: link
+        href: https://freesound.org/people/Steve0Greatness/
+        text: Freesound
+        comment: often inactive
+      - type: link
+        href: https://scratch.mit.edu/users/steve0greatness
+        text: Scratch
+      - type: link
+        href: https://snap.berkeley.edu/user?username=steve0greatness
+        text: Snap*!*
+        text-type: text/markdown
+        comment: often inactive
+      - type: link
+        href: https://glitter-graphics.com/users/steve0greatness
+        text: Glitter Graphics
+        comment: often inactive
+      - type: link
+        href: https://filegarden.com/users/655bf52f3ada86485759d5b2/garden/
+        text: File Garden
+        comment: often inactive
+      - type: link
+        href: https://glitch.com/@Steve0Greatness
+        text: Glitch
+        comment: often inactive
+      - type: link
+        href: https://www.deviantart.com/steve0greatness
+        text: DeviantArt
+        comment: often inactive
+      - type: link
+        href: https://greasyfork.org/en/users/1185694-steve0greatness
+        text: Greasy Fork
+        comment: often inactive
+      - type: link
+        href: https://userstyles.world/user/Steve0Greatness
+        text: UserStyles.world
+        comment: often inactive
+      - type: link
+        href: https://steve0greatness.imgbb.com
+        text: ImgBB
+        comment: often inactive
+      - type: link
+        href: https://modshare.futuresight.org/users/Steve0Greatness
+        text: Mod Share
+        comment: often inactive
+      - type: link
+        href: https://pastebin.com/u/S0G
+        text: PasteBin
+        comment: often inactive
+      - type: link
+        href: https://codepen.io/Steve0Greatness
+        text: CodePen
+        comment: often inactive
+      - type: link
+        href: https://www.pixilart.com/s0g
+        text: Pixilart
+        comment: often inactive
+      - type: link
+        href: https://pixelfed.social/i/web/profile/609142668647996596
+        text: Pixelfed
+        comment: often inactive
+      - type: link
+        href: https://www.twitch.tv/steve0greatness
+        text: Twitch
+        comment: often inactive
+      - type: link
+        href: https://steve0greatness.newgrounds.com/
+        text: Newgrounds
+        comment: often inactive
+  - type: category
+    title: Forges
+    id: git-forges
+    list:
+      - type: link
+        href: https://github.com/steve0greatness
+        text: GitHub
+      - type: link
+        href: https://gitlab.com/steve0greatness
+        text: GitLab
+      - type: link
+        href: https://codeberg.org/steve0greatness
+        text: Codeberg
+        comment: often inactive
+      - type: link
+        href: https://gitea.org/steve0greatness
+        text: Gitea
+        comment: often inactive
+  - type: category
+    title: Game Services
+    id: gaming
+    list:
+      - type: link
+        href: https://steamcommunity.com/id/Steve0Greatness
+        text: Steam
+      - type: link
+        href: https://steve0greatness.itch.io/
+        text: Itch.io
+        comment: often inactive
+      - type: link
+        href: https://www.unrealsoftware.de/profile.php?userid=201177
+        text: Unreal Software
+        comment: often inactive
+      - type: link
+        href: https://content.minetest.net/users/Steve0Greatness/
+        text: Minetest ContentDB
+        comment: often inactive
+      - type: link
+        href: https://www.moddb.com/members/steve0greatness
+        text: ModDB
+      - type: link
+        href: https://www.indiedb.com/members/steve0greatness
+        text: IndieDB
+        comment: often inactive
+      - type: link
+        href: https://www.gog.com/u/Steve0Greatness
+        text: GOG
+        comment: often inactive
+      - type: link
+        href: https://www.chess.com/member/steve0greatness
+        text: Chess.com
+        comment: often inactive
+      - type: link
+        href: https://www.steamgriddb.com/profile/76561199326051000
+        text: SteamGridDB
+        comment: often inactive
+      - type: link
+        href: https://www.kongregate.com/accounts/steve0greatness
+        text: Kongregate
+        comment: often inactive
+      - type: link
+        href: https://store.epicgames.com/en-US/u/8a4680d7cb1a409c887ff2fea77ccdb4
+        text: Epic Games Store
+        comment: often inactive
+      - type: link
+        href: https://gamejolt.com/@Steve0Greatness
+        text: Gamejolt
+        comment: often inactive
+      - type: link
+        href: https://www.roblox.com/users/3241388107/profile
+        text: Roblox
+        comment: often inactive
+      - type: link
+        href: https://gamebanana.com/members/2809649
+        text: GameBanana
+        comment: often inactive
+  - type: category
+    title: Wikis
+    id: wikis
+    list:
+      - type: link
+        href: https://developer.valvesoftware.com/wiki/User:Steve0Greatness
+        text: Valve Developer Community
+        comment: often inactive
+      - type: link
+        href: https://en.wikipedia.org/wiki/User:Steve0Greatness
+        text: English Wikipedia
+        comment: often inactive
+      - type: link
+        href: https://wiki.teamfortress.com/wiki/User:Steve0Greatness
+        text: Team Fortress Wiki
+        comment: often inactive
+      - type: link
+        href: http://www.wikidot.com/user:info/steve0greatness
+        text: Wikidot
+        comment: often inactive
+      - type: link
+        href: https://satisfactory.wiki.gg/wiki/User:Steve0Greatness
+        text: Satisfactory Wiki
+        comment: often inactive
+      - type: link
+        href: https://en.scratch-wiki.info/wiki/User:Steve0Greatness
+        text: English Scratch Wiki
+        comment: often inactive
+      - type: link
+        href: https://minecraft.wiki/w/User:Steve-Zero-Greatness
+        text: Minecraft Wiki
+        comment: often inactive
+      - type: link
+        href: https://community.fandom.com/wiki/User:Steve0Greatness
+        text: Fandom
+        comment: often inactive
+      - type: link
+        href: https://www.mediawiki.org/wiki/User:Steve0Greatness
+        text: Mediawiki
+        comment: often inactive
+      - type: link
+        href: https://libregamewiki.org/User:Steve0Greatness
+        text: libreGameWiki
+        comment: often inactive
+      - type: link
+        href: https://wiki.meower.org/wiki/User:Steve-Zero-Greatness
+        text: Meower wiki
+        comment: often inactive
+  - type: category
+    title: Forums
+    id: forums
+    list:
+      - type: link
+        href: https://www.doomworld.com/profile/35107-steve0greatness
+        text: Doomworld
+      - type: link
+        href: https://forum.kglw.net/u/steve0greatness/activity
+        text: KGLW.net Forums
+      - type: link
+        href: https://www.thecodingforums.com/members/steve0greatness.87042
+        text: The Coding Forums
+        comment: often inactive
+  - type: category
+    title: Instant Messaging
+    id: ims
+    list:
+      - type: link
+        href: https://discord.com/users/952370060914225264
+        text: Discord
+      - type: link
+        href: https://matrix.to/#/@steve0greatness:matrix.org
+        text: Matrix
+      - type: link
+        href: https://app.meower.org/users/Steve0Greatness
+        text: Meower
+        comment: often inactive
+      - type: text
+        text: "<a href=\"https://xmpp.org/\">XMPP</a>, formerly Jabber, address: <code>steve0greatness@sure.im</code>"
+        comment: often inactive
+  - type: category
+    title: Link Aggregators
+    id: link-aggregators
+    list:
+      - type: link
+        href: https://lemmy.world/u/Steve0Greatness
+        text: Lemmy
+      - type: link
+        href: https://old.reddit.com/user/Steve0Greatness
+        text: Reddit
+        comment: often inactive
+  - type: category
+    title: Question Forums
+    id: question-sites
+    list:
+      - type: link
+        href: https://stackoverflow.com/users/16890338/steve0greatness
+        text: StackOverflow
+        comment: often inactive
+      - type: link
+        href: https://stackexchange.com/users/22726739/steve0greatness
+        text: Stack Exchange
+        comment: often inactive
+  - type: category
+    title: Miscellaneous
+    id: misc
+    list:
+      - type: link
+        href: https://kglw.net/~Steve0Greatness
+        text: KGLW.net
+        comment: often inactive
+      - type: link
+        href: https://replit.com/@StevesGreatness
+        text: Replit
+        comment: often inactive
+      - type: link
+        href: https://humanbenchmark.com/users/6510a80625961d0008f4d6d0
+        text: HumanBenchmark
+        comment: often inactive
+      - type: link
+        href: https://www.change.org/u/Steve0Greatness
+        text: Change.org
+        comment: often inactive
+      - type: link
+        href: https://internetometer.com/give/47937
+        text: Internetometer
+        comment: often inactive
+      - type: link
+        href: https://archive.org/details/@steve_apos_s_greatness
+        text: Internet Archive
+        comment: often inactive
+      - type: link
+        href: https://openlibrary.org/people/steve_apos_s_greatness
+        text: Open Library
+        comment: often inactive
+      - type: link
+        href: https://www.speedrun.com/users/Steve0Greatness
+        text: Speedrun.com
+        comment: often inactive
+      - type: link
+        href: https://www.tierlists.com/user/steve0greatness
+        text: TierLists.com
+        comment: often inactive
