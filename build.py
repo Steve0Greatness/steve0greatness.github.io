@@ -185,11 +185,18 @@ def CreateJSONFeed():
 def RenderLists():
     Lists = GetLists()
     CreateDirectory(BUILD_DIRECTORY + "/list/")
+    ListIndex = "<ul>"
     for List in Lists:
-        FileLocation = BUILD_DIRECTORY + "/list/" + List["filename"].replace(".yml", ".html")
-        print("%s -> %s" % ("lists/" + List["filename"], FileLocation))
-        with open(FileLocation, "w") as file:
-            file.write(RenderTemplate("list.html", Content=List["content"], Title=List["title"]))
+        FileLocation = "/list/" + List["filename"].replace(".yml", ".html")
+        Title = List["title"]
+        print("%s -> %s" % ("lists/" + List["filename"], BUILD_DIRECTORY + FileLocation))
+        with open(BUILD_DIRECTORY + FileLocation, "w") as file:
+            file.write(RenderTemplate("list.html", Content=List["content"], Title=Title))
+        ListIndex += "<li><a href=\"%s\">%s</a></li>" % (FileLocation, Title)
+    ListIndex += "</ul>"
+    print("Building list index")
+    with open(BUILD_DIRECTORY + "/list/index.html", "w") as file:
+        file.write(RenderTemplate("list-index.html", Content=ListIndex))
 
 if __name__ == "__main__":
     print("Wiping directory")

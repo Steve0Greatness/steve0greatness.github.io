@@ -1,0 +1,11 @@
+{% extends "_layout.html" %}
+{% block Head %}
+{{super()}}
+{% endblock %}
+{% block title %}List Index{% endblock %}
+{% from "_macros.html" import GenerateBreadcrumbs %}
+{% block breadcrumbs %}{{ GenerateBreadcrumbs([{ "href": "/list", "title": "List Index" }]) }}{% endblock %}
+{% block content %}
+<h1>List Index</h1>
+{{ Content }}
+{% endblock %}
