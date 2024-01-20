@@ -218,6 +218,7 @@ if __name__ == "__main__":
             continue
         RenderPage(file, path, PostList=PostList)
     
+    print("Building redirects")
     for OldLocation, NewLocation in REDIRECTS:
         RenderPage("redirect.html", OldLocation, False, redirect=NewLocation)
 
