@@ -209,6 +209,9 @@ if __name__ == "__main__":
             RenderPage(file, path, False, PostList=PostList)
             continue
         RenderPage(file, path, PostList=PostList)
+    
+    for OldLocation, NewLocation in REDIRECTS:
+        RenderPage("redirect.html", OldLocation, False, redirect=NewLocation)
 
     with open(BUILD_DIRECTORY + "/sitemap.txt", "w") as SitemapFile:
         SitemapFile.write("\n".join(sitemap))
