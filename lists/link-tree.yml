@@ -38,6 +38,10 @@ list:
         href: https://scratch.mit.edu/users/steve0greatness
         text: Scratch
       - type: link
+        href: http://beetleblocks.com/users/Steve0Greatness
+        text: BeetleBlocks
+        comment: often inactive
+      - type: link
         href: https://snap.berkeley.edu/user?username=steve0greatness
         text: Snap*!*
         text-type: text/markdown
