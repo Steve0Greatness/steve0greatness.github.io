@@ -66,8 +66,8 @@ def GetBlogList():
 
 PostList = GetBlogList()
 
-def ListParseCategory(Obj):
-    html = "<h1 id=\"%s\">%s</h1>" % (Obj["id"], Obj["title"])
+def ListParseCategory(Obj, depth):
+    html = "<h%d id=\"%s\">%s</h%d>" % (2+depth, Obj["id"], Obj["title"], 2+depth)
     if "paragraph" in Obj:
         html += "<p>%s</p>" % Obj["paragraph"]
     listType = "ul"
@@ -75,11 +75,11 @@ def ListParseCategory(Obj):
         listType = "ol"
     html += "<%s>" % listType
     for item in Obj["list"]:
-        html += "<li>" + LIST_PARSER_DICT[item["type"]](item) + "</li>"
+        html += "<li>" + LIST_PARSER_DICT[item["type"]](item, depth + 1) + "</li>"
     html += "</%s>" % listType
     return html
 
-def ListParseLink(Obj):
+def ListParseLink(Obj, depth):
     html = "<a href=\"%s\">" % Obj["href"]
     text = Obj["text"]
     if "text-type" in Obj and Obj["text-type"] == "text/markdown":
@@ -89,7 +89,7 @@ def ListParseLink(Obj):
         html += "(%s)" % Obj["comment"]
     return html
 
-def ListParseText(Obj):
+def ListParseText(Obj, depth):
     text = Obj["text"]
     # if "text-type" in Obj and Obj["text-type"] == "text/markdown":
     #     print(RenderMarkdown(text))
@@ -119,7 +119,7 @@ def GetLists():
             if "paragraph" in ListDict:
                 List["content"] += "<p>%s</p>" % ListDict["paragraph"]
             for item in ListDict["list"]:
-                List["content"] += LIST_PARSER_DICT[item["type"]](item)
+                List["content"] += LIST_PARSER_DICT[item["type"]](item, 0)
         Lists.append(List)
     return Lists
 
