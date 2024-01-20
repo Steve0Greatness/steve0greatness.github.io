@@ -186,8 +186,9 @@ def RenderLists():
     Lists = GetLists()
     CreateDirectory(BUILD_DIRECTORY + "/list/")
     for List in Lists:
-        print("%s -> %s" % ("lists/" + List["filename"], BUILD_DIRECTORY + "/list/" + List["filename"].replace(".yml", ".html")))
-        with open(BUILD_DIRECTORY + "/list/" + List["filename"].replace(".yml", ".html"), "w") as file:
+        FileLocation = BUILD_DIRECTORY + "/list/" + List["filename"].replace(".yml", ".html")
+        print("%s -> %s" % ("lists/" + List["filename"], FileLocation))
+        with open(FileLocation, "w") as file:
             file.write(RenderTemplate("list.html", Content=List["content"], Title=List["title"]))
 
 if __name__ == "__main__":
