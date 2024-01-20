@@ -191,7 +191,7 @@ def RenderLists():
         Title = List["title"]
         print("%s -> %s" % ("lists/" + List["filename"], BUILD_DIRECTORY + FileLocation))
         with open(BUILD_DIRECTORY + FileLocation, "w") as file:
-            file.write(RenderTemplate("list.html", Content=List["content"], Title=Title))
+            file.write(RenderTemplate("list.html", Content=List["content"], Title=Title, Location=FileLocation))
         ListIndex += "<li><a href=\"%s\">%s</a></li>" % (FileLocation, Title)
     ListIndex += "</ul>"
     print("Building list index")

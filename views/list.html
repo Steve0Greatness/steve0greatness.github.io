@@ -4,6 +4,8 @@
 <link rel="stylesheet" href="/src/code-blocks.css" />
 {% endblock %}
 {% block title %}{{Title}}{% endblock %}
+{% from "_macros.html" import GenerateBreadcrumbs %}
+{% block breadcrumbs %}{{ GenerateBreadcrumbs([{ "href": "/list", "title": "List Index" }, { "href": "/list/" + Location, "title": Title }]) }}{% endblock %}
 {% block content %}
 <h1>{{Title}}</h1>
 {{ Content }}
