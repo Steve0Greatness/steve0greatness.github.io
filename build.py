@@ -18,13 +18,16 @@ PAGES = {
     "blog-list.html": "blog/index.html",
     "blog-feed.rss": "blog/feed.rss",
     "blog-feed.atom": "blog/feed.atom",
-    "link-tree.html": "link-tree.html",
     "404.html": "404.html"
 }
 
 DISALLOWED_SITEMAP = [
     "404.html",
     "blog-feed.rss"
+]
+
+REDIRECTS = [
+    ("link-tree.html", "list/link-tree.html") # Old location -> new location
 ]
 
 SITEMAP_HREF = "https://steve0greatness.github.io/"
