@@ -71,6 +71,14 @@ list:
         text: Greasy Fork
         comment: often inactive
       - type: link
+        href: https://www.speedrun.com/users/Steve0Greatness
+        text: Speedrun.com
+        comment: often inactive
+      - type: link
+        href: https://www.tierlists.com/user/steve0greatness
+        text: TierLists.com
+        comment: often inactive
+      - type: link
         href: https://userstyles.world/user/Steve0Greatness
         text: UserStyles.world
         comment: often inactive
@@ -311,12 +319,4 @@ list:
       - type: link
         href: https://openlibrary.org/people/steve_apos_s_greatness
         text: Open Library
-        comment: often inactive
-      - type: link
-        href: https://www.speedrun.com/users/Steve0Greatness
-        text: Speedrun.com
-        comment: often inactive
-      - type: link
-        href: https://www.tierlists.com/user/steve0greatness
-        text: TierLists.com
         comment: often inactive
