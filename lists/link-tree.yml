@@ -42,6 +42,10 @@ list:
         text: BeetleBlocks
         comment: often inactive
       - type: link
+        href: https://replit.com/@StevesGreatness
+        text: Replit
+        comment: often inactive
+      - type: link
         href: https://snap.berkeley.edu/user?username=steve0greatness
         text: Snap*!*
         text-type: text/markdown
@@ -287,10 +291,6 @@ list:
       - type: link
         href: https://kglw.net/~Steve0Greatness
         text: KGLW.net
-        comment: often inactive
-      - type: link
-        href: https://replit.com/@StevesGreatness
-        text: Replit
         comment: often inactive
       - type: link
         href: https://humanbenchmark.com/users/6510a80625961d0008f4d6d0
