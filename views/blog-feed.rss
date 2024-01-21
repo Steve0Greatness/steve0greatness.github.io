@@ -25,7 +25,7 @@
             {{post["content"]}}
         </description>
         <guid isPermaLink="false">{{post['pathname']}}</guid>
-        <pubdate>{{post["rss-post-time"]}}</pubdate>
+        <pubDate>{{post["rss-post-time"]}}</pubDate>
     </item>
     {% endfor %}
 </channel>
