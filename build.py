@@ -46,8 +46,11 @@ def WipeFinalDir():
             continue
         DeleteDirectory(path)
 
+def PostDateToDateObj(Date):
+    return datetime.strptime(Date, "%Y %b %d")
+
 def PostSortHelper(Post):
-    return datetime.strptime(Post["date"], "%Y %b %d")
+    return PostDateToDateObj(Post["date"])
 
 def GetBlogList():
     print("Grabbing post list")
@@ -59,6 +62,11 @@ def GetBlogList():
             PostHTML = RenderMarkdown(MDFile.read())
             Item = PostHTML.metadata
             Item["content"] = PostHTML
+            Item["rss-post-time"] = PostDateToDateObj(Item["date"]).strftime("%a, %d %b %Y") + " 00:00:00 PST"
+            Item["atom-post-time"] = PostDateToDateObj(Item["date"]).strftime("%Y-%m-%d") + "T00:00:00Z"
+            Item["atom-update-time"] = Item["atom-post-time"]
+            if "updated" in Item:
+                Item["atom-update-time"] = PostDateToDateObj(Item["updated"]).strftime("%Y-%m-%d") + "T00:00:00Z"
             Item["pathname"] = slug.replace(".md", ".html")
             Posts.append(Item)
     PostsByDate = sorted(Posts, key=PostSortHelper, reverse=True)
@@ -176,7 +184,8 @@ def CreateJSONFeed():
             "id": "https://steve0greatness.github.io/blog/" + post["pathname"],
 			"title": "JSON Feed version 1.1",
 			"content_html": post["content"],
-			"date_published": post["date"],
+			"date_published": post["atom-post-time"],
+            "date_modified": post["atom-update-time"],
 			"url": "https://steve0greatness.github.io/blog/" + post["pathname"]
         })
     with open(BUILD_DIRECTORY + "/blog/feed.json", "w") as JSONFeedFile:

@@ -19,6 +19,8 @@
             {{post["content"]}}
         </content>
         <id>{{post['pathname']}}</id>
+        <published>{{post['atom-post-time']}}</published>
+		<updated>{{post['atom-update-time']}}</updated>
     </entry>
     {% endfor %}
 </feed>
