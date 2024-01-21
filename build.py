@@ -62,7 +62,7 @@ def GetBlogList():
             PostHTML = RenderMarkdown(MDFile.read())
             Item = PostHTML.metadata
             Item["content"] = PostHTML
-            Item["rss-post-time"] = PostDateToDateObj(Item["date"]).strftime("%a, %d %b %Y") + " 00:00:00 PST"
+            Item["rss-post-time"] = PostDateToDateObj(Item["date"]).strftime("%a, %d %b %Y") + " 00:00:00 GMT"
             Item["atom-post-time"] = PostDateToDateObj(Item["date"]).strftime("%Y-%m-%d") + "T00:00:00Z"
             Item["atom-update-time"] = Item["atom-post-time"]
             if "updated" in Item:
