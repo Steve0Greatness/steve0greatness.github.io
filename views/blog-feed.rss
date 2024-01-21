@@ -17,6 +17,7 @@
             {{post["content"]}}
         </description>
         <guid isPermaLink="false">{{post['pathname']}}</guid>
+        <pubdate>{{post["date"]}}</pubdate>
     </item>
     {% endfor %}
 </channel>
