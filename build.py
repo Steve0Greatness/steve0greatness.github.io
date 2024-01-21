@@ -72,7 +72,7 @@ def GetBlogList():
     PostsByDate = sorted(Posts, key=PostSortHelper, reverse=True)
     return PostsByDate
 
-PostList = GetBlogList()
+PostList = []
 
 def ListParseCategory(Obj, depth):
     html = "<h%d id=\"%s\">%s</h%d>" % (2+depth, Obj["id"], Obj["title"], 2+depth)
@@ -209,6 +209,7 @@ def RenderLists():
         file.write(RenderTemplate("list-index.html", Content=ListIndex))
 
 def main():
+    PostList = GetBlogList()
     print("Wiping directory")
     WipeFinalDir()
     print("Creating blog holder")
