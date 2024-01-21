@@ -8,6 +8,14 @@
     <description>A blog by a human being.</description>
     <language>en-us</language>
     <generator>Custom w/Jinja</generator>
+    <image>
+        <link>https://steve0greatness.github.io/</link>
+        <title>Steve0Greatness' Blog</title>
+        <url>https://steve0greatness.github.io/favicon.ico</url>
+        <description>A blog by a human being.</description>
+        <height>180</height>
+        <width>180</width>
+    </image>
     {% for post in PostList %}
     <item>
         <title>{{post["title"]}}</title>

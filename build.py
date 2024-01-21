@@ -183,6 +183,7 @@ def CreateJSONFeed():
         CreatedJSON["items"].append({
             "id": "https://steve0greatness.github.io/blog/" + post["pathname"],
 			"title": "JSON Feed version 1.1",
+			"icon": "https://steve0greatness.github.io/favicon.ico",
 			"content_html": post["content"],
 			"date_published": post["atom-post-time"],
             "date_modified": post["atom-update-time"],
