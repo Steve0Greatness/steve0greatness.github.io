@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 
 <channel>
     <atom:link href="https://steve0greatness.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
@@ -26,6 +26,9 @@
         </description>
         <guid isPermaLink="false">{{post['pathname']}}</guid>
         <pubDate>{{post["rss-post-time"]}}</pubDate>
+        <dc:date>{{post["atom-post-time"]}}</dc:date>
+        <atom:published>{{post["atom-post-time"]}}</atom:published>
+        <atom:updated>{{post["atom-updated-time"]}}</atom:updated>
     </item>
     {% endfor %}
 </channel>
