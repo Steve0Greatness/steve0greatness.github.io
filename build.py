@@ -208,7 +208,7 @@ def RenderLists():
     with open(BUILD_DIRECTORY + "/list/index.html", "w") as file:
         file.write(RenderTemplate("list-index.html", Content=ListIndex))
 
-if __name__ == "__main__":
+def main():
     print("Wiping directory")
     WipeFinalDir()
     print("Creating blog holder")
@@ -235,4 +235,5 @@ if __name__ == "__main__":
     with open(BUILD_DIRECTORY + "/sitemap.txt", "w") as SitemapFile:
         SitemapFile.write("\n".join(sitemap))
 
-    pass
+if __name__ == "__main__":
+    main()
