@@ -17,4 +17,4 @@ def SendStatic(path):
     return SendFile("build/404.html")
 
 if __name__ == "__main__":
-    app.run("0.0.0.0", 8000, debug=True)
+    app.run("0.0.0.0", 8000)

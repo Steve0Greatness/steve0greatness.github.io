@@ -13,4 +13,4 @@ def Builder():
     return redirect("/")
 
 if __name__ == "__main__":
-    app.run("0.0.0.0", 9000)
+    app.run("0.0.0.0", 9000, debug=True)
