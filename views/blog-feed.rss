@@ -26,9 +26,8 @@
         </description>
         <guid isPermaLink="false">{{post['pathname']}}</guid>
         <pubDate>{{post["rss-post-time"]}}</pubDate>
-        <dc:date>{{post["atom-post-time"]}}</dc:date>
         <atom:published>{{post["atom-post-time"]}}</atom:published>
-        <atom:updated>{{post["atom-updated-time"]}}</atom:updated>
+        <atom:updated>{{post["atom-update-time"]}}</atom:updated>
     </item>
     {% endfor %}
 </channel>
