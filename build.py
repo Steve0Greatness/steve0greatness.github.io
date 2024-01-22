@@ -68,6 +68,8 @@ def GetBlogList():
             if "updated" in Item:
                 Item["atom-update-time"] = PostDateToDateObj(Item["updated"]).strftime("%Y-%m-%d") + "T00:00:00Z"
             Item["pathname"] = slug.replace(".md", ".html")
+            Item["plaintext"] = slug.replace(".md", ".txt")
+            Item["origin"] = slug
             Posts.append(Item)
     PostsByDate = sorted(Posts, key=PostSortHelper, reverse=True)
     return PostsByDate
