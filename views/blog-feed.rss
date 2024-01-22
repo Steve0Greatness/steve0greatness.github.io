@@ -11,10 +11,10 @@
     <image>
         <link>https://steve0greatness.github.io/</link>
         <title>Steve0Greatness' Blog</title>
-        <url>https://steve0greatness.github.io/favicon.ico</url>
+        <url>https://steve0greatness.github.io/RSS-Img.png</url>
         <description>A blog by a human being.</description>
-        <height>180</height>
-        <width>180</width>
+        <height>144</height>
+        <width>120</width>
     </image>
     {% for post in PostList %}
     <item>
