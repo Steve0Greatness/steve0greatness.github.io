@@ -227,6 +227,10 @@ list:
         text: Fandom
         comment: often inactive
       - type: link
+        href: https://meta.miraheze.org/wiki/User:Steve0Greatness
+        text: Miraheze
+        comment: often inactive
+      - type: link
         href: https://www.mediawiki.org/wiki/User:Steve0Greatness
         text: Mediawiki
         comment: often inactive
