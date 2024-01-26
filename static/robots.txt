@@ -10,4 +10,4 @@ Disallow: /blog/feed.atom
 Disallow: /blog/feed.json
 Disallow: /blog/*.txt
 
-sitemap: https://steve0greatness.github.io
+sitemap: https://steve0greatness.github.io/sitemap.txt
