@@ -22,7 +22,7 @@
         <link>https://steve0greatness.github.io/blog/{{post["pathname"]}}</link>
         <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/{{post['plaintext']}}" />
         <description>
-            &lt;p&gt;Depending on your RSS reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/{{post['pathname']}}"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/{{post['pathname']}}"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
             {{post["rss-content"]}}
         </description>
         <guid isPermaLink="false">{{post['pathname']}}</guid>

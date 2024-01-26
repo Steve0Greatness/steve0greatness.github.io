@@ -17,7 +17,7 @@
         <link type="text/html" rel="alternate" href="https://steve0greatness.github.io/blog/{{post['pathname']}}" />
         <link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/{{post['plaintext']}}" />
         <content type="html">
-            <p>Depending on your Atom reader, you may want to <a href="https://steve0greatness.github.io/blog/{{post['pathname']}}">read this article online</a>,</p>
+            <p>Depending on your Feed reader, you may want to <a href="https://steve0greatness.github.io/blog/{{post['pathname']}}">read this article online</a>,</p>
             {{post["content"]}}
         </content>
         <id>{{post['pathname']}}</id>
