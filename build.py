@@ -24,7 +24,8 @@ PAGES = {
 
 DISALLOWED_SITEMAP = [
     "404.html",
-    "blog-feed.rss"
+    "blog-feed.rss",
+    "blog-feed.atom",
 ]
 
 REDIRECTS = [
