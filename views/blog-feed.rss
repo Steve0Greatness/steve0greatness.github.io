@@ -20,6 +20,7 @@
     <item>
         <title>{{post["title"]}}</title>
         <link>https://steve0greatness.github.io/blog/{{post["pathname"]}}</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/{{post['plaintext']}}" />
         <description>
             &lt;p&gt;Depending on your RSS reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/{{post['pathname']}}"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
             {{post["rss-content"]}}
