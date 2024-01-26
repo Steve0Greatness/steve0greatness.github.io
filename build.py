@@ -60,9 +60,11 @@ def GetBlogList():
     for slug in PostSlugs:
         print("Grabbing post list blog-posts/%s" % (slug))
         with open("blog-posts/" + slug, encoding="utf-8") as MDFile:
-            PostHTML = RenderMarkdown(MDFile.read())
+            RawMD = MDFile.read()
+            PostHTML = RenderMarkdown(RawMD)
             Item = PostHTML.metadata
             Item["content"] = PostHTML
+            Item["raw-content"] = RawMD
             Item["rss-content"] = PostHTML.replace("&", "&amp;").replace(">", "&gt;").replace("<", "&lt;")
             Item["atom-content"] = RegReplace("</(?=.*)", "</xhtml:", RegReplace("<(?=[^\/].*)", "<xhtml:", PostHTML))
             Item["rss-post-time"] = PostDateToDateObj(Item["date"]).strftime("%a, %d %b %Y") + " 00:00:00 GMT"
@@ -138,28 +140,23 @@ def GetLists():
     return Lists
 
 def RenderPosts():
-    for post in ListDirectory("blog-posts"):
-        path = "blog-posts/" + post
-        RenderedHTML: str
-        PostMD: str
-        PostPath = post.replace(".md", ".html")
-        PlaintextPath = post.replace(".md", ".txt")
-        with open(path, "r", encoding="utf-8") as PostContent:
-            PostMD = PostContent.read()
-            PostHTML = RenderMarkdown(PostMD)
-            Title = PostHTML.metadata["title"]
-            PostDate = PostHTML.metadata["date"]
-            Revised = False
-            if "updated" in PostHTML.metadata:
-                Revised = PostHTML.metadata["updated"]
-            RenderedHTML = RenderTemplate("blog-post.html", Revised=Revised, Title=Title, PostDate=PostDate, Content=PostHTML, PostPath=PostPath, PlaintextPath=PlaintextPath)
-        print("Building blog/%s to %s/blog/%s" % (post, BUILD_DIRECTORY, PostPath))
-        with open(BUILD_DIRECTORY + "/blog/" + PostPath, "w", encoding="utf-8") as PostHTMLFile:
+    global PostList
+    for post in PostList:
+        Revised = post["updated"] if "updated" in post else False
+        RenderedHTML = RenderTemplate("blog-post.html",
+                                      Revised=Revised,
+                                      Title=post["title"],
+                                      PostDate=post["date"],
+                                      Content=post["content"],
+                                      PostPath=post["pathname"],
+                                      PlaintextPath=post["plaintext"])
+        print("Building blog-posts/%s to %s/blog/%s" % (post["origin"], BUILD_DIRECTORY, post["pathname"]))
+        with open(BUILD_DIRECTORY + "/blog/" + post["pathname"], "w", encoding="utf-8") as PostHTMLFile:
             PostHTMLFile.write(RenderedHTML)
-        print("Copying blog/%s to %s/blog/%s" % (post, BUILD_DIRECTORY, PlaintextPath))
-        with open(BUILD_DIRECTORY + "/blog/" + PlaintextPath, "w", encoding="utf-8") as PostPlaintext:
-            PostPlaintext.write(PostMD)
-        sitemap.append(SITEMAP_HREF + "/blog/" + PostPath)
+        print("Copying blog-posts/%s to %s/blog/%s" % (post["origin"], BUILD_DIRECTORY, post["plaintext"]))
+        with open(BUILD_DIRECTORY + "/blog/" + post["plaintext"], "w", encoding="utf-8") as PostHTMLFile:
+            PostHTMLFile.write(post["raw-content"])
+        sitemap.append(SITEMAP_HREF + "/blog/" + post["pathname"])
 
 def RenderPage(PageInput: str, ContentDest: str, AllowSitemap: bool = True, **kwargs):
     print("Building views/%s to %s/%s" % (PageInput, BUILD_DIRECTORY, ContentDest))
@@ -169,6 +166,7 @@ def RenderPage(PageInput: str, ContentDest: str, AllowSitemap: bool = True, **kw
         DestLocation.write(RenderTemplate(PageInput, **kwargs))
 
 def CreateJSONFeed():
+    global PostList
     CreatedJSON = {
         "version": "https://jsonfeed.org/version/1",
         "title": "Steve0Greatness' Blog",
@@ -215,6 +213,7 @@ def RenderLists():
         file.write(RenderTemplate("list-index.html", Content=ListIndex))
 
 def main():
+    global PostList
     PostList = GetBlogList()
     print("Wiping directory")
     WipeFinalDir()
