@@ -7,6 +7,7 @@ from distutils.dir_util import copy_tree as CopyDirectory
 from datetime import datetime
 from json import dump as DumpJSON
 from yaml import safe_load as LoadYML
+from re import sub as RegReplace
 
 GITHUB_BUILD_DIR = "docs" # Separate because this site is built with an action that won't work if they aren't
 LOCAL_BUILD_DIR = "build"
@@ -62,6 +63,8 @@ def GetBlogList():
             PostHTML = RenderMarkdown(MDFile.read())
             Item = PostHTML.metadata
             Item["content"] = PostHTML
+            Item["rss-content"] = PostHTML.replace("&", "&amp;").replace(">", "&gt;").replace("<", "&lt;")
+            Item["atom-content"] = RegReplace("</(?=.*)", "</xhtml:", RegReplace("<(?=[^\/].*)", "<xhtml:", PostHTML))
             Item["rss-post-time"] = PostDateToDateObj(Item["date"]).strftime("%a, %d %b %Y") + " 00:00:00 GMT"
             Item["atom-post-time"] = PostDateToDateObj(Item["date"]).strftime("%Y-%m-%d") + "T00:00:00Z"
             Item["atom-update-time"] = Item["atom-post-time"]
@@ -75,6 +78,7 @@ def GetBlogList():
     return PostsByDate
 
 PostList = []
+
 
 def ListParseCategory(Obj, depth):
     html = "<h%d id=\"%s\">%s</h%d>" % (2+depth, Obj["id"], Obj["title"], 2+depth)

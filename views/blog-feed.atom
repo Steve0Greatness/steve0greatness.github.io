@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <id>https://steve0greatness.github.io/blog/</id>
     <link type="text/html" rel="alternate" href="https://steve0greatness.github.io/blog/" />
     <link type="application/atom+xml" rel="self" href="https://steve0greatness.github.io/blog/feed.atom" />
@@ -10,6 +10,7 @@
         <uri>https://steve0greatness.github.io</uri>
     </author>
     <generator>Custom w/Jinja</generator>
+    <updated>{{PostList[0]["atom-update-time"]}}</updated>
     {% for post in PostList %}
     <entry>
         <title>{{post["title"]}}</title>
