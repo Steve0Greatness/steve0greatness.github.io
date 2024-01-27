@@ -1,6 +1,7 @@
+@import url("/fonts/mononoki/mononoki.css");
 .codehilite .hll { background-color: #49483e }
-.codehilite, pre:not(.codehilite pre) code { background: #272822; color: #f8f8f2; padding: 10px; display: block; }
-code:not(.codehilite code):not(pre code) { background: #272822; color: #f8f8f2; padding: 5px }
+.codehilite, pre:not(.codehilite pre) code { font-size: 1rem; font-family: "mononoki", monospace; background: #272822; color: #f8f8f2; padding: 10px; display: block; }
+code:not(.codehilite code):not(pre code) { font-size: 1rem; font-family: "mononoki", monospace; background: #272822; color: #f8f8f2; padding: 5px }
 .codehilite pre { margin: 0; }
 .codehilite .c { color: #75715e } /* Comment */
 .codehilite .err { color: #960050; background-color: #1e0010 } /* Error */

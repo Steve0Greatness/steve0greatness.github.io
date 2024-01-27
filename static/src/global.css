@@ -1,7 +1,11 @@
+@import url("/fonts/inter/inter.css");
+
 body,
 html {
     margin: 0;
     width: 100vw;
+    font-size: 95%;
+    font-family: "Inter";
 }
 
 body {

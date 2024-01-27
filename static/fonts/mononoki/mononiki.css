@@ -1,0 +1,4 @@
+@font-face { font-family: "mononiki"; font-style: normal; font-weight: normal; font-display: swap; src: url("mononoki-Regular.ttf") format("ttf"); }
+@font-face { font-family: "mononiki"; font-style: italic; font-weight: normal; font-display: swap; src: url("mononoki-Italic.ttf") format("ttf"); }
+@font-face { font-family: "mononiki"; font-style: normal; font-weight: bold; font-display: swap; src: url("mononoki-Bold.ttf") format("ttf"); }
+@font-face { font-family: "mononiki"; font-style: italic; font-weight: bold; font-display: swap; src: url("mononoki-BoldItalic.ttf") format("ttf"); }
