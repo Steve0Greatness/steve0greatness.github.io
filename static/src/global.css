@@ -52,6 +52,8 @@ body > header {
 
 body > header :any-link {
     color: #f1f1f1 !important;
+    font-style: italic;
+    text-decoration: none;
 }
 
 body > header h2 {
