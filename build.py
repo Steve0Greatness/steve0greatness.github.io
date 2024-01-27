@@ -22,15 +22,15 @@ PAGES = {
     "404.html": "404.html"
 }
 
-DISALLOWED_SITEMAP = [
+DISALLOWED_SITEMAP = {
     "404.html",
     "blog-feed.rss",
     "blog-feed.atom",
-]
+}
 
-REDIRECTS = [
-    ("link-tree.html", "list/link-tree.html") # Old location -> new location
-]
+REDIRECTS = {
+    "link-tree.html": "list/link-tree.html", # Old location -> new location
+}
 
 SITEMAP_HREF = "https://steve0greatness.github.io/"
 sitemap = []
@@ -236,7 +236,7 @@ def main():
         RenderPage(file, path, PostList=PostList)
     
     print("Building redirects")
-    for OldLocation, NewLocation in REDIRECTS:
+    for OldLocation, NewLocation in REDIRECTS.items():
         RenderPage("redirect.html", OldLocation, False, redirect=NewLocation)
 
     with open(BUILD_DIRECTORY + "/sitemap.txt", "w") as SitemapFile:
