@@ -248,9 +248,11 @@ list:
       - type: link
         href: https://www.doomworld.com/profile/35107-steve0greatness
         text: Doomworld
+        comment: often inactive
       - type: link
         href: https://forum.kglw.net/u/steve0greatness/activity
         text: KGLW.net Forums
+        comment: often inactive
       - type: link
         href: https://www.thecodingforums.com/members/steve0greatness.87042
         text: The Coding Forums
