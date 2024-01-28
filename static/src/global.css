@@ -77,7 +77,7 @@ body > header h2 {
 
 body > header nav {
     font-size: large;
-    flex: 1;
+    flex: 1.15;
 }
 
 body > header nav :any-link:not(:last-child) {
