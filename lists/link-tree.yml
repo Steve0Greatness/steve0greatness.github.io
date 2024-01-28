@@ -256,7 +256,7 @@ list:
         text: The Coding Forums
         comment: often inactive
       - type: link
-        href: forum.beetleblocks.com/u/Steve0Greatness
+        href: https://forum.beetleblocks.com/u/Steve0Greatness
         text: BeetleBlocks Forum
         comment: often inactive
       - type: link
