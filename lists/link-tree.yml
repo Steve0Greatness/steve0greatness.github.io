@@ -241,6 +241,10 @@ list:
         href: https://wiki.meower.org/wiki/User:Steve-Zero-Greatness
         text: Meower wiki
         comment: often inactive
+      - type: link
+        href: https://doomwiki.org/wiki/User:Steve0Greatness
+        text: Doom Wiki
+        comment: often inactive
   - type: category
     title: Forums
     id: forums
