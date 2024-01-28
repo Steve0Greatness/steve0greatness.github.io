@@ -79,6 +79,10 @@ body > header nav {
     flex: 1;
 }
 
+body > header nav :any-link:not(:last-child) {
+    margin-right: 15px;
+}
+
 tr > :not(:last-child) {
     padding-right: 15px;
 }
