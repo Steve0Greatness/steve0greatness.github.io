@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: #161619;
+    background-color: #19191b;
     color: #fff;
 }
 
@@ -27,6 +27,17 @@ body {
 
 main {
     padding: 0 8px;
+    max-width: 60vw;
+    margin: 0 auto;
+}
+
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+    text-align: center;
 }
 
 .breadcrumbs {
@@ -45,9 +56,10 @@ main {
 
 body > header {
     display: flex;
-    padding: 8px;
+    padding: 20px;
     align-items: center;
-    background-color: #0c0c10;
+    background-color: #0b0b0c;
+    border-bottom: 1px solid #fff;
 }
 
 body > header :any-link {
@@ -64,6 +76,7 @@ body > header h2 {
 
 body > header nav {
     font-size: large;
+    flex: 1;
 }
 
 tr > :not(:last-child) {
