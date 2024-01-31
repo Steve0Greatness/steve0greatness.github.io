@@ -341,6 +341,9 @@ list:
         href: https://archive.org/details/@steve_apos_s_greatness
         text: Internet Archive
         comment: often inactive
+      - type: text
+        text: "Email address: <a href=\"mailto:steve0greatnessiscool@gmail.com\"><code>steve0greatnessiscool@gmail.com</code></a>"
+        comment: often inactive
       - type: link
         href: https://openlibrary.org/people/steve_apos_s_greatness
         text: Open Library
