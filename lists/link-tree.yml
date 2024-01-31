@@ -271,7 +271,7 @@ list:
         comment: often inactive
       - type: link
         href: https://forum.snap.berkeley.edu/u/steve0greatness/summary
-        text: BeetleBlocks Forum
+        text: Snap! Forum
         comment: often inactive
   - type: category
     title: Instant Messaging
