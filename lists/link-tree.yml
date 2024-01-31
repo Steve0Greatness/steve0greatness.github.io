@@ -273,6 +273,10 @@ list:
         href: https://forum.snap.berkeley.edu/u/steve0greatness/summary
         text: Snap! Forum
         comment: often inactive
+      - type: link
+        href: https://forum.puzzlebaron.com/member/221703-steve0greatness
+        text: Puzzle Baron
+        comment: often inactive
   - type: category
     title: Instant Messaging
     id: ims
