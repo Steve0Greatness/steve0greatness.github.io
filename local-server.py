@@ -1,4 +1,4 @@
-# This is a debugging server used for site development, it's not used on the actual site.
+# This is a Flask server to emulate GitHub pages.
 
 from flask import Flask, send_file as SendFile
 from os.path import isfile
