@@ -26,6 +26,7 @@ DISALLOWED_SITEMAP = {
     "404.html",
     "blog-feed.rss",
     "blog-feed.atom",
+    "blog-list.html",
 }
 
 REDIRECTS = {
@@ -33,7 +34,9 @@ REDIRECTS = {
 }
 
 SITEMAP_HREF = "https://steve0greatness.github.io/"
-sitemap = []
+sitemap = [
+    SITEMAP_HREF + "blog/"
+]
 
 def WipeFinalDir():
     if not PathExists(BUILD_DIRECTORY):
