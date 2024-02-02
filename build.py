@@ -237,7 +237,7 @@ def main():
     
     print("Building redirects")
     for OldLocation, NewLocation in REDIRECTS.items():
-        RenderPage("redirect.html", OldLocation, False, redirect=NewLocation)
+        RenderPage("redirect.html", OldLocation, False, redirect=NewLocation, old=OldLocation)
 
     with open(BUILD_DIRECTORY + "/sitemap.txt", "w") as SitemapFile:
         SitemapFile.write("\n".join(sitemap))
