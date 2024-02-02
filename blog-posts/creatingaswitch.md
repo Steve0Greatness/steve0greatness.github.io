@@ -89,6 +89,6 @@ Finally add a pseudo called `:checked` which checks if a checkbox, or a radio, w
 
 Now, let's look at what it looks like:
 
-<iframe style="background:#fff;border:none" src="/blog-files/switch-final.html"></iframe>
+<iframe style="background: #fff; border: none" src="/blog-files/switch-final.html"></iframe>
 
 [See Code](/blog-files/switch-final.txt)

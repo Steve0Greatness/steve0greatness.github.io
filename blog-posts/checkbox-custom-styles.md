@@ -1,5 +1,44 @@
 ---
 title: Customize an HTML Checkbox
 date: 2022 Feb 19
+updated: 2024 Feb 1
 ---
-<p>Checkboxes are hard to style. But when you're making a website, they may look ugly.</p><input type="checkbox" style="appearance:checkbox" /><p>As you can see here, this bland checkbox does not fit into my clearly great website(/s). But really, it does not fit in at all.</p><p>The first step toward styling it how we want it is to give it an appearence of none, and a width and height that are what you want.</p><div class="code-container"><div class="code">input[type="checkbox"] {<div style="margin-left:1em">appearance: none;<br />width: 15px;<br />height: 15px;</div>}</div><div class="preview"><input type="checkbox" style="appearance:none;width:15px;height:15px"/></div></div><p>Now we can do whatever we want to it. Also, remeber to add a checked pseudo</p><div class="code-container"><div class="code">input[type="checkbox"] {<div style="margin-left:1em">appearance: none;<br />width: 15px;<br />height: 15px;<br />background: #555;<br />border: 1px #252525 solid;<br />border-radius: 2px;</div>}<br /><br />input[type="checkbox"]:checked {<div style="margin-left:1em">background: #ce5aff;</div>}</div><div class="preview"><style>input[type="checkbox"].examplecheckbox3_:checked {background: #ce5aff;}input[type="checkbox"].examplecheckbox3_ {background: #555;}</style><input type="checkbox" class="examplecheckbox3_" style="appearance:none;width:15px;height:15px;border-radius:2px;border:1px #252525 solid"/></div></div>
+TL;DR: `appearance: none;`.
+
+Checkboxes are hard to style. But when you're making a website, they may look ugly.
+
+<input type="checkbox" style="appearance: checkbox;" />
+
+As you can see here, this bland checkbox does not fit into my clearly great website(/s). But really, it does not fit in at all.
+
+The first step toward styling it how we want it is to give it an appearance of none, and a width and height that are what you want.
+
+```css
+input[type="checkbox"] {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: grey;
+}
+```
+
+<iframe src="/blog-files/checkbox-custom-styles-ex1.html" style="background: #fff; border: none"></iframe>
+
+Now we can do whatever we want to it. You're also able to add a `:checked` sudo to change certain elements(like the `background-color`) depending on if the checkbox is checked or not.
+
+```css
+input[type="checkbox"] {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #555;
+    border: 1px #252525 solid;
+    border-radius: 2px;
+}
+
+input[type="checkbox"]:checked {
+    background: #ce5aff;
+}
+```
+
+<iframe src="/blog-files/checkbox-custom-styles-ex2.html" style="background: #fff; border: none"></iframe>
