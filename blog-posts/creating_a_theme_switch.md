@@ -1,5 +1,47 @@
 ---
 title: Creating a simple theme switcher
 date: 2021 Dec 08
+updated: 2024 Feb 01
 ---
-This is a simple tutorial on how to make a simple theme switcher.<h1 id="step1">Step 1: Creating the themes</h1><p>The first step is to create the themes in your stylesheet, you can have as many as you want. Just make sure to remeber all their names within your CSS.</p><h1 id="step2">Step 2: Making an array</h1><p>This is why you need to remeber all their names within the CSS. You need to add them all to an array in your JS. Below is an example of an array containing some themes.</p><div class="code">const themes = ["light", "dark", "gamer"]</div><h1 id="step3">Step 3: Switching themes</h1><p>This is the part you've been waiting for! The actual content switcher. It's surprisingly simple.</p><p>First, get the index of the current theme using <span class="code">let currentTheme = themes.indexOf(document.documentElement.className)</span>. Then, use an if statement to see if it's more than or equal to the length of the array containing your themes.</p><div class="code">if (currentTheme + 1 >= themes.length) {<div style="margin-left:1em">document.documentElement.className = themes[0]</div>} else {<div style="margin-left:1em">document.documentElement.className = themes[currentTheme + 1]</div>}</div>Now just add a listener to the button(using <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener">event listener</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick">getElement.onclick</a>, or <a href="https://www.w3schools.com/TAgs/att_onclick.asp">onclick</a>)<h1 id="finished">Final Product</h1>In the end, what you just made should look something like the iFrame below.<br /><iframe id="finalProduct" src="data:text/html;base64,PCFkb2N0eXBlIGh0bWw+PGh0bWwgY2xhc3M9ImxpZ2h0Ij48aGVhZD48c3R5bGU+aHRtbC5saWdodCB7YmFja2dyb3VuZDogI2ZmZjtjb2xvcjogIzAwMDstLWJ1dHRvbkJhY2tncm91bmQ6ICNmZWZlZmU7LS1idXR0b25Cb3JkZXI6ICNjY2M7LS1idXR0b25Db2xvcjogIzAwMTt9aHRtbC5kYXJrIHtiYWNrZ3JvdW5kOiAjMDAwO2NvbG9yOiAjZmZmOy0tYnV0dG9uQmFja2dyb3VuZDogIzEwMTAxMDstLWJ1dHRvbkJvcmRlcjogIzMzMzstLWJ1dHRvbkNvbG9yOiAjZmZmO31odG1sLmdhbWVyIHtiYWNrZ3JvdW5kOiAjZjAwO2NvbG9yOiAjMDBmOy0tYnV0dG9uQmFja2dyb3VuZDogIzA1MDstLWJ1dHRvbkJvcmRlcjogIzBhMDstLWJ1dHRvbkNvbG9yOiAjMGYwO31idXR0b24ge2JhY2tncm91bmQ6IHZhcigtLWJ1dHRvbkJhY2tncm91bmQpO2JvcmRlcjogdmFyKC0tYnV0dG9uQm9yZGVyKSBzb2xpZCAzcHg7Y29sb3I6IHZhcigtLWJ1dHRvbkNvbG9yKTt9PC9zdHlsZT48L2hlYWQ+PGJvZHk+PGJ1dHRvbiBpZD0idGhlbWVTd2l0Y2giPlN3aXRjaCBUaGVtZTwvYnV0dG9uPjxiciAvPlRoaXMgaXMgZXBpYyE8c2NyaXB0IHR5cGU9ImFwcGxpY2F0aW9uL2phdmFzY3JpcHQiPmNvbnN0IHRoZW1lcyA9IFsibGlnaHQiLCAiZGFyayIsICJnYW1lciJdO2RvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJ0aGVtZVN3aXRjaCIpLm9uY2xpY2sgPSAoKSA9Jmd0OyB7bGV0IGN1clRoZW1lID0gdGhlbWVzLmluZGV4T2YoZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LmNsYXNzTmFtZSk7aWYgKGN1clRoZW1lICsgMSAmZ3Q7PSB0aGVtZXMubGVuZ3RoKSB7ZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LmNsYXNzTmFtZSA9IHRoZW1lc1swXX0gZWxzZSB7ZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LmNsYXNzTmFtZSA9IHRoZW1lc1tjdXJUaGVtZSArIDFdfX08L3NjcmlwdD48L2JvZHk+PC9odG1sPg==" style="border:none"></iframe>
+This is a simple tutorial on how to make a simple theme switcher.
+
+## Step 1: Creating the themes
+
+The first step is to create the themes in your stylesheet, you can have as many as you want. Just make sure to remeber all their names within your CSS.
+
+## Step 2: Making an array
+
+This is why you need to remeber all their names within the CSS. You need to add them all to an array in your JS. Below is an example of an array containing some themes.
+
+```js
+const themes = ["light", "dark", "gamer"]
+```
+
+## Step 3: Switching themes
+
+This is the part you've been waiting for! The actual content switcher. It's surprisingly simple.
+
+First, get the index of the current theme using 
+
+```js
+let currentTheme = themes.indexOf(document.documentElement.className).
+```
+
+Then, use an if statement to see if it's more than or equal to the length of the array containing your themes.
+
+```js
+if (currentTheme + 1 >= themes.length) {
+    document.documentElement.className = themes[0];
+} else {
+    document.documentElement.className = themes[currentTheme + 1]
+}
+```
+
+Now just add a listener to the button(using [event listener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener), [getElement.onclick](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick), or [onclick](https://www.w3schools.com/TAgs/att_onclick.asp))
+
+## Final Product
+
+In the end, what you just made should look something like the iFrame below.
+
+<iframe id="finalProduct" src="/blog-files/theme-change-final.html" style="border:none"></iframe>
+[See Code](/blog-files/theme-change-final.txt)

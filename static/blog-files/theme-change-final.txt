@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html data-theme="light">
+
+<head>
+    <style type="text/css">
+        html[data-theme=light] {
+            background: #fff;
+            color: #000;
+            --buttonBackground: #fefefe;
+            --buttonBorder: #ccc;
+            --buttonColor: #001;
+        }
+        html[data-theme=dark] {
+            background: #000;
+            color: #fff;
+            --buttonBackground: #101010;
+            --buttonBorder: #333;
+            --buttonColor: #fff;
+        }
+        html[data-theme=gamer] {
+            background: #f00;
+            color: #00f;
+            --buttonBackground: #050;
+            --buttonBorder: #0a0;
+            --buttonColor: #0f0;
+        }
+        button {
+            background: var(--buttonBackground);
+            border: var(--buttonBorder) solid 3px;
+            color: var(--buttonColor);
+        }
+    </style>
+</head>
+
+<body>
+    <button id="themeSwitch">Switch Theme</button>
+    This is epic!
+    <script type="text/javascript">
+        console.log("Changing theme")
+        const themes = ["light", "dark", "gamer"];
+        document.querySelector("#themeSwitch").addEventListener("click", function() {
+            console.log("Changing theme")
+            let curTheme = themes.indexOf(document.documentElement.dataset.theme);
+            if (curTheme + 1 >= themes.length) {
+                document.documentElement.dataset.theme = themes[0];
+                return;
+            }
+            console.log("asfd")
+            document.documentElement.dataset.theme = themes[curTheme + 1];
+        })
+    </script>
+</body>
+
+</html>
