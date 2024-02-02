@@ -19,7 +19,7 @@ PAGES = {
     "blog-list.html": "blog/index.html",
     "blog-feed.rss": "blog/feed.rss",
     "blog-feed.atom": "blog/feed.atom",
-    "404.html": "404.html"
+    "404.html": "404.html",
 }
 
 DISALLOWED_SITEMAP = {
