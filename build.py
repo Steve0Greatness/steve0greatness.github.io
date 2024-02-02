@@ -138,6 +138,8 @@ def GetLists():
             for item in ListDict["list"]:
                 List["content"] += LIST_PARSER_DICT[item["type"]](item, 0)
         Lists.append(List)
+        sitemap.append(SITEMAP_HREF + "list/" + slug)
+    sitemap.append(SITEMAP_HREF + "list")
     return Lists
 
 def RenderPosts():
