@@ -28,6 +28,9 @@
             <td>
                 <time>{{post["date"]}} PST</time>
             </td>
+            <td>
+                {% if post["is-draft"] %}<i>Draft</i>{% endif %}
+            </td>
         </tr>
         {% endfor %}
     </tbody>

@@ -8,11 +8,14 @@ from datetime import datetime
 from json import dump as DumpJSON
 from yaml import safe_load as LoadYML
 from re import sub as RegReplace
+from typing import Literal
 
 GITHUB_BUILD_DIR = "build" # Separate because this site is built with an action that won't work if they aren't
 LOCAL_BUILD_DIR = "build"
 
-BUILD_DIRECTORY = GITHUB_BUILD_DIR if len(argv) > 1 and argv[1] == "gh-pages-deploy" else LOCAL_BUILD_DIR
+IS_GH_ACTIONS = len(argv) > 1 and argv[1] == "gh-pages-deploy"
+BUILD_DIRECTORY = GITHUB_BUILD_DIR if IS_GH_ACTIONS else LOCAL_BUILD_DIR
+
 
 PAGES = {
     "index.html": "index.html",
@@ -61,11 +64,13 @@ def PostSortHelper(Post):
 
 def GetBlogList():
     print("Grabbing post list")
-    PostSlugs = ListDirectory("blog-posts")
+    PostSlugs: tuple[tuple[Literal["blog-posts", "drafts"], str], ...] = tuple( ("blog-posts", file) for file in ListDirectory("blog-posts") )
+    if not IS_GH_ACTIONS:
+        PostSlugs = PostSlugs + tuple( ("drafts", file) for file in ListDirectory("drafts") )
     Posts = []
-    for slug in PostSlugs:
+    for dir, slug in PostSlugs:
         print("Grabbing post list blog-posts/%s" % (slug))
-        with open("blog-posts/" + slug, encoding="utf-8") as MDFile:
+        with open(dir + "/" + slug, encoding="utf-8") as MDFile:
             RawMD = MDFile.read()
             PostHTML = RenderMarkdown(RawMD)
             Item = PostHTML.metadata
@@ -81,6 +86,7 @@ def GetBlogList():
             Item["pathname"] = slug.replace(".md", ".html")
             Item["plaintext"] = slug.replace(".md", ".txt")
             Item["origin"] = slug
+            Item["is-draft"] = dir == "drafts"
             Posts.append(Item)
     PostsByDate = sorted(Posts, key=PostSortHelper, reverse=True)
     return PostsByDate
@@ -151,13 +157,16 @@ def RenderPosts():
     global PostList
     for post in PostList:
         Revised = post["updated"] if "updated" in post else False
-        RenderedHTML = RenderTemplate("blog-post.html",
-                                      Revised=Revised,
-                                      Title=post["title"],
-                                      PostDate=post["date"],
-                                      Content=post["content"],
-                                      PostPath=post["pathname"],
-                                      PlaintextPath=post["plaintext"])
+        RenderedHTML = RenderTemplate(
+                                        "blog-post.html",
+                                        Revised=Revised,
+                                        Title=post["title"],
+                                        PostDate=post["date"],
+                                        Content=post["content"],
+                                        PostPath=post["pathname"],
+                                        PlaintextPath=post["plaintext"],
+                                        IsDraft=post["is-draft"],
+                                    )
         print("Building blog-posts/%s to %s/blog/%s" % (post["origin"], BUILD_DIRECTORY, post["pathname"]))
         with open(BUILD_DIRECTORY + "/blog/" + post["pathname"], "w", encoding="utf-8") as PostHTMLFile:
             PostHTMLFile.write(RenderedHTML)
