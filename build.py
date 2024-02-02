@@ -9,7 +9,7 @@ from json import dump as DumpJSON
 from yaml import safe_load as LoadYML
 from re import sub as RegReplace
 
-GITHUB_BUILD_DIR = "docs" # Separate because this site is built with an action that won't work if they aren't
+GITHUB_BUILD_DIR = "build" # Separate because this site is built with an action that won't work if they aren't
 LOCAL_BUILD_DIR = "build"
 
 BUILD_DIRECTORY = GITHUB_BUILD_DIR if len(argv) > 1 and argv[1] == "gh-pages-deploy" else LOCAL_BUILD_DIR
