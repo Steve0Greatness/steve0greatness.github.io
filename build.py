@@ -157,7 +157,7 @@ def RenderPosts():
         print("Copying blog-posts/%s to %s/blog/%s" % (post["origin"], BUILD_DIRECTORY, post["plaintext"]))
         with open(BUILD_DIRECTORY + "/blog/" + post["plaintext"], "w", encoding="utf-8") as PostHTMLFile:
             PostHTMLFile.write(post["raw-content"])
-        sitemap.append(SITEMAP_HREF + "/blog/" + post["pathname"])
+        sitemap.append(SITEMAP_HREF + "blog/" + post["pathname"])
 
 def RenderPage(PageInput: str, ContentDest: str, AllowSitemap: bool = True, **kwargs):
     print("Building views/%s to %s/%s" % (PageInput, BUILD_DIRECTORY, ContentDest))
@@ -230,10 +230,8 @@ def main():
 
     print("Building pages")
     for file, path in PAGES.items():
-        if file in DISALLOWED_SITEMAP:
-            RenderPage(file, path, False, PostList=PostList)
-            continue
-        RenderPage(file, path, PostList=PostList)
+        AllowSitemap = file not in DISALLOWED_SITEMAP
+        RenderPage(file, path, AllowSitemap, PostList=PostList)
     
     print("Building redirects")
     for OldLocation, NewLocation in REDIRECTS.items():
