@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html>
 
-<body>
+<head>
     <style>
+        :root {
+            background: #000;
+            color: #fff;
+        }
         input[type=checkbox].switch {
             -webkit-appearance: none;
             -moz-appearance: none;
             appearance: none;
             position: relative;
+            background: #fff;
             width: 30px;
             height: 16px;
         }
         input[type=checkbox].switch::before {
             top: 1px;
             left: 1px;
-            position: relative;
+            position: absolute;
             display: block;
-            background: red;
+            background-color: #ff5c1c;
             content: "";
-            color: transparent;
             width: 14px;
             height: 14px;
+            transition: background-color .5s, left .5s;
         }
         input[type=checkbox].switch:checked::before {
-            left: unset;
-            right: 1px;
+            left: 15px; /* .switch width - .switch::before width - 1px */
+            background-color: #3f9b00;
         }
     </style>
+</head>
+
+<body>
     <input type="checkbox" class="switch" />
 </body>
 
