@@ -1,6 +1,7 @@
 ---
 title: The Song we didn't get in Undertale
 date: 2021 Dec 20
+updated: 2024 Feb 2
 ---
 Undertale is an amazing game. I really enjoyed my time playing it. I listen to the sound track a lot(I'm doing it as I write this). I even read a fan-made <abbr title="Alternate Universe">[AU](https://undertale-au.fandom.com/wiki/Category:AUs)</abbr> called [Inverted Fate](https://invertedfate.com/chapters). The only thing that I haven't done(and don't intend on doing) is a [Genocide Run](https://undertale.fandom.com/wiki/Genocide_Route). But, there's one thing that's kinda been bugging me since it first found out about it. It's the fact that their's a version of [Undertale(the song)](https://undertale.fandom.com/wiki/Undertale_(Soundtrack)) that wasn't added, and instead was replaced with the version we have now.
 
