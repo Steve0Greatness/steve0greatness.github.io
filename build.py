@@ -65,7 +65,7 @@ def PostSortHelper(Post):
 def GetBlogList():
     print("Grabbing post list")
     PostSlugs: tuple[tuple[Literal["blog-posts", "drafts"], str], ...] = tuple( ("blog-posts", file) for file in ListDirectory("blog-posts") )
-    if not IS_GH_ACTIONS:
+    if not IS_GH_ACTIONS and PathExists("drafts"):
         PostSlugs = PostSlugs + tuple( ("drafts", file) for file in ListDirectory("drafts") )
     Posts = []
     for dir, slug in PostSlugs:
