@@ -19,7 +19,7 @@ Tap and hold on the link until you see:
 <img src="/blog-files/iOS_Copy.jpg" type="image/jpeg" alt="open, open in background, open in new window, download link file, add to reading list, *copy*, share" loading="lazy" width="300" height="242" />
 
 ### Paste
-Going to any textbox, in the top-lefT-hand conner, you should see a little clipboard icon(as long as you aren't selecting any text), press it. tap "copy"(circled in red)"
+Going to any textbox, in the top-lefT-hand conner, you should see a little clipboard icon(as long as you aren't selecting any text), press it. tap "copy"(circled in red).
 
 ## Chrome/Android
 
