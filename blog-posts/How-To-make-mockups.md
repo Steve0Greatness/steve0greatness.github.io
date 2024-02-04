@@ -1,5 +1,10 @@
 ---
-title: How to make mockups
+title: How to Make Scratch Mockups
 date: 2021 Apr 22
+updated: 2024 Jan 3
 ---
-<div class="notice">This post isn't very good, and I'm not proud of it.</div>The first step to making a mockup is to open up the inpect menu, you may be able to do this using <t>ctrl+shifT+i</t>(or <t>f12</t>)<div class="Notice">this will be different from browser to browser.</div>once you see inspect element open, simply go to the page you're making a mockup for(ex. <a href="https://Scratch.mit.edu/mystuff">MyStuff</a>; or if you're making a new page, go to the page that looks the closest.), and press <t>ctrl+shifT+c</t>, and click on the area that you want to change(ex. the <t>+ New Project</t> button.<p>now that you've selected the element, let's learn how to edit it! You should see the element that you clicked on(using the <t>ctrl+shifT+c</t> command) highlighted in blue. Inside of the element(if you selected text, or even an image), you should see a darker area, that isn't red, <t>double click</t> on it, it should now be hilighted, now type in whatever you want(if it's an image, make sure to put in an image link, ex. https://imagehoster.com/png/png.png; if you clicked on a link(in the "" in "a href=''", unselect it and select the part "<a href='link'>"here"</a>").</p>anyways... if you don't have the monna lisa yet, just give up /s
+The first step to making a mockup is to open the <abbr title="Developer Tools">[DevTools](https://developer.chrome.com/docs/devtools/)</abbr>. This can be done with the keyboard shortcuts `ctrl` + `shift` + `i` or `F12`.
+
+This DevTools menu allows you to do many cool things, such as create new elements, and modify existing ones. In all browsers(that I know of) you can use a little selector at the top-left of the DevTools panel to enable a mode that if you click on an area of the screen, it brings you to the element in question within the DevTools panel.
+
+There's not much else advice I can give you. Just look around the Scratch site to get inspiration, and then either create or edit an element on a page you like to fit your needs.

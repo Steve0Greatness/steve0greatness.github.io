@@ -116,3 +116,12 @@ body > footer {
 img {
     image-rendering: optimizeQuality;
 }
+
+abbr :any-link {
+    text-decoration-style: dotted;
+    text-decoration-color: currentColor;
+}
+
+abbr:has(:any-link) {
+    text-decoration: none;
+}
