@@ -112,3 +112,7 @@ body > footer {
     font-weight: 900;
     font-size: 1.05rem;
 }
+
+img {
+    image-rendering: optimizeQuality;
+}

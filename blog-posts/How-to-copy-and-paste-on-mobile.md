@@ -1,5 +1,45 @@
 ---
 title: How to Copy and Paste on mobile
 date: 2021 May 05
+updated: 2024 Jan 03
 ---
-<div class="notice">This post isn't very good, and I'm not proud of it.</div>Recently, I've been seeing a lot of people coming up with one excuse for not linking the dupelicate topic in the suggestions forum. They say something like,<div style="background-color: #979797;color: black;padding: 3px;">I'm on mobile!!!!! &#128534;&#128557;&#128555;</div>this is not a correct argument, so I've decided to make this post to prove it.<h1>Safari/iOS</h1>the way that you copy and paste on Safari is by double taping on the text, then dragging until you've selected all the text<span style="color: #FF0000;">(the next bit works for links, not this)</span><h2>Coping links</h2>tap and hold on the link until you see:<img src="https://i.ibb.co/9cYsfcP/IMG-5938.jpg" alt="open, open in background, open in new window, download link file, add to reading list, *copy*, share" border="0" width="130" height="105" /><h2>Paste</h2>going to any textbox, in the top-lefT-hand conner, you should see a little clipboard icon(as long as you aren't selecting any text), press it. tap "copy(circled in <span style="color: #FF0000;">red</span>)"<div style="background-color: #ff0004; color: #00FFFF; text-align: center;">🏷Note: I don't own an android tablet or phone, so take this with a grain of salt</div><h1>Chrome/Android</h1>press and hold until a few selection boxes come up(might work for links)<h2>pasting</h2>tap and hold int the text box, you should see "paste," now click that(boxed in <span style="color: #FF0000;">:<img src="https://u.cubeupload.com/Steve_Greatness/Screenshot2021050571.png" width="300" height="60" /><span style="font-size: 10px;"><a href="https://www.businessinsider.com/how-to-copy-and-paste-on-android?op=1">Image Source</a></span></span>
+
+<div class="notice">This post isn't very good, and I'm not proud of it.</div>
+
+Recently, I've been seeing a lot of people coming up with one excuse for not linking the duplicate topic in the suggestions forum. They say something like, <q>I'm on mobile!!!!! &#128534;&#128557;&#128555;</q> this is not a correct argument, so I've decided to make this post to prove it.
+
+## Safari/iOS
+
+The way that you copy and paste on Safari is by double taping on the text, then dragging until you've selected all the text(the next bit works for links, not this)
+
+### Coping links
+
+Tap and hold on the link until you see:
+
+<img src="/blog-files/iOS_Copy.jpg" type="image/jpeg" alt="open, open in background, open in new window, download link file, add to reading list, *copy*, share" loading="lazy" width="300" height="242" />
+
+### Paste
+Going to any textbox, in the top-lefT-hand conner, you should see a little clipboard icon(as long as you aren't selecting any text), press it. tap "copy"(circled in red)"
+
+## Chrome/Android
+
+*Note: I don't own an android tablet or phone, so take this with a grain of salt*
+
+Press and hold until a few selection boxes come up(might work for links)
+
+**Chromium**
+
+<img src="/blog-files/Android_Chrome_Copy.png" type="image/png" loading="lazy" width="300" height="551" />
+
+**Firefox/Gecko**
+
+<img src="/blog-files/Android_Firefox_Copy.png" type="image/png" loading="lazy" width="300" height="289" />
+
+
+### Pasting
+
+Tap and hold on the text box, you should see "paste," now click that(highlighted in red).
+
+<img src="/blog-files/Android_Paste.png" type="image/png" loading="lazy" width="300" height="115" />
+
+<small>All images are self-sourced.</small>
