@@ -146,8 +146,10 @@ def GetLists():
             List["title"] = ListDict["title"]
             if "paragraph" in ListDict:
                 List["content"] += "<p>%s</p>" % ListDict["paragraph"]
+            List["content"] += "<ul>"
             for item in ListDict["list"]:
-                List["content"] += LIST_PARSER_DICT[item["type"]](item, 0)
+                List["content"] += "<li>" + LIST_PARSER_DICT[item["type"]](item, 0) + "</li>"
+            List["content"] += "</ul>"
         Lists.append(List)
         sitemap.append(SITEMAP_HREF + "list/" + slug)
     sitemap.append(SITEMAP_HREF + "list/")

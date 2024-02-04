@@ -37,6 +37,7 @@ list:
       - type: link
         href: https://scratch.mit.edu/users/steve0greatness
         text: Scratch
+        comment: there's more, see the <a href="/list/scratch-acc.html">Scratch Accounts</a> list.
       - type: link
         href: http://beetleblocks.com/users/Steve0Greatness
         text: BeetleBlocks
