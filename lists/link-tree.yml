@@ -108,6 +108,10 @@ list:
         text: Pixelfed
         comment: often inactive
       - type: link
+        href: https://flipboard.com/@Steve0Greatness
+        text: Flipboard
+        comment: often inactive
+      - type: link
         href: https://www.twitch.tv/steve0greatness
         text: Twitch
         comment: often inactive
