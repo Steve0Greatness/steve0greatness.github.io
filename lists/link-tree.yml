@@ -297,7 +297,7 @@ list:
         text: Meower
         comment: often inactive
       - type: text
-        text: "<a href=\"https://xmpp.org/\">XMPP</a>, formerly Jabber, address: <code>steve0greatness@sure.im</code>"
+        text: "<a href=\"https://xmpp.org/\">XMPP</a>, formerly Jabber, address: <a href=\"xmpp:steve0greatness@sure.im\"><code>steve0greatness@sure.im</code></a>"
         comment: often inactive
   - type: category
     title: Link Aggregators
