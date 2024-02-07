@@ -69,6 +69,8 @@ def GetBlogList():
         PostSlugs = PostSlugs + tuple( ("drafts", file) for file in ListDirectory("drafts") )
     Posts = []
     for dir, slug in PostSlugs:
+        if not slug.endswith(".md"):
+            continue
         print("Grabbing post list blog-posts/%s" % (slug))
         with open(dir + "/" + slug, encoding="utf-8") as MDFile:
             RawMD = MDFile.read()
