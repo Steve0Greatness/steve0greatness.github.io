@@ -82,9 +82,12 @@ def GetBlogList():
             Item["atom-content"] = RegReplace("</(?=.*)", "</xhtml:", RegReplace("<(?=[^\/].*)", "<xhtml:", PostHTML))
             Item["rss-post-time"] = PostDateToDateObj(Item["date"]).strftime("%a, %d %b %Y") + " 00:00:00 GMT"
             Item["atom-post-time"] = PostDateToDateObj(Item["date"]).strftime("%Y-%m-%d") + "T00:00:00Z"
+            Item["opengraph-date"] = PostDateToDateObj(Item["date"]).strftime("%Y-%m-%d") 
+            Item["opengraph-update"] = Item["opengraph-date"] 
             Item["atom-update-time"] = Item["atom-post-time"]
             if "updated" in Item:
                 Item["atom-update-time"] = PostDateToDateObj(Item["updated"]).strftime("%Y-%m-%d") + "T00:00:00Z"
+                Item["opengraph-update"] = PostDateToDateObj(Item["updated"]).strftime("%Y-%m-%d")
             Item["pathname"] = slug.replace(".md", ".html")
             Item["plaintext"] = slug.replace(".md", ".txt")
             Item["origin"] = slug
@@ -162,15 +165,17 @@ def RenderPosts():
     for post in PostList:
         Revised = post["updated"] if "updated" in post else False
         RenderedHTML = RenderTemplate(
-                                        "blog-post.html",
-                                        Revised=Revised,
-                                        Title=post["title"],
-                                        PostDate=post["date"],
-                                        Content=post["content"],
-                                        PostPath=post["pathname"],
-                                        PlaintextPath=post["plaintext"],
-                                        IsDraft=post["is-draft"],
-                                    )
+                            "blog-post.html",
+                            Revised=Revised,
+                            Title=post["title"],
+                            PostDate=post["date"],
+                            Content=post["content"],
+                            PostPath=post["pathname"],
+                            PlaintextPath=post["plaintext"],
+                            IsDraft=post["is-draft"],
+                            OpenGraphDate=post["opengraph-date"],
+                            post=post
+                        )
         print("Building blog-posts/%s to %s/blog/%s" % (post["origin"], BUILD_DIRECTORY, post["pathname"]))
         with open(BUILD_DIRECTORY + "/blog/" + post["pathname"], "w", encoding="utf-8") as PostHTMLFile:
             PostHTMLFile.write(RenderedHTML)

@@ -6,12 +6,19 @@
 <link rel="stylesheet" href="/src/blog.css" />
 <link rel="alternate" href="/blog/{{PlaintextPath}}" type="text/plain" title="Post source" />
 <meta property="og:title" content="{{ Title }}" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" contents="{{ OpenGraphDate }}T00:00:00Z" />
+<meta property="article:author" contents="https://steve0greatness.github.io" />
+{% if Revised %}<meta property="article:modified_time" contents="{{ post["opengraph-update"] }}T00:00:00Z" />{% endif %} 
+<meta property="profile:first_name" contents="Steve0Greatness" />
+<meta property="profile:username" contents="Steve0Greatness" />
+<meta property="profile:gender" contents="male" />
 <meta property="og:url" content="https://steve0greatness.github.io/blog/{{PostPath}}" />
 {% endblock %}
 {% from "_macros.html" import GenerateBreadcrumbs %}
 {% block breadcrumbs %}{{ GenerateBreadcrumbs([{ "href": "/blog","title": "Blog Index" }, {"href": "/blog/" + PostPath, "title": Title}]) }}{% endblock %}
 {% block content %}
-<h1 id="blog-post-titled">{{ Title }}</h1>
+<h1>{{ Title }}</h1>
 <article>
     <header>
         <div role="toolbar" class="toolbar">
@@ -25,7 +32,9 @@
                 <img src="/md-src.png" width="16" height="16" aria-hidden="true" />
             </a>
         </div>
-        <time>{{PostDate}} PST</time> {% if Revised %}- <span aria-hidden="true" style="font-style:italic">Revision as of: </span> <time aria-label="Revision">{{Revised}} PST</time>{% endif %} {% if IsDraft %}<i>Draft</i>{% endif %}
+        <time>{{PostDate}} PST</time>
+	{% if Revised %}- <span aria-hidden="true" style="font-style:italic">Revision as of: </span> <time aria-label="Revision">{{Revised}} PST</time>{% endif %}
+	{% if IsDraft %}<i>Draft</i>{% endif %}
     </header>
     {{ Content }}
 </article>
