@@ -199,6 +199,10 @@ list:
         href: https://gamebanana.com/members/2809649
         text: GameBanana
         comment: often inactive
+      - type: link
+        href: https://osu.ppy.sh/users/35354780
+        text: osu!
+        comment: often inactive
   - type: category
     title: Wikis
     id: wikis
