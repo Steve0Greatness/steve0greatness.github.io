@@ -26,7 +26,7 @@
                 <a href="/blog/{{post['pathname']}}">{{post["title"]}}</a>
             </td>
             <td>
-                <time>{{post["date"]}} PST</time>
+                <time datetime="{{post["opengraph-date"]}}">{{post["date"]}} PST</time>
             </td>
             <td>
                 {% if post["is-draft"] %}<i>Draft</i>{% endif %}

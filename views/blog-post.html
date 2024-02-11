@@ -32,8 +32,8 @@
                 <img src="/md-src.png" width="16" height="16" aria-hidden="true" />
             </a>
         </div>
-        <time>{{PostDate}} PST</time>
-	{% if Revised %}- <span aria-hidden="true" style="font-style:italic">Revision as of: </span> <time aria-label="Revision">{{Revised}} PST</time>{% endif %}
+	<time datetime="{{ OpenGraphDate }}T00:00:00-08:00">{{PostDate}} PST</time>
+	{% if Revised %}- <span aria-hidden="true" style="font-style:italic">Revision as of: </span> <time datetime="{{ post["opengraph-update"] }}T00:00:00-08:00" aria-label="Revision">{{Revised}} PST</time>{% endif %}
 	{% if IsDraft %}<i>Draft</i>{% endif %}
     </header>
     {{ Content }}
