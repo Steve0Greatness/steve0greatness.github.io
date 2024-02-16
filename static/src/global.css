@@ -128,14 +128,23 @@ abbr:has(:any-link) {
 }
 
 kbd {
+	white-space: pre-wrap;	
+	font-family: "mononoki", monospace;
+	display: inline-block;
+	font-size: .85rem;
+}
+
+:not(samp) kbd:not(:has(kbd)) {
 	background-color: #222728;
 	color: currentColor;
 	border: currentColor 1px solid;
 	border-radius: 10px;
-	font-family: "mononoki", monospace;
 	padding: 5px;
 	margin: 1px 0;
-	display: inline-block;
+}
+
+samp kbd {
+	display: block;
 }
 
 samp {
@@ -144,5 +153,6 @@ samp {
 	font-family: "mononoki", monospace;
 	padding: 10px;
 	display: block;
+	font-size: .85rem;
 	white-space: pre-wrap;
 }
