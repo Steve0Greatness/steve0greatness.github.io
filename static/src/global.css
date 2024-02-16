@@ -124,7 +124,7 @@ abbr :any-link {
 }
 
 abbr:has(:any-link) {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 kbd {
@@ -136,4 +136,13 @@ kbd {
 	padding: 5px;
 	margin: 1px 0;
 	display: inline-block;
+}
+
+samp {
+	background-color: #282722;
+	color: #fff;
+	font-family: "mononoki", monospace;
+	padding: 10px;
+	display: block;
+	white-space: pre-wrap;
 }

@@ -30,8 +30,7 @@ for Index in range(1, 100):
 ```
 <details>
     <summary>Output</summary>
-```
-1
+<samp>1
 2
 Fizz
 4
@@ -129,8 +128,7 @@ Buzz
 Fizz
 97
 98
-Fizz
-```
+Fizz</samp>
 </details>
 
 The next thing I do is I define a function that checks if one number is a multiple of another, and if it is, then it returns the string, otherwise, it returns an empty string.
