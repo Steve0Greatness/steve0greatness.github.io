@@ -7,7 +7,7 @@ def RenderTemplate(TemplateFileName: str, *args, **kwargs):
     """Renders a Jinja2 template from a file."""
     return __TemplateRenderer__.get_template(TemplateFileName).render(*args, **kwargs)
 
-__MDRenderer__ = MDEnv(extras=["header-ids", "metadata", "markdown-in-html", "code-friendly", "footnotes", "fenced-code-blocks"], footnote_title="Jump back to footnote %d in the text.", footnote_return_symbol="&#8617;")
+__MDRenderer__ = MDEnv(extras=["header-ids", "metadata", "markdown-in-html", "code-friendly", "footnotes", "fenced-code-blocks", "strike"], footnote_title="Jump back to footnote %d in the text.", footnote_return_symbol="&#8617;")
 
 def RenderMarkdown(MDSource: str):
     """Renders Markdown, but pre-configured."""
