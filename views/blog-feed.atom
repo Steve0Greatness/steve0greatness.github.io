@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <id>https://steve0greatness.github.io/blog/</id>
     <link type="text/html" rel="alternate" href="https://steve0greatness.github.io/blog/" />
     <link type="application/atom+xml" rel="self" href="https://steve0greatness.github.io/blog/feed.atom" />
@@ -13,14 +13,14 @@
     <updated>{{PostList[0]["atom-update-time"]}}</updated>
     {% for post in PostList %}
     <entry>
-        <title>{{post["title"]}}</title>
+	    <title>{{post["title"]}}</title>
         <link type="text/html" rel="alternate" href="https://steve0greatness.github.io/blog/{{post['pathname']}}" />
         <link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/{{post['plaintext']}}" />
         <content type="html">
-            <p>Depending on your Feed reader, you may want to <a href="https://steve0greatness.github.io/blog/{{post['pathname']}}">read this article online</a>,</p>
-            {{post["content"]}}
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/{{post['pathname']}}"&gt;read this article online&lt;/a&gt;,&lt;/p&gt;
+            {{post["rss-content"]}}
         </content>
-        <id>{{post['pathname']}}</id>
+	<id>https://steve0greatness.github.io/blog/{{post['pathname']}}</id>
         <published>{{post['atom-post-time']}}</published>
 		<updated>{{post['atom-update-time']}}</updated>
     </entry>

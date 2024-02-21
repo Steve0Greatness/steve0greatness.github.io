@@ -43,6 +43,18 @@ sitemap = [
     SITEMAP_HREF,
 ]
 
+def EscapeHTMLForRSS(HTML: str) -> str:
+    values = {
+        "&": "&amp;", # this is here for a reason, do not change order.
+        "<": "&lt;",
+        ">": "&gt;",
+        "§": "&#xa7;",
+    }
+    RssHtml = HTML
+    for old, new in values.items():
+        RssHtml = RssHtml.replace(old, new)
+    return RssHtml
+
 def WipeFinalDir():
     if not PathExists(BUILD_DIRECTORY):
         print("Directory didn't existing, creating it...")
@@ -78,8 +90,7 @@ def GetBlogList():
             Item = PostHTML.metadata
             Item["content"] = PostHTML
             Item["raw-content"] = RawMD
-            Item["rss-content"] = PostHTML.replace("&", "&amp;").replace(">", "&gt;").replace("<", "&lt;")
-            Item["atom-content"] = RegReplace("</(?=.*)", "</xhtml:", RegReplace("<(?=[^\/].*)", "<xhtml:", PostHTML))
+            Item["rss-content"] = EscapeHTMLForRSS(PostHTML)
             Item["rss-post-time"] = PostDateToDateObj(Item["date"]).strftime("%a, %d %b %Y") + " 00:00:00 GMT"
             Item["atom-post-time"] = PostDateToDateObj(Item["date"]).strftime("%Y-%m-%d") + "T00:00:00Z"
             Item["opengraph-date"] = PostDateToDateObj(Item["date"]).strftime("%Y-%m-%d") 
