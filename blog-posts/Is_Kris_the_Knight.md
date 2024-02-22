@@ -9,7 +9,7 @@ First and foremost, <span style="color: hotpink; font-style: italic;">the Knight
 
 Second, what does Kris look like in <span style="color: red; font-style: italic;">Dark Worlds</span>? That's right, a Knight.
 
-<img src="/blog-files/Kris_battle_idle.gif" type="image/gif" width="100" align="left" style="image-rendering:pixelated" />
+<img src="/blog-files/Kris_battle_idle.gif" type="image/gif" width="100" align="left" style="image-rendering:pixelated" alt="Kris, the primary player character from Deltarune, dressed as a knight, minus a helmet." />
 
 This is what Kris looks like in a <span style="color: red; font-style: italic;">Dark World</span>, they're wearing plated armor. They even have a sword.
 
@@ -21,4 +21,4 @@ This is a really common theory, but it really needs more evidence to be collecte
 
 *Quick note from 2024: I'm aware of the design of Kris from that rodeo teaser. I'm pretty much keeping this up for historical reasons at this point. Encase you're wondering, here's Kris' design from there:*
 
-<center><img src="/blog-files/yeehowdy.webp" type="image/webp" width="100" style="image-rendering:pixelated" /></center>
+<center><img src="/blog-files/yeehowdy.webp" type="image/webp" width="100" style="image-rendering:pixelated" alt="Kris, from Deltarune, dressed up in a cowboy outfit." /></center>
