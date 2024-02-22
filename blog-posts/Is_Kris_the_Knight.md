@@ -1,7 +1,7 @@
 ---
 title: Is Kris the Knight?
 date: 2021 Oct 23
-updated: 2024 Feb 1
+updated: 2024 Feb 21
 ---
 Is Kris <span style="color: hotpink; font-style: italic;">the Knight</span>? At face value, this seems insane. Right? Well, let's look at the evidence.
 
