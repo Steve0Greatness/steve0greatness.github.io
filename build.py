@@ -16,7 +16,6 @@ LOCAL_BUILD_DIR = "build"
 IS_GH_ACTIONS = len(argv) > 1 and argv[1] == "gh-pages-deploy"
 BUILD_DIRECTORY = GITHUB_BUILD_DIR if IS_GH_ACTIONS else LOCAL_BUILD_DIR
 
-
 PAGES = {
     "index.html": "index.html",
     "blog-list.html": "blog/index.html",
