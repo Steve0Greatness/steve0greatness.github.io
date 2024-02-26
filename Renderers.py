@@ -12,3 +12,4 @@ __MDRenderer__ = MDEnv(extras=["header-ids", "metadata", "markdown-in-html", "co
 def RenderMarkdown(MDSource: str):
     """Renders Markdown, but pre-configured."""
     return __MDRenderer__.convert(MDSource)
+
