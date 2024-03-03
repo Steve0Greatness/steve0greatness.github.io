@@ -1,8 +1,7 @@
----
 title: Fortress Forever on Linux!
 date: 2022 Dec 16
 updated: 2024 Feb 4
----
+
 Fortress Forever is finally playable fully on Linux using Proton-GE version 7-41, although there's a bug where if you change the settings then try to connect to a server: the game crashes. This issue, however, is very easily solved by rebooting the game.
 
 If you need a quick rundown on how to download and install Proton-GE, [I've made a video about that already](https://youtu.be/B2LZ8nYd3Bw). It is technically about a different game, but the problem is still similar enough to apply pretty much the same steps.

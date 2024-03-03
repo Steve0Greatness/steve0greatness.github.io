@@ -1,8 +1,7 @@
----
 title: Why local variables are called "let"
 date: 2022 Jan 10
 updated: 2024 Feb 2
----
+
 In JavaScript there are 3 different kinds of variables, global variables(using `var`), constants(`const`, and local variables`let`). All of the act a little differently from each other. Allow me to explain what they do.
 
 Global variables, made using `var`, are as they sound, global variables. Once defined, they can be used, edited, or redefined anywhere.

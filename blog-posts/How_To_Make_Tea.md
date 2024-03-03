@@ -1,8 +1,7 @@
----
 title: How to Make the perfect Tea.
 date: 2021 Sep 28
 updated: 2024 Feb 2
----
+
 *This post is subjective, there's no **right** answer to "what is the perfect tea."*
 
 Tea is the perfect fit for most meals, breakfast, 2nd breakfast, morning tea, lunch, afTernoon tea, dinner, or supper.

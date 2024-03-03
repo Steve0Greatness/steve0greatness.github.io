@@ -1,7 +1,6 @@
----
 title: Satisfactory Concept: Farming
 date: 2023 Apr 16
----
+
 Here is my idea for automating the collection of healing materials(such as Beryl Nuts) in Satisfactory
 
 ## Plant Pods

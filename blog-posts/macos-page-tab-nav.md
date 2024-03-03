@@ -1,8 +1,7 @@
----
 title: MacOS Keyboard Navigation 
 date: 2022 Feb 26
 updated: 2024 Feb 14
----
+
 Ok, so I feel like a complete idiot right now.
 
 I've been trying to use <kbd>Tab</kbd> to navigate webpages on my MacBook for what feels like forever now. Turns out, it was as simple as hitting <kbd><kbd>Ctrl</kbd>+<kbd>F7</kbd></kbd>.

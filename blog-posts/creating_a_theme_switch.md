@@ -1,8 +1,7 @@
----
 title: Create a Theme Switch
 date: 2021 Dec 08
 updated: 2024 Feb 03
----
+
 This is a simple tutorial on how to make a simple theme switcher.
 
 First step is to create the themes you'll want on your site. You may just want a light and dark mode, however, you may also want other themes. As an example: a clown theme that makes the page absurdly colorful, like a GeoCities site in the early 2000s. For these themes, you can use CSS variables set on the `html` parent tag(all other elements are considered children of `html`). Variables can be set in CSS using double hyphens followed by a sequence of text that can use numbers(but not at the start), letters(capital or lowercase), underscores, and hyphens; these variables can then be accessed within your text using the `var()` function with the name of the variable(including the starting hyphens). You can change out the CSS variables using different selectors on the `html` tag within the CSS, for me: I'm using the `[data-theme]` attribute; however, you can use classes if you want. Here is the CSS I wrote:

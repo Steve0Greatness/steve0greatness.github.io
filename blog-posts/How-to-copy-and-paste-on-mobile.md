@@ -1,8 +1,6 @@
----
 title: How to Copy and Paste on mobile
 date: 2021 May 05
 updated: 2024 Jan 03
----
 
 <div class="notice">This post isn't very good, and I'm not proud of it.</div>
 

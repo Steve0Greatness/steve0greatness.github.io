@@ -1,8 +1,7 @@
----
 title: TF2 disguise Command
 date: 2022 Dec 17
 updated: 2024 Jan 17
----
+
 A Spy class-specific command
 
 ## Layout

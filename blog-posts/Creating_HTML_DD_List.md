@@ -1,8 +1,7 @@
----
 title: Creating a HTML drop-down list
 date: 2021 Oct 01
 updated: 2024 Jan 26
----
+
 In order to create a drop-down selection list in HTML, we must first understand why they are important.
 
 Drop-down lists can be used in lots of ways, from creating a way for people to chose from a strict set of options, to making an on-off switch(even though you should use buttons for that).

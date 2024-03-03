@@ -1,8 +1,7 @@
----
 title: Creating a Switch in HTML and CSS
 date: 2022 Feb 11
 updated: 2023 Feb 2
----
+
 A switch is something that is basically just a nicer looking checkbox. Here, I'll be showing you how to make one.
 
 The first step is to create checkbox with any class; I'll be using `switch`, because it's a switch.

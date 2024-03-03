@@ -1,8 +1,7 @@
----
 title: Is Kris the Knight?
 date: 2021 Oct 23
 updated: 2024 Feb 21
----
+
 Is Kris <span style="color: hotpink; font-style: italic;">the Knight</span>? At face value, this seems insane. Right? Well, let's look at the evidence.
 
 First and foremost, <span style="color: hotpink; font-style: italic;">the Knight</span> opens <span style="color: red; font-style: italic;">Dark Fountains</span>. Now, what does Kris do at the end of Chapter 2? They create a <span style="color: red; font-style: italic;">Dark Fountain</span>.

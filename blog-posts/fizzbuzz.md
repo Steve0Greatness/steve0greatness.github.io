@@ -1,8 +1,7 @@
----
 title: The FizzBuzz Program
 date: 2022 Feb 20
 updated: 2024 Feb 2
----
+
 A FizzBuzz Program is a program used in many job interviews to see if a programmer is good at problem solving. There are many ways to make one.
 
 First let me tell you why I write these programs. These programs, at least in my opinion, are good when you're learning a new programming language. It gives you a problem to solve, and all you need to do to solve it. Incase you're wondering, the problem is to make a program that counts from 1 to 100 and replaces all multiples of 3 with Fizz, all multiples of 5 with Buzz, and multiples of both with FizzBuzz. Generally in interviews, they also ask you to add on more multiples, such as multiples of 7 are replaced with Fuzz, and multiples of 11 are replaced with Bizz.

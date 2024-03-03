@@ -1,7 +1,6 @@
----
 title: How to Store a Passwords
 date: 2023 Nov 2
----
+
 **Disclaimer**: The world of cyber-security is an incredibly complex and constantly evolving topic, and I am not a cyber-security researcher; I create projects for fun.
 
 Storing a password in a server can be intimidating. Password management is incredibly tricky, as anything you mess up could compromise your users' password(s). Thankfully, random websites you've never visited before have a pure HTML blog post from 2023 about that exact topic, and how to do it properly.

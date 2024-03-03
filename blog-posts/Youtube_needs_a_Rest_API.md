@@ -1,8 +1,7 @@
----
 title: YouTube needs to have an open REST API
 date: 2021 Sep 29
 updated: 2024 Feb 2
----
+
 *2024 Note: I don't care anymore. I'm keeping this around for historical reasons at this point.*
 
 Youtube needs an open Rest API. Here are some reasons:
