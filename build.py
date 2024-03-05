@@ -93,7 +93,7 @@ def GetBlogList():
             Item["rss-post-time"] = PostDateToDateObj(Item["date"]).strftime("%a, %d %b %Y") + " 00:00:00 GMT"
             Item["atom-post-time"] = PostDateToDateObj(Item["date"]).strftime("%Y-%m-%d") + "T00:00:00Z"
             Item["opengraph-date"] = PostDateToDateObj(Item["date"]).strftime("%Y-%m-%d") 
-            Item["opengraph-update"] = Item["opengraph-date"] 
+            Item["opengraph-update"] = Item["opengraph-date"]
             Item["atom-update-time"] = Item["atom-post-time"]
             if "updated" in Item:
                 Item["atom-update-time"] = PostDateToDateObj(Item["updated"]).strftime("%Y-%m-%d") + "T00:00:00Z"
@@ -277,3 +277,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
