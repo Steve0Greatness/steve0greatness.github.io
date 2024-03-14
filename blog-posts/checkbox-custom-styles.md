@@ -20,8 +20,10 @@ input[type="checkbox"] {
     background-color: grey;
 }
 ```
+<br />
 
 <iframe src="/blog-files/checkbox-custom-styles-ex1.html" style="background: #000; border: none"></iframe>
+<a href="/blog-files/checkbox-custom-styles-ex1.txt">View Source</a>
 
 Now we can do whatever we want to it. You're also able to add a `:checked` sudo to change certain elements(like the `background-color`) depending on if the checkbox is checked or not.
 
@@ -39,5 +41,7 @@ input[type="checkbox"]:checked {
     background: #ce5aff;
 }
 ```
+<br />
 
 <iframe src="/blog-files/checkbox-custom-styles-ex2.html" style="background: #000; border: none"></iframe>
+<a href="/blog-files/checkbox-custom-styles-ex2.html">View Source</a>
