@@ -27,3 +27,9 @@ Undertale_(Soundtrack)_music_1.ogg
 Undertale_(Soundtrack)_music_unused.oga
 yeehowdy.webp
 
+=> Undetermined
+
+# The following files I'm not sure about.
+
+blog-files/Steve0Greatness-Pronounciation.oga
+
