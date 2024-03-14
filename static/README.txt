@@ -22,10 +22,10 @@ blog-files/English_teaware.jpg
 
 # (c) Toby Fox
 
-Kris_battle_idle.gif
-Undertale_(Soundtrack)_music_1.ogg
-Undertale_(Soundtrack)_music_unused.oga
-yeehowdy.webp
+blog-files/Kris_battle_idle.gif
+blog-files/Undertale_(Soundtrack)_music_1.ogg
+blog-files/Undertale_(Soundtrack)_music_unused.oga
+blog-files/yeehowdy.webp
 
 => Undetermined
 
