@@ -23,6 +23,10 @@ list:
         href: https://wasteof.money/users/steve0greatness
         text: wasteof.money
         comment: often inactive
+      - type: link
+        href: https://www.threads.net/@steve0greatness
+        text: Threads
+        comment: often inactive
   - type: category
     title: Content/Cloud Hosts
     id: content-hosting
@@ -86,6 +90,10 @@ list:
       - type: link
         href: https://steve0greatness.imgbb.com
         text: ImgBB
+        comment: often inactive
+      - type: link
+        href: https://www.instagram.com/steve0greatness/
+        text: Instagram
         comment: often inactive
       - type: link
         href: https://modshare.futuresight.org/users/Steve0Greatness
@@ -355,4 +363,8 @@ list:
       - type: link
         href: https://openlibrary.org/people/steve_apos_s_greatness
         text: Open Library
+        comment: often inactive
+      - type: link
+        href: https://www.facebook.com/profile.php?id=61553344984089
+        text: FaceBook
         comment: often inactive
