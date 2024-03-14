@@ -2,7 +2,7 @@ title: Customize an HTML Checkbox
 date: 2022 Feb 19
 updated: 2024 Feb 2
 
-TL;DR: `appearance: none;`.
+**TL;DR**: `appearance: none;`.
 
 Checkboxes are hard to style. But when you're making a website, they may look ugly.
 
