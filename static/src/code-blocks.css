@@ -3,7 +3,7 @@
 .codehilite, pre:not(.codehilite pre) code { font-size: .85rem; font-family: "mononoki", monospace; background: #272822; color: #f8f8f2; padding: 10px; display: block; }
 :any-link code:not(.codehilite code):not(pre code) { color: inherit }
 code:not(.codehilite code):not(pre code) { display: inline-block; font-family: "mononoki", monospace; background: #272822; color: #f8f8f2; padding: 5px; margin: 5px 0}
-.codehilite pre { margin: 0; }
+.codehilite pre { margin: 0; white-space: pre-wrap }
 .codehilite .c { color: #75715e } /* Comment */
 .codehilite .err { color: #960050; background-color: #1e0010 } /* Error */
 .codehilite .k { color: #66d9ef } /* Keyword */
