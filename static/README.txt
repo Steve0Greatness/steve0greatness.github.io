@@ -1,4 +1,5 @@
-Not all files within this directory may fall under the GPL-3.0 license. Files that don't fall under the repository's license are listed below:
+Not all files within this directory may fall under the GPL-3.0 license.
+Files that don't fall under the repository's license are listed below:
 
 => Open Source
 
