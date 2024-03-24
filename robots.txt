@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /src/
+Disallow: /favicon.ico
+Disallow: /.nojekyll
+Disallow: /md-src.svg
+Disallow: /rss-feed.png
+Disallow: /toot-kytta-dev-icon.svg
+Disallow: /blog/feed.rss
+Disallow: /blog/feed.atom
+Disallow: /blog/feed.json
+Disallow: /blog/*.txt
+
+sitemap: https://steve0greatness.github.io/sitemap.txt

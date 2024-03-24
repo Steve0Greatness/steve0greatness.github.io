@@ -1,0 +1,158 @@
+@import url("/fonts/inter/inter.css");
+@import url("/fonts/mononoki/mononoki.css");
+
+body,
+html {
+    margin: 0;
+    width: 100vw;
+    font-size: 95%;
+    font-family: "Inter";
+}
+
+body {
+    background-color: #19191b;
+    color: #fff;
+}
+
+:any-link {
+    color: #9a9af0;
+}
+
+:any-link:visited {
+    color: #a99af0;
+}
+
+:any-link:active {
+    color: #f09a9a;
+}
+
+main {
+    padding: 0 8px;
+    max-width: 60vw;
+    margin: 0 auto;
+}
+
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+    text-align: center;
+}
+
+.breadcrumbs {
+    list-style: none;
+    padding: 16px 8px 0;
+    margin: 0 auto;
+    width: 60vw;
+}
+
+.breadcrumbs li {
+    display: inline-block;
+}
+
+.breadcrumbs li + li::before {
+    content: "\0000BB";
+}
+
+body > header {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    background-color: #0b0b0c;
+    border-bottom: 1px solid #fff;
+}
+
+body > header :any-link {
+    color: #f1f1f1 !important;
+    font-style: italic;
+    text-decoration: none;
+}
+
+body > header h2 {
+    flex: 1;
+    font-size: large;
+    margin: 0;
+}
+
+body > header nav {
+    font-size: large;
+    flex: 1.15;
+}
+
+body > header nav :any-link:not(:last-child) {
+    margin-right: 15px;
+}
+
+tr > :not(:last-child) {
+    padding-right: 15px;
+}
+
+body > footer {
+    display: flex;
+    align-items: first baseline;
+    margin: 8px;
+    margin-top: 12px;
+    width: calc(100vw - 16px);
+    padding-top: 3px;
+    border-top: 1px currentColor solid;
+}
+
+.footer-link-list-holder {
+    flex: 1;
+}
+
+.footer-link-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.footer-link-list-label {
+    font-weight: 900;
+    font-size: 1.05rem;
+}
+
+img {
+    image-rendering: optimizeQuality;
+}
+
+abbr :any-link {
+    text-decoration-style: dotted;
+    text-decoration-color: currentColor;
+}
+
+abbr:has(:any-link) {
+	text-decoration: none;
+}
+
+kbd {
+	white-space: pre-wrap;	
+	font-family: "mononoki", monospace;
+	display: inline-block;
+	font-size: .85rem;
+}
+
+:not(samp) kbd:not(:has(kbd)) {
+	background-color: #222728;
+	color: currentColor;
+	border: currentColor 1px solid;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 1px 0;
+}
+
+samp kbd {
+	display: block;
+}
+
+samp {
+	background-color: #282722;
+	color: #fff;
+	font-family: "mononoki", monospace;
+	padding: 10px;
+	display: block;
+	font-size: .85rem;
+	white-space: pre-wrap;
+}

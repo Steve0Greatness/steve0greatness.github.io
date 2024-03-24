@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        input[type="checkbox"] {
+            appearance: none;
+            width: 15px;
+            height: 15px;
+            background-color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="checkbox" />
+</body>
+
+</html>
