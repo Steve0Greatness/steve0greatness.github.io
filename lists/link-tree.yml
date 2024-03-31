@@ -180,6 +180,10 @@ list:
         text: Chess.com
         comment: often inactive
       - type: link
+        href: https://www.faceit.com/en/players/Steve0Great
+        text: Faceit
+        comment: ""
+      - type: link
         href: https://lichess.org/@/Steve0greatness
         text: Lichess
         comment: often inactive
