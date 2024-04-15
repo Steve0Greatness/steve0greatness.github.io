@@ -137,14 +137,17 @@ list:
       - type: link
         href: https://gitlab.com/steve0greatness
         text: GitLab
+        comment: often inactive
       - type: link
         href: https://codeberg.org/steve0greatness
         text: Codeberg
-        comment: often inactive
       - type: link
         href: https://gitea.org/steve0greatness
         text: Gitea
         comment: often inactive
+      - type: link
+        href: https://notabug.org/Steve0Greatness
+        text: NotABug.org
   - type: category
     title: Game Services
     id: gaming
