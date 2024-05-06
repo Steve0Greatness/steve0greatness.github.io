@@ -5,5 +5,6 @@ mv build/* .
 git add .
 git commit -m "Pages Build & Deploy"
 git push codeberg pages
+git push roundabout www
 git branch -d pages
 git checkout main
