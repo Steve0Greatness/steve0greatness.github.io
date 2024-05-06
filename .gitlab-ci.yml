@@ -1,14 +1,12 @@
-image: busybox:latest
+image: python:latest
 
 pages:
   stage: deploy
-  image: python:latest
   script:
-    - echo "The site will be deployed to $CI_PAGES_URL"
     - python3 build.py gh-pages-deploy
     - python3 -m pip install -r requirements.txt
   artifacts:
     paths:
       - build
   only:
-    - pages
+    - main
