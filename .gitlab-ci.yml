@@ -1,0 +1,18 @@
+image: busybox:latest
+
+build:
+  stage: build
+  image: python:latest
+  script:
+    - python build.py gh-pages-deploy
+
+pages:
+  stage: deploy
+  script:
+    - echo "The site will be deployed to $CI_PAGES_URL"
+  artifacts:
+    paths:
+      - build
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
