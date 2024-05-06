@@ -26,6 +26,7 @@ PAGES = {
     "blog-feed.rss": "blog/feed.rss",
     "blog-feed.atom": "blog/feed.atom",
     "404.html": "404.html",
+    "404.html": "not_found.html",
 }
 
 DISALLOWED_SITEMAP = {
@@ -34,6 +35,7 @@ DISALLOWED_SITEMAP = {
     "blog-feed.atom",
     "blog-list.html",
     "index.html",
+    "not_found.html",
 }
 
 REDIRECTS = {
