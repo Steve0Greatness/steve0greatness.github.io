@@ -1,0 +1,37 @@
+title: Mirrors of Site
+paragraph: This is a list of all official mirrors of the sites source, the site itself, or both.
+list:
+  - type: category
+    title: Source Code
+    id: source-code
+    list:
+      - type: link
+        href: https://codeberg.org/Steve0Greatness/www.git
+        text: Codeberg
+      - type: link
+        href: https://gitlab.com/Steve0Greatness/steve0greatness.gitlab.io.git
+        text: GitLab
+      - type: link
+        href: https://github.com/Steve0Greatness/steve0greatness.github.io.git
+        text: GitHub
+      - type: link
+        href: https://roundabout-host.com/steve0greatness/website
+        text: Roundabout
+        comment: Unstable
+  - type: category
+    title: Websites
+    id: websites
+    list:
+      - type: link
+        href: https://steve0greatness.codeberg.page/
+        text: Codeberg
+      - type: link
+        href: https://steve0greatness.gitlab.io/
+        text: GitLab
+      - type: link
+        href: https://steve0greatness.github.io/
+        text: GitHub
+      - type: link
+        href: https://steve0greatness.roundabout-host.com/
+        text: Roundabout
+        comment: Unstable
