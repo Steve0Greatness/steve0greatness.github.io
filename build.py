@@ -12,7 +12,8 @@ from typing import Literal
 
 DEPLOY_BUILD_DIR = {
     "gh-pages-deploy": "build",
-    "gl-pages-deploy": "public"
+    "gl-pages-deploy": "public",
+    "cb-pages": "build",
 } # Separate because this site is built with an action that won't work if they aren't
 LOCAL_BUILD_DIR = "build"
 
