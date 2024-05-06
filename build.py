@@ -10,11 +10,14 @@ from yaml import safe_load as LoadYML
 from re import sub as RegReplace
 from typing import Literal
 
-GITHUB_BUILD_DIR = "build" # Separate because this site is built with an action that won't work if they aren't
+DEPLOY_BUILD_DIR = {
+    "gh-pages-deploy": "build",
+    "gl-pages-deploy": "public"
+} # Separate because this site is built with an action that won't work if they aren't
 LOCAL_BUILD_DIR = "build"
 
-IS_GH_ACTIONS = len(argv) > 1 and argv[1] == "gh-pages-deploy"
-BUILD_DIRECTORY = GITHUB_BUILD_DIR if IS_GH_ACTIONS else LOCAL_BUILD_DIR
+PAGES_DEPLOY = argv[1] if len(argv) > 1 else None
+BUILD_DIRECTORY = DEPLOY_BUILD_DIR[PAGES_DEPLOY] if PAGES_DEPLOY is not None else LOCAL_BUILD_DIR
 
 PAGES = {
     "index.html": "index.html",
@@ -76,7 +79,7 @@ def PostSortHelper(Post):
 def GetBlogList():
     print("Grabbing post list")
     PostSlugs: tuple[tuple[Literal["blog-posts", "drafts"], str], ...] = tuple( ("blog-posts", file) for file in ListDirectory("blog-posts") )
-    if not IS_GH_ACTIONS and PathExists("drafts"):
+    if not PAGES_DEPLOY and PathExists("drafts"):
         PostSlugs = PostSlugs + tuple( ("drafts", file) for file in ListDirectory("drafts") )
     Posts = []
     for dir, slug in PostSlugs:

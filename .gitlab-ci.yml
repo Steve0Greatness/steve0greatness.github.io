@@ -1,12 +1,14 @@
 image: python:latest
 
+before_script:
+  - python -m pip install -r requirements.txt
+
 pages:
-  stage: deploy
   script:
-    - python3 -m pip install -r requirements.txt
-    - python3 build.py gh-pages-deploy
+    - python build.py gl-pages-deploy
   artifacts:
     paths:
-      - build
-  only:
-    - main
+      - public
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+
