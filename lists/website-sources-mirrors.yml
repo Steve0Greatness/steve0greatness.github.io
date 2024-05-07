@@ -35,3 +35,10 @@ list:
         href: https://steve0greatness.roundabout-host.com/
         text: Roundabout
         comment: Unstable
+      - type: link
+        href: https://steve0greatness.neocities.org/
+        text: Neocities
+        comment: Some stuff does not work
+      - type: link
+        href: https://steve0greatness.nekoweb.org/
+        text: Nekoweb
