@@ -42,3 +42,9 @@ list:
       - type: link
         href: https://steve0greatness.nekoweb.org/
         text: Nekoweb
+      - type: link
+        href: https://steve0greatness.surge.sh/
+        text: Surge.sh
+      - type: link
+        href: https://steve0greatness.pages.dev/
+        text: Cloudflare Pages
