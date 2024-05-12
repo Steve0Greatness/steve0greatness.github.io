@@ -1,16 +1,23 @@
 {% macro GenerateBreadcrumbs(pages=[]) %}
 <nav aria-label="breadcrumbs" aria-roledescription="Site breadcrumb">
 	<ol class="breadcrumbs">
+        {% if pages|length != 0 %}
     		<li>
         		<a href="/">Index</a>
 	    	</li>
     		{% for page in pages %}
-	    	<li {% if loop.revindex0 == 0 %}aria-current="location"{% endif %}>
-        	{% if loop.revindex0 != 0 %}<a href="{{page['href']}}">{% endif %}
-           		{{page["title"]}}
-        		{% if loop.revindex0 != 0 %}</a>{% endif %}
+	    	<li >
+                <a
+                    {% if loop.revindex0 == 0 %}aria-current="location"{% endif %}
+                    href="{{page['href']}}"
+                >{{page["title"]}}</a>
     		</li>
     		{% endfor %}
+        {% else %}
+            <li>
+        		<a href="/" aria-current="location">Index</a>
+	    	</li>
+        {% endif %}
 	</ol>
 </nav>
 {%- endmacro %}

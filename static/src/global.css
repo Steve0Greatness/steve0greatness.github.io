@@ -24,6 +24,7 @@ body {
 
 main {
     padding: 8px;
+    box-sizing: border-box;
     max-width: 60vw;
     margin: 0 auto;
     background-color: #19191b;
@@ -32,6 +33,7 @@ main {
 .breadcrumbs {
     list-style: none;
     padding: 8px;
+    box-sizing: border-box;
     margin: 16px auto 8px auto;
     width: 60vw;
     border: 1px solid black;
@@ -49,6 +51,7 @@ main {
 body > header {
     display: flex;
     padding: 20px;
+    box-sizing: border-box;
     align-items: center;
     width: 60vw;
     margin: 0 auto;
@@ -87,6 +90,7 @@ body > footer {
     margin-top: 12px;
     width: 60vw;
     padding-top: 3px;
+    box-sizing: border-box;
     background-color: #19191b;
     border-top: 1px currentColor solid;
 }
