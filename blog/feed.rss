@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" >
+
+<channel>
+    <atom:link href="https://steve0greatness.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+    <title>Steve0Greatness' Blog</title>
+    <link>https://steve0greatness.github.io/</link>
+    <description>A blog by a human being.</description>
+    <language>en-us</language>
+    <generator>Custom w/Jinja</generator>
+    <image>
+        <link>https://steve0greatness.github.io/</link>
+        <title>Steve0Greatness' Blog</title>
+        <url>https://steve0greatness.github.io/RSS-Img.png</url>
+        <description>A blog by a human being.</description>
+        <height>144</height>
+        <width>120</width>
+    </image>
+    
+    <item>
+        <title>About my Username</title>
+        <link>https://steve0greatness.github.io/blog/name.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/name.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/name.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;There's a lot of information about my username. So I thought I'd make this blog post to explain basically everything about it.&lt;/p&gt;
+
+&lt;h2 id="pronounciation"&gt;Pronounciation&lt;/h2&gt;
+
+&lt;p&gt;The pronounciation is Steve (/stiːv/) Zero (/ˈzɪərəʊ/, /ˈzɪroʊ/, or /ˈziroʊ/) Greatness (/ˈɡɹeɪtnəs/). &lt;/p&gt;
+
+&lt;p&gt;&lt;audio controls="true"&gt;
+    &lt;source src="/blog-files/Steve0Greatness-Pronounciation.oga" type="audio/ogg" /&gt;
+    Oh no! Your browser does not support audio controls. Maybe try &lt;a href="/blog-files/Steve0Greatness-Pronounciation.oga"&gt;downloading the audio file&lt;/a&gt;?
+&lt;/audio&gt;&lt;/p&gt;
+
+&lt;p&gt;The above audio file was generated with &lt;a href="https://github.com/espeak-ng/espeak-ng/"&gt;eSpeak&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id="history"&gt;History&lt;/h2&gt;
+
+&lt;p&gt;Fun fact: when it was still I around, I was fairly active on &lt;a href="https://blocksworld.com/"&gt;Blocksworld&lt;/a&gt;. If you don't know: Blocksworld is a sandbox, similar to &lt;a href="https://scratch.mit.edu/"&gt;Scratch&lt;/a&gt;, but in 3D.&lt;/p&gt;
+
+&lt;p&gt;On Blocksworld, I went by the username &lt;em&gt;Steve's Greatness&lt;/em&gt;. This name was because I really liked Minecraft(hence the Steve) and the Greatness... is because I really liked Minecraft, and I thought it was great.&lt;/p&gt;
+
+&lt;p&gt;Eventually, when signing up for Scratch, to my dismay they didn't allow apostrophes or spaces. As a result: I decided to use a 0 inplace of the "'s ", hence the name: &lt;em&gt;Steve0Greatness&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can still see remnants of this name original name: my &lt;a href="https://replit.com/@StevesGreatness"&gt;Replit username is &lt;em&gt;StevesGreatness&lt;/em&gt;&lt;/a&gt;; and in 2020 I had made &lt;a href="https://scratch.mit.edu/users/Steves_greatness"&gt;a new Scratch account&lt;/a&gt;, with intentions of moving there.&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">name.html</guid>
+        <pubDate>Wed, 13 Mar 2024 00:00:00 GMT</pubDate>
+        <atom:published>2024-03-13T00:00:00Z</atom:published>
+        <atom:updated>2024-03-13T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>My HTML Tag Ranking</title>
+        <link>https://steve0greatness.github.io/blog/html-tag-ranking.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/html-tag-ranking.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/html-tag-ranking.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;I like HTML. I recently found a video of &lt;a href="t3.gg"&gt;Theo&lt;/a&gt; ranking HTML tags with a tierlist, the video is available on YouTube(&lt;a href="https://youtu.be/EtYtYnhxeNc"&gt;URL&lt;/a&gt;), and the tierlist is on TierMaker(&lt;a href="https://tiermaker.com/create/html-elements-16095055"&gt;URL&lt;/a&gt;). Without further ado, here is how I ranked all* HTML elements.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/blog-files/HTML_tierlist.png" style="width: 97%; height: auto" alt="S: h1, html, ul, link, details, summary, form, title, kbd, a, main, p, b, head, body, img, meta, br, footer, label, input; A: track, blockquote, q, h2, h3, hr svg, tfoot, i, u, textarea, style, code, tbody, optgroup, th, tr, option, select, pre, datalist, s, nav, td, em, iframe, embed, video, dialog, button, mark, ol, noscript, table, article, header, col, field, figcaption, samp, thead, area, colgroup; B: sup, progress, sub, h4, cite, strong, strike, picture, audio, h5, source, h6, canvas, abbr, script, caption; C: figure, math, wbr, hgroup, section, div, small, center, span, template; D: data, object, slot, marquee" /&gt;&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">html-tag-ranking.html</guid>
+        <pubDate>Wed, 14 Feb 2024 00:00:00 GMT</pubDate>
+        <atom:published>2024-02-14T00:00:00Z</atom:published>
+        <atom:updated>2024-02-21T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>My blog is now in one place</title>
+        <link>https://steve0greatness.github.io/blog/singular-blog.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/singular-blog.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/singular-blog.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;Alright, I've now moved all my full blog posts over to this one website. There might be other I miss in other places, but I'll add them here soon. I will not be moving over my micro-blogs, however. Those are too small, and I'd rather keep those separated anyway.&lt;/p&gt;
+
+&lt;p&gt;I'm not a fan of how I wrote before December of 2022, everything there is filled with spelling mistakes and grammar issues, I also think most of it was rude towards the reader, which is not a good impression.&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">singular-blog.html</guid>
+        <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+        <atom:published>2024-01-01T00:00:00Z</atom:published>
+        <atom:updated>2024-01-01T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>How to Store a Passwords</title>
+        <link>https://steve0greatness.github.io/blog/How-to-Store-Passwords.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/How-to-Store-Passwords.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/How-to-Store-Passwords.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: The world of cyber-security is an incredibly complex and constantly evolving topic, and I am not a cyber-security researcher; I create projects for fun.&lt;/p&gt;
+
+&lt;p&gt;Storing a password in a server can be intimidating. Password management is incredibly tricky, as anything you mess up could compromise your users' password(s). Thankfully, random websites you've never visited before have a pure HTML blog post from 2023 about that exact topic, and how to do it properly.&lt;/p&gt;
+
+&lt;p&gt;Basically, it's just this sequence of steps:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Generate a long random sequence of characters, this is called a &lt;em&gt;&lt;a href="https://en.wikipedia.org/wiki/Salt_(cryptography)"&gt;salt&lt;/a&gt;&lt;/em&gt;(generate for each user, do not use a master salt)&lt;/li&gt;
+&lt;li&gt;Prepend(or append, it doesn't matter, just keep it consistent) this to the user's password&lt;/li&gt;
+&lt;li&gt;Use a &lt;a href="https://en.wikipedia.org/wiki/Hash_function"&gt;hashing algorithm&lt;/a&gt;, such as &lt;a href="https://en.wikipedia.org/wiki/PBKDF2"&gt;PBKDF2&lt;/a&gt;, to generate a unique sequence of characters that will uniquely identify that password.&lt;/li&gt;
+&lt;li&gt;Store the salt and hash in the same place, &lt;em&gt;do not&lt;/em&gt; store the password on it's own.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And to check if a password is right, repeat the steps, except rather than generating a random sequence of characters, get the sequence of characters that you've stored along with the hash.&lt;/p&gt;
+
+&lt;h2 id="why-do-this"&gt;Why Do &lt;em&gt;This&lt;/em&gt;?&lt;/h2&gt;
+
+&lt;p&gt;You might be thinking: &lt;em&gt;That's a bit arbitrary innit?&lt;/em&gt; And if you aren't then you can stop reading now.&lt;/p&gt;
+
+&lt;p&gt;This method of storing passwords is the only way to ensure that you are securely storing them. So let's go through some other ways, and why they aren't so good.&lt;/p&gt;
+
+&lt;h3 id="plaintext-passwords"&gt;Plaintext Passwords&lt;/h3&gt;
+
+&lt;p&gt;Storing your passwords in plaintext allows anyone who can get into your server to easily take any password they want, as no matter how good your users' password is, their account will be hacked if an unauthorized or malicious individual is able to get in.&lt;/p&gt;
+
+&lt;h3 id="encrypted-passwords"&gt;Encrypted Passwords&lt;/h3&gt;
+
+&lt;p&gt;This is basically just plaintext with additional steps. As long as your master-key is stored somewhere, it will get stolen as soon as somebody manages to get into your system.&lt;/p&gt;
+
+&lt;h3 id="bare-hashing"&gt;Bare Hashing&lt;/h3&gt;
+
+&lt;p&gt;A hash isn't able to be undone, meaning theoretically you should be able to &lt;em&gt;just&lt;/em&gt; hash your password. This, while a fair assumption, has unfortunately been incorrect for quite some time. There are databases online that store every word in the english language(or just some words) in addition to common passwords and their hashes, and users will often use words for their passwords, even though it's insecure.&lt;/p&gt;
+
+&lt;p&gt;This is where salts come in. Due to the nature of hashes, even a single change in a string will entirely change it's hash, as such, if you add a random sequence of characters to a string, then you can entirely change it's hash.&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">How-to-Store-Passwords.html</guid>
+        <pubDate>Thu, 02 Nov 2023 00:00:00 GMT</pubDate>
+        <atom:published>2023-11-02T00:00:00Z</atom:published>
+        <atom:updated>2023-11-02T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>Satisfactory Concept: Farming</title>
+        <link>https://steve0greatness.github.io/blog/satisfactory-farming-idea.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/satisfactory-farming-idea.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/satisfactory-farming-idea.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;Here is my idea for automating the collection of healing materials(such as Beryl Nuts) in Satisfactory&lt;/p&gt;
+
+&lt;h2 id="plant-pods"&gt;Plant Pods&lt;/h2&gt;
+
+&lt;p&gt;Plant pods would be researchable in the Nutrients section of the MAM. It would cost:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;5 modular frames &lt;/li&gt;
+&lt;li&gt;10 steel pipes&lt;/li&gt;
+&lt;li&gt;20 biofuel&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;to research.&lt;/p&gt;
+
+&lt;p&gt;You'd be able to build it in a new &lt;em&gt;Farming&lt;/em&gt; section in the production category of the build menu. It would cost the user:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;4 steel pipes&lt;/li&gt;
+&lt;li&gt;2 quickwire&lt;/li&gt;
+&lt;li&gt;5 biofuel&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;to build. It would require 1 MW of power to function. Plants that are left without power while in there will not continue growing or providing harvest, however they will not die(that'd be annoying if they did).&lt;/p&gt;
+
+&lt;p&gt;The user would be able to interact with the planting pod to bring up a menu that tells them what stage of growing it's at(baby, growing, fully grown), how ripe for harvest the plant is(out of 3 states: none, starting, ripe). The UI will have a button to harvest at the bottom, and a box that will allow the plant to be exchanged for another--which would give you a few leaves, proportional to how long it's been growing(0 if baby, 4 if growing, 10 if fully grown), and the amount of fruit they would have gotten from the harvest + 1 extra(for the fruit they put in).&lt;/p&gt;
+
+&lt;h2 id="robot-farmers"&gt;Robot Farmers&lt;/h2&gt;
+
+&lt;p&gt;Researchable under the &lt;em&gt;Crystal Oscillator&lt;/em&gt;. The research cost is:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;10 Crystal Oscillators&lt;/li&gt;
+&lt;li&gt;5 AI limiter&lt;/li&gt;
+&lt;li&gt;3 quickwire&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These little farmers need power to survive, which is why the &lt;em&gt;ROBOT charger&lt;/em&gt; is unlocked with them.
+This building can be built in the power section. They cost:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;15 quickwire&lt;/li&gt;
+&lt;li&gt;2 modular frames&lt;/li&gt;
+&lt;li&gt;5 crystal oscillators&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;to build.&lt;/p&gt;
+
+&lt;p&gt;Once built, this building acts like the truck station, but instead of coal, it loads power, and it can only unload items from the bot's inventory.&lt;/p&gt;
+
+&lt;p&gt;The Robo-Farmer is then buildable under the &lt;em&gt;Farming&lt;/em&gt; section in the production category of the build menu. It costs:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1 Factory Cart&lt;/li&gt;
+&lt;li&gt;2 Crystal Oscillators&lt;/li&gt;
+&lt;li&gt;1 AI limiter&lt;/li&gt;
+&lt;li&gt;3 quickwire&lt;/li&gt;
+&lt;li&gt;5 steal pipes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;to build.&lt;/p&gt;
+
+&lt;p&gt;These little robots have themselves a little UI that allows you to select items they should farm. Once given a task, these robots will always return to the nearest &lt;em&gt;ROBOT charger&lt;/em&gt; when their inventory is full, or they are running low on power(robots will always attempt to keep themselves powered). If the robot cannot find a plant within range that is harvestable, then the they will wait until there is one. &lt;/p&gt;
+
+&lt;h2 id="getting-the-most-out-of-these-resources"&gt;Getting the most out of these resources&lt;/h2&gt;
+
+&lt;p&gt;Robot Farmers are best at traversing on foundations(they spend less power). As such, it is recommended, that the player create a flat platform that has plant pods with some space between for the bots to traverse between them. In the center, the player should build a &lt;em&gt;ROBOT charger&lt;/em&gt;, as it will allow the robots the run around equally in each direction. Players should also utilize the &lt;em&gt;Conveyor Lift&lt;/em&gt; to bring materials to a layer above for sorting, or other purposes.&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">satisfactory-farming-idea.html</guid>
+        <pubDate>Sun, 16 Apr 2023 00:00:00 GMT</pubDate>
+        <atom:published>2023-04-16T00:00:00Z</atom:published>
+        <atom:updated>2024-03-24T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>TF2 disguise Command</title>
+        <link>https://steve0greatness.github.io/blog/tf2-disguise-cmd.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/tf2-disguise-cmd.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/tf2-disguise-cmd.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;A Spy class-specific command&lt;/p&gt;
+
+&lt;h2 id="layout"&gt;Layout&lt;/h2&gt;
+
+&lt;p&gt;The basic layout of the disguise command is very simple.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;disguise [class] [team]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id="class-parameter"&gt;&lt;code&gt;class&lt;/code&gt; Parameter&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;1&lt;/code&gt; : Scout&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;2&lt;/code&gt; : Sniper&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;3&lt;/code&gt; : Soldier&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;4&lt;/code&gt; : Demoman&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;5&lt;/code&gt; : Medic&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;6&lt;/code&gt; : Heavy&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;7&lt;/code&gt; : Pyro&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;8&lt;/code&gt; : Spy&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;9&lt;/code&gt; : Engineer&lt;/p&gt;
+
+&lt;p&gt;The reason the classes are in this order is that they were added in that order. As mentioned in &lt;a href="https://wiki.teamfortress.com/wiki/Team_Fortress#Versions"&gt;&lt;em&gt;Quake World Team Fortress&lt;/em&gt; &#xa7; Versions&lt;/a&gt; on the Team Fortress wiki, it mentions the classes were added in the order of &lt;em&gt;scout&lt;/em&gt;, &lt;em&gt;sniper&lt;/em&gt;, &lt;em&gt;soldier&lt;/em&gt;, &lt;em&gt;demoman&lt;/em&gt;, and &lt;em&gt;medic&lt;/em&gt;; then &lt;em&gt;heavy&lt;/em&gt;; &lt;em&gt;pyro&lt;/em&gt;; and finally &lt;em&gt;spy&lt;/em&gt; and &lt;em&gt;engineer&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id="team-parameter"&gt;&lt;code&gt;team&lt;/code&gt; Parameter&lt;/h2&gt;
+
+&lt;p&gt;These depend upon what team you're on.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;-1&lt;/code&gt; : Enemy Team&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;-2&lt;/code&gt; : Friendly Team&lt;/p&gt;
+
+&lt;h3 id="specific-teams"&gt;Specific Teams&lt;/h3&gt;
+
+&lt;p&gt;These aren't extremely useful, but they exist. They are independent of the team you're on. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;1&lt;/code&gt; : Blu Team&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;2&lt;/code&gt; : Red Team&lt;/p&gt;
+
+&lt;h2 id="example"&gt;Example&lt;/h2&gt;
+
+&lt;p&gt;Normally, when you disguise as a spy of your team, you undisguise. This also applies to the disguise command, allowing for an "undisguise" command.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;disguise "8" "-2"
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You're also able to put this into a bind, allowing for an undisguise bind.&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">tf2-disguise-cmd.html</guid>
+        <pubDate>Sat, 17 Dec 2022 00:00:00 GMT</pubDate>
+        <atom:published>2022-12-17T00:00:00Z</atom:published>
+        <atom:updated>2024-01-17T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>Fortress Forever on Linux!</title>
+        <link>https://steve0greatness.github.io/blog/fortress-forever-on-linux.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/fortress-forever-on-linux.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/fortress-forever-on-linux.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;Fortress Forever is finally playable fully on Linux using Proton-GE version 7-41, although there's a bug where if you change the settings then try to connect to a server: the game crashes. This issue, however, is very easily solved by rebooting the game.&lt;/p&gt;
+
+&lt;p&gt;If you need a quick rundown on how to download and install Proton-GE, &lt;a href="https://youtu.be/B2LZ8nYd3Bw"&gt;I've made a video about that already&lt;/a&gt;. It is technically about a different game, but the problem is still similar enough to apply pretty much the same steps.&lt;/p&gt;
+
+&lt;p&gt;It plays pretty well, the only problem is when a local server changes maps, and the font for some of the menus(and the chat) being very... bad looking. It's not the game's fault for the second one, however, it is still something that's annoying if you don't want to do too much tinkering(I was never able to fix it, though).&lt;/p&gt;
+
+&lt;p&gt;I'm glad to be able to play this great game on my (used to be) daily drive OS without having to open &lt;a href="https://usebottles.com/"&gt;Bottles&lt;/a&gt; every time I want to play Fortress Forever.&lt;/p&gt;
+
+&lt;p&gt;Whenever I'm playing Fortress Forever, I'm usually on &lt;a href="https://www.gametracker.com/server_info/server2.maxcommunity.net:270150"&gt;MaxTF's Midwest server&lt;/a&gt;. The reason why is that it's the server that I have the lowest ping on, still not &lt;em&gt;great&lt;/em&gt; ping though.&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">fortress-forever-on-linux.html</guid>
+        <pubDate>Fri, 16 Dec 2022 00:00:00 GMT</pubDate>
+        <atom:published>2022-12-16T00:00:00Z</atom:published>
+        <atom:updated>2024-02-04T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>MacOS Keyboard Navigation</title>
+        <link>https://steve0greatness.github.io/blog/macos-page-tab-nav.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/macos-page-tab-nav.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/macos-page-tab-nav.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;Ok, so I feel like a complete idiot right now.&lt;/p&gt;
+
+&lt;p&gt;I've been trying to use &lt;kbd&gt;Tab&lt;/kbd&gt; to navigate webpages on my MacBook for what feels like forever now. Turns out, it was as simple as hitting &lt;kbd&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;F7&lt;/kbd&gt;&lt;/kbd&gt;.&lt;/p&gt;
+
+&lt;p&gt;To be honest, I thought that it was just an issue with FireFox, and then I read &lt;a href="https://www.a11yproject.com/posts/macos-browser-keyboard-navigation/"&gt;Browser keyboard navigation in macOS&lt;/a&gt; by &lt;a href="https://scottvinkle.me/"&gt;Scott Vinkle&lt;/a&gt; for &lt;a href="https://www.a11yproject.com/"&gt;The A11Y Project&lt;/a&gt; and realized that it was an issue with MacOS! This should really be enabled by default, but Apple is stupid.&lt;/p&gt;
+
+&lt;p&gt;Just thought I'd share this encase anyone else was having this issue.&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">macos-page-tab-nav.html</guid>
+        <pubDate>Sat, 26 Feb 2022 00:00:00 GMT</pubDate>
+        <atom:published>2022-02-26T00:00:00Z</atom:published>
+        <atom:updated>2024-02-14T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>The FizzBuzz Program</title>
+        <link>https://steve0greatness.github.io/blog/fizzbuzz.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/fizzbuzz.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/fizzbuzz.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;A FizzBuzz Program is a program used in many job interviews to see if a programmer is good at problem solving. There are many ways to make one.&lt;/p&gt;
+
+&lt;p&gt;First let me tell you why I write these programs. These programs, at least in my opinion, are good when you're learning a new programming language. It gives you a problem to solve, and all you need to do to solve it. Incase you're wondering, the problem is to make a program that counts from 1 to 100 and replaces all multiples of 3 with Fizz, all multiples of 5 with Buzz, and multiples of both with FizzBuzz. Generally in interviews, they also ask you to add on more multiples, such as multiples of 7 are replaced with Fuzz, and multiples of 11 are replaced with Bizz.&lt;/p&gt;
+
+&lt;p&gt;Now that I've told you what a FizzBuzz Program is, let me show you how I make them in Python.&lt;/p&gt;
+
+&lt;div class="codehilite"&gt;
+&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;Index&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;Response&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Response&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The first thing I do is I create a for loop, and within it I put a print statement and a variable named toPrint.&lt;/p&gt;
+
+&lt;div class="codehilite"&gt;
+&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;FizzCompute&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Number&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Divisor&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;String&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;Number&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;Divisor&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;SubstituteEmpty&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Number&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;String&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;String&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="n"&gt;Number&lt;/span&gt;
+
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;Index&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;Response&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;SubstituteEmpty&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;FizzCompute&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Index&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Fizz&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;FizzCompute&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Index&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Buzz&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;Index&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Response&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;details&gt;
+    &lt;summary&gt;Output&lt;/summary&gt;
+&lt;samp&gt;1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz
+19
+Buzz
+Fizz
+22
+23
+Fizz
+Buzz
+26
+Fizz
+28
+29
+FizzBuzz
+31
+32
+Fizz
+34
+Buzz
+Fizz
+37
+38
+Fizz
+Buzz
+41
+Fizz
+43
+44
+FizzBuzz
+46
+47
+Fizz
+49
+Buzz
+Fizz
+52
+53
+Fizz
+Buzz
+56
+Fizz
+58
+59
+FizzBuzz
+61
+62
+Fizz
+64
+Buzz
+Fizz
+67
+68
+Fizz
+Buzz
+71
+Fizz
+73
+74
+FizzBuzz
+76
+77
+Fizz
+79
+Buzz
+Fizz
+82
+83
+Fizz
+Buzz
+86
+Fizz
+88
+89
+FizzBuzz
+91
+92
+Fizz
+94
+Buzz
+Fizz
+97
+98
+Fizz&lt;/samp&gt;
+&lt;/details&gt;&lt;/p&gt;
+
+&lt;p&gt;The next thing I do is I define a function that checks if one number is a multiple of another, and if it is, then it returns the string, otherwise, it returns an empty string.&lt;/p&gt;
+
+&lt;p&gt;Then I make a function that checks if a string is an empty one, if it is, then it returns a number.&lt;/p&gt;
+
+&lt;p&gt;Once I have these 2 functions, I go back into the for loop and make the &lt;code&gt;Response&lt;/code&gt; variable have the variable for checking if a string is empty(and if it is replace it with a number) check if 2 of the other function that check if one number is a multiple of another(and if it is, return a string). Finally, it prints the output.&lt;/p&gt;
+
+&lt;p&gt;I've tried this method many times. Below are some examples of this method in action!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://replit.com/@StevesGreatness/FizzBuzzKotlin"&gt;Kotlin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://replit.com/@StevesGreatness/FizzBuzzlua"&gt;Lua&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://replit.com/@StevesGreatness/FizzBuzzpython"&gt;Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://replit.com/@StevesGreatness/FizzBuzzRuby"&gt;Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        </description>
+        <guid isPermaLink="false">fizzbuzz.html</guid>
+        <pubDate>Sun, 20 Feb 2022 00:00:00 GMT</pubDate>
+        <atom:published>2022-02-20T00:00:00Z</atom:published>
+        <atom:updated>2024-02-02T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>Customize an HTML Checkbox</title>
+        <link>https://steve0greatness.github.io/blog/checkbox-custom-styles.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/checkbox-custom-styles.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/checkbox-custom-styles.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: &lt;code&gt;appearance: none;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Checkboxes are hard to style. But when you're making a website, they may look ugly.&lt;/p&gt;
+
+&lt;p&gt;&lt;input type="checkbox" style="all: revert;" /&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see here, this bland checkbox does not fit into my clearly great website(/s). But really, it does not fit in at all.&lt;/p&gt;
+
+&lt;p&gt;The first step toward styling it how we want it is to give it an appearance of none, and a width and height that are what you want.&lt;/p&gt;
+
+&lt;div class="codehilite"&gt;
+&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nt"&gt;input&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="nt"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;checkbox&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;appearance&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;background-color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;grey&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;iframe src="/blog-files/checkbox-custom-styles-ex1.html" style="background: #000; border: none"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="/blog-files/checkbox-custom-styles-ex1.txt"&gt;View Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Now we can do whatever we want to it. You're also able to add a &lt;code&gt;:checked&lt;/code&gt; sudo to change certain elements(like the &lt;code&gt;background-color&lt;/code&gt;) depending on if the checkbox is checked or not.&lt;/p&gt;
+
+&lt;div class="codehilite"&gt;
+&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nt"&gt;input&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="nt"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;checkbox&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;appearance&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;background&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#000&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;border&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#fff&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;solid&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;border-radius&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+
+&lt;span class="nt"&gt;input&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="nt"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;checkbox&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;checked&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;background&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#ce5aff&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;iframe src="/blog-files/checkbox-custom-styles-ex2.html" style="background: #000; border: none"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="/blog-files/checkbox-custom-styles-ex2.html"&gt;View Source&lt;/a&gt;&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">checkbox-custom-styles.html</guid>
+        <pubDate>Sat, 19 Feb 2022 00:00:00 GMT</pubDate>
+        <atom:published>2022-02-19T00:00:00Z</atom:published>
+        <atom:updated>2024-02-02T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>Creating a Switch in HTML and CSS</title>
+        <link>https://steve0greatness.github.io/blog/creatingaswitch.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/creatingaswitch.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/creatingaswitch.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;A switch is something that is basically just a nicer looking checkbox. Here, I'll be showing you how to make one.&lt;/p&gt;
+
+&lt;p&gt;The first step is to create checkbox with any class; I'll be using &lt;code&gt;switch&lt;/code&gt;, because it's a switch.&lt;/p&gt;
+
+&lt;div class="codehilite"&gt;
+&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;style&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="nt"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nt"&gt;checkbox&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;switch&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{}&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;style&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt; &lt;span class="na"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;checkbox&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;switch&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Next step is to add an appearance of none to the CSS--make sure to add &lt;code&gt;-moz-&lt;/code&gt; and &lt;code&gt;-webkit-&lt;/code&gt;. After that, you're going to want to set it so that the checkbox a rectangle--make sure it's in &lt;code&gt;px&lt;/code&gt;. We also want to set the position to relative&lt;/p&gt;
+
+&lt;div class="codehilite"&gt;
+&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;style&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="nt"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nt"&gt;checkbox&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;switch&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="kp"&gt;-webkit-&lt;/span&gt;&lt;span class="k"&gt;appearance&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="kp"&gt;-moz-&lt;/span&gt;&lt;span class="k"&gt;appearance&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;appearance&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;position&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;relative&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;style&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt; &lt;span class="na"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;checkbox&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;switch&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Next we want to create &lt;code&gt;::before&lt;/code&gt; pseudo. In there we want to make it have a position of relative, a width and height that are &lt;code&gt;-1px&lt;/code&gt; less than the height of the main switch, a display of block, top and left set to &lt;code&gt;1px&lt;/code&gt;, a content of &lt;code&gt;""&lt;/code&gt;, and a background color that's different from the one in the main switch.&lt;/p&gt;
+
+&lt;div class="codehilite"&gt;
+&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;style&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="nt"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nt"&gt;checkbox&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;switch&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="kp"&gt;-webkit-&lt;/span&gt;&lt;span class="k"&gt;appearance&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="kp"&gt;-moz-&lt;/span&gt;&lt;span class="k"&gt;appearance&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;appearance&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;position&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;relative&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;background&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#000&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;30&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;16&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="nt"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nt"&gt;checkbox&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;switch&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt;&lt;span class="nd"&gt;before&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;top&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;left&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;position&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;absolute&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;display&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;block&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;background&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;red&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;content&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;14&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;14&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;style&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt; &lt;span class="na"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;checkbox&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;switch&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Finally add a pseudo called &lt;code&gt;:checked&lt;/code&gt; which checks if a checkbox was checked, you'll want to change the before pseudo if the the checkbox is checked. You'll need to put it on the opposite side of where it started, for me, that's on the right-side.&lt;/p&gt;
+
+&lt;div class="codehilite"&gt;
+&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;style&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="nt"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nt"&gt;checkbox&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;switch&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="kp"&gt;-webkit-&lt;/span&gt;&lt;span class="k"&gt;appearance&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="kp"&gt;-moz-&lt;/span&gt;&lt;span class="k"&gt;appearance&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;appearance&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;position&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;relative&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;background&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#000&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;30&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;16&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="nt"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nt"&gt;checkbox&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;switch&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt;&lt;span class="nd"&gt;before&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;top&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;left&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;position&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;absolute&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;display&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;block&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;background&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;red&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;content&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;14&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;14&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="nt"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nt"&gt;checkbox&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;switch&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;checked&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt;&lt;span class="nd"&gt;before&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;left&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c"&gt;/* .switch width - .switch::before width - 1px */&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;style&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt; &lt;span class="na"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;checkbox&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;switch&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I'm using the &lt;code&gt;left&lt;/code&gt; property instead of the &lt;code&gt;right&lt;/code&gt; property as it makes it easier to transition between the 2 positions. Here is the CSS with the transition added in, plus a background change(also dark mode):&lt;/p&gt;
+
+&lt;div class="codehilite"&gt;
+&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;style&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;root&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;background&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#000&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#fff&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="nt"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nt"&gt;checkbox&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;switch&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="kp"&gt;-webkit-&lt;/span&gt;&lt;span class="k"&gt;appearance&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="kp"&gt;-moz-&lt;/span&gt;&lt;span class="k"&gt;appearance&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;appearance&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;position&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;relative&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;background&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#fff&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;30&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;16&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="nt"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nt"&gt;checkbox&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;switch&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt;&lt;span class="nd"&gt;before&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;top&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;left&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;position&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;absolute&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;display&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;block&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;background-color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#ff5c1c&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;content&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;14&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;14&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;transition&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;background-color&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;.5&lt;/span&gt;&lt;span class="kt"&gt;s&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;left&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;.5&lt;/span&gt;&lt;span class="kt"&gt;s&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="nt"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nt"&gt;checkbox&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;switch&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;checked&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt;&lt;span class="nd"&gt;before&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;left&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c"&gt;/* .switch width - .switch::before width - 1px */&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;background-color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#3f9b00&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;style&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;input&lt;/span&gt; &lt;span class="na"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;checkbox&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;switch&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;All of this results in a final product that looks like:&lt;/p&gt;
+
+&lt;iframe style="background: #fff; border: none" src="/blog-files/switch-final.html"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="/blog-files/switch-final.txt"&gt;See Code&lt;/a&gt;&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">creatingaswitch.html</guid>
+        <pubDate>Fri, 11 Feb 2022 00:00:00 GMT</pubDate>
+        <atom:published>2022-02-11T00:00:00Z</atom:published>
+        <atom:updated>2023-02-02T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>Why local variables are called "let"</title>
+        <link>https://steve0greatness.github.io/blog/whyLocalVarCallLet.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/whyLocalVarCallLet.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/whyLocalVarCallLet.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;In JavaScript there are 3 different kinds of variables, global variables(using &lt;code&gt;var&lt;/code&gt;), constants(&lt;code&gt;const&lt;/code&gt;, and local variables&lt;code&gt;let&lt;/code&gt;). All of the act a little differently from each other. Allow me to explain what they do.&lt;/p&gt;
+
+&lt;p&gt;Global variables, made using &lt;code&gt;var&lt;/code&gt;, are as they sound, global variables. Once defined, they can be used, edited, or redefined anywhere.&lt;/p&gt;
+
+&lt;p&gt;Constants, defined with &lt;code&gt;const&lt;/code&gt;, are constant, they cannot change, at all.&lt;/p&gt;
+
+&lt;p&gt;Local variables, defined with &lt;code&gt;let&lt;/code&gt;, are variables that can only be used in the place that it is defined, like a function, and it's children.&lt;/p&gt;
+
+&lt;p&gt;Now that we has that established, &lt;em&gt;let&lt;/em&gt;'s talk about how local variables got their name.&lt;/p&gt;
+
+&lt;p&gt;Turns out "let" is a mathematical term.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The &lt;strong&gt;"let" expression&lt;/strong&gt; may also be defined in mathematics, where it associates a Boolean condition with a restricted scope.
+  &lt;cite&gt;Quote from &lt;a href="https://en.wikipedia.org/w/index.php?title=Let_expression&amp;oldid=1187985658"&gt;Wikipedia "Let expression"&lt;/a&gt; as of &lt;time&gt;2024 Feb 2&lt;/time&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It was first used in programming in early languages like Basic.&lt;/p&gt;
+
+&lt;p&gt;In case you're wondering, the main source is an answer on Stack Overflow: &lt;em&gt;"Why was the name 'let' chosen for block-scoped variable declarations in JavaScript?"&lt;/em&gt;, answer by &lt;a href="https://stackoverflow.com/users/1968972"&gt;exebook&lt;/a&gt;, edited by &lt;a href="https://stackoverflow.com/users/1741346"&gt;Pikamander2&lt;/a&gt;; &lt;a href="https://stackoverflow.com/a/37917071"&gt;link&lt;/a&gt;.&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">whyLocalVarCallLet.html</guid>
+        <pubDate>Mon, 10 Jan 2022 00:00:00 GMT</pubDate>
+        <atom:published>2022-01-10T00:00:00Z</atom:published>
+        <atom:updated>2024-02-02T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>The Song we didn't get in Undertale</title>
+        <link>https://steve0greatness.github.io/blog/The_song_that_we_didnt_get_in_undertale.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/The_song_that_we_didnt_get_in_undertale.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/The_song_that_we_didnt_get_in_undertale.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;Undertale is an amazing game. I really enjoyed my time playing it. I listen to the sound track a lot(I'm doing it as I write this). I even read a fan-made &lt;abbr title="Alternate Universe"&gt;&lt;a href="https://undertale-au.fandom.com/wiki/Category:AUs"&gt;AU&lt;/a&gt;&lt;/abbr&gt; called &lt;a href="https://invertedfate.com/chapters"&gt;Inverted Fate&lt;/a&gt;. The only thing that I haven't done(and don't intend on doing) is a &lt;a href="https://undertale.fandom.com/wiki/Genocide_Route"&gt;Genocide Run&lt;/a&gt;. But, there's one thing that's kinda been bugging me since it first found out about it. It's the fact that their's a version of &lt;a href="https://undertale.fandom.com/wiki/Undertale_(Soundtrack)"&gt;Undertale(the song)&lt;/a&gt; that wasn't added, and instead was replaced with the version we have now.&lt;/p&gt;
+
+&lt;h2 id="the-current-version"&gt;The Current Version&lt;/h2&gt;
+
+&lt;p&gt;The version we got of Undertale was a pretty good one. It's a little sad, while also filled with hope(just like the monsters in the neutral route. It is kinda the song of their hope, since it only plays during the end of the neutral route). Below is the version we got in the game.&lt;/p&gt;
+
+&lt;p&gt;&lt;audio controls="true"&gt;
+    &lt;source src="/blog-files/Undertale_(Soundtrack)_music_1.ogg" type="audio/ogg" /&gt;
+    &lt;source src="https://ia902907.us.archive.org/29/items/undertaleost_202004/Undertale%20-%20Lossless%20Soundtrack%20%28toby%20fox%29/toby%20fox%20-%20UNDERTALE%20Soundtrack%20-%2071%20Undertale.mp3" type="audio/mpeg" /&gt;
+    &lt;source src="https://ia802907.us.archive.org/29/items/undertaleost_202004/Undertale%20-%20Lossless%20Soundtrack%20%28toby%20fox%29/toby%20fox%20-%20UNDERTALE%20Soundtrack%20-%2071%20Undertale.flac" type="audio/flac" /&gt;
+    It looks like your browser doesn't support the audio tag. Here is it's source: &lt;a href="/blog-files/Undertale_(Soundtrack)_music_1.ogg"&gt;anchor&lt;/a&gt;.
+&lt;/audio&gt;&lt;/p&gt;
+
+&lt;h2 id="the-one-that-could-have-been"&gt;The One that could have been&lt;/h2&gt;
+
+&lt;p&gt;This one is also great, and I personally think I like it a lot better than the one we have. I feel like it's more happy in tone. Even if it might not fit with what the game would have been trying to fit it's context into, it's still a good song on it's own.&lt;/p&gt;
+
+&lt;p&gt;&lt;audio controls="true"&gt;
+    &lt;source src="/blog-files/Undertale_(Soundtrack)_music_unused.oga" type="audio/ogg" /&gt;
+    &lt;source src="https://a.tumblr.com/tumblr_odg4sv0r3Z1s58ev6o1.mp3" type="audio/mpeg" /&gt;
+    Again, it looks like you're browser doesn't support audio, so you can &lt;a href="/blog-files/Undertale_(Soundtrack)_music_unused.oga"&gt;download the song&lt;/a&gt; to listen to it.
+&lt;/audio&gt;&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">The_song_that_we_didnt_get_in_undertale.html</guid>
+        <pubDate>Mon, 20 Dec 2021 00:00:00 GMT</pubDate>
+        <atom:published>2021-12-20T00:00:00Z</atom:published>
+        <atom:updated>2024-02-02T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>Create a Theme Switch</title>
+        <link>https://steve0greatness.github.io/blog/creating_a_theme_switch.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/creating_a_theme_switch.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/creating_a_theme_switch.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;This is a simple tutorial on how to make a simple theme switcher.&lt;/p&gt;
+
+&lt;p&gt;First step is to create the themes you'll want on your site. You may just want a light and dark mode, however, you may also want other themes. As an example: a clown theme that makes the page absurdly colorful, like a GeoCities site in the early 2000s. For these themes, you can use CSS variables set on the &lt;code&gt;html&lt;/code&gt; parent tag(all other elements are considered children of &lt;code&gt;html&lt;/code&gt;). Variables can be set in CSS using double hyphens followed by a sequence of text that can use numbers(but not at the start), letters(capital or lowercase), underscores, and hyphens; these variables can then be accessed within your text using the &lt;code&gt;var()&lt;/code&gt; function with the name of the variable(including the starting hyphens). You can change out the CSS variables using different selectors on the &lt;code&gt;html&lt;/code&gt; tag within the CSS, for me: I'm using the &lt;code&gt;[data-theme]&lt;/code&gt; attribute; however, you can use classes if you want. Here is the CSS I wrote:&lt;/p&gt;
+
+&lt;div class="codehilite"&gt;
+&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nt"&gt;html&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="nt"&gt;data-theme&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nt"&gt;light&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;background&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#fff&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#000&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nv"&gt;--buttonBackground&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#fefefe&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nv"&gt;--buttonBorder&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#ccc&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nv"&gt;--buttonColor&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#001&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nt"&gt;html&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="nt"&gt;data-theme&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nt"&gt;dark&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;background&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#000&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#fff&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nv"&gt;--buttonBackground&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#101010&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nv"&gt;--buttonBorder&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#333&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nv"&gt;--buttonColor&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#fff&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nt"&gt;html&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="nt"&gt;data-theme&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nt"&gt;clown&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;background&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#f00&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#00f&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nv"&gt;--buttonBackground&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#050&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nv"&gt;--buttonBorder&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#0a0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nv"&gt;--buttonColor&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mh"&gt;#0f0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nt"&gt;button&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;background&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;--buttonBackground&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;border&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;--buttonBorder&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;solid&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;--buttonColor&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now we need to create a button that we will use to change the &lt;code&gt;[data-theme]&lt;/code&gt; attribute. You (probably) already know what buttons are, so I won't go in depth about then. However: you will need to add an &lt;code&gt;[id]&lt;/code&gt; to the button, this will come in play shortly.&lt;/p&gt;
+
+&lt;div class="codehilite"&gt;
+&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;button&lt;/span&gt; &lt;span class="na"&gt;id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;theme-switch&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Switch Theme&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;button&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now, it is time to write the JavaScript. First, you'll want to make a constant with the themes you filled into your CSS, for me, that was &lt;code&gt;dark&lt;/code&gt;, &lt;code&gt;light&lt;/code&gt;, and &lt;code&gt;clown&lt;/code&gt;. I'll name this &lt;code&gt;themes&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class="codehilite"&gt;
+&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;themes&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;light&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;dark&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;clown&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We now need to query the &lt;abbr title="Document Object Model"&gt;DOM&lt;/abbr&gt; for our theme switch button. This can be done in 2 ways: &lt;code&gt;document.querySelector&lt;/code&gt; or &lt;code&gt;document.getElementById&lt;/code&gt;; personally, I prefer &lt;code&gt;querySelector&lt;/code&gt;, as it allows you to write a CSS selector to get an element from the DOM, allowing for shorter, more digestible, code.&lt;/p&gt;
+
+&lt;p&gt;We have to add a click event to the button. This can be done in 2 ways within JavaScript: &lt;code&gt;addEventListener("click", ...)&lt;/code&gt; and &lt;code&gt;onclick&lt;/code&gt;. I personally like &lt;code&gt;addEventListener&lt;/code&gt; more, so I'll use that. Within the &lt;code&gt;addEventListener&lt;/code&gt; function, you need to put a function. This function will control the logic of our theme switch. I'll call this function &lt;code&gt;SwitchTheme&lt;/code&gt;, to reflect it's functionality.&lt;/p&gt;
+
+&lt;div class="codehilite"&gt;
+&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kd"&gt;const&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;ThemeSwitchButton&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;querySelector&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#theme-switch&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="nx"&gt;ThemeSwitchButton&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;addEventListener&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;click&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;SwitchTheme&lt;/span&gt;&lt;span class="p"&gt;());&lt;/span&gt;
+&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;SwitchTheme&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Explaining each part of this function as it's written out would take awhile, so instead, I'll add comments to the ends of each line giving a short explanation. Also, for the sake of shortness, I've placed &lt;code&gt;document.documentElement&lt;/code&gt; inside the constant &lt;code&gt;HTML&lt;/code&gt;, giving us access to the root element in the DOM(&lt;code&gt;html&lt;/code&gt;).&lt;/p&gt;
+
+&lt;div class="codehilite"&gt;
+&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kd"&gt;let&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;CurrentTheme&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;themes&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;indexOf&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;HTML&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;dataset&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;theme&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;// Gets how far in the current theme is into the &amp;quot;themes&amp;quot; constant.&lt;/span&gt;
+&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;CurrentTheme&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;themes&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;length&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;// Checks if it&amp;#39;s at the end of the array,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;HTML&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;dataset&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;theme&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;themes&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;// If so, reset at the start.&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;return&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;// Ends the function here, preventing next bit of code from running.&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nx"&gt;HTML&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;dataset&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;theme&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;themes&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;CurrentTheme&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;// Goes to the next theme.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now we have a finished product. Here's the expected output:&lt;/p&gt;
+
+&lt;iframe id="finalProduct" src="/blog-files/theme-change-final.html" style="border:none"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="/blog-files/theme-change-final.txt"&gt;See Code&lt;/a&gt;&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">creating_a_theme_switch.html</guid>
+        <pubDate>Wed, 08 Dec 2021 00:00:00 GMT</pubDate>
+        <atom:published>2021-12-08T00:00:00Z</atom:published>
+        <atom:updated>2024-02-03T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>Is Kris the Knight?</title>
+        <link>https://steve0greatness.github.io/blog/Is_Kris_the_Knight.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/Is_Kris_the_Knight.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/Is_Kris_the_Knight.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;Is Kris &lt;span style="color: hotpink; font-style: italic;"&gt;the Knight&lt;/span&gt;? At face value, this seems insane. Right? Well, let's look at the evidence.&lt;/p&gt;
+
+&lt;p&gt;First and foremost, &lt;span style="color: hotpink; font-style: italic;"&gt;the Knight&lt;/span&gt; opens &lt;span style="color: red; font-style: italic;"&gt;Dark Fountains&lt;/span&gt;. Now, what does Kris do at the end of Chapter 2? They create a &lt;span style="color: red; font-style: italic;"&gt;Dark Fountain&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;Second, what does Kris look like in &lt;span style="color: red; font-style: italic;"&gt;Dark Worlds&lt;/span&gt;? That's right, a Knight.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/blog-files/Kris_battle_idle.gif" type="image/gif" width="100" align="left" style="image-rendering:pixelated" alt="Kris, the primary player character from Deltarune, dressed as a knight, minus a helmet." /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is what Kris looks like in a &lt;span style="color: red; font-style: italic;"&gt;Dark World&lt;/span&gt;, they're wearing plated armor. They even have a sword.&lt;/p&gt;
+
+&lt;p&gt;We know that Kris made a &lt;span style="color: red; font-style: italic;"&gt;Dark Fountain&lt;/span&gt; at the end of Chapter 2, so is it really that far off to assume that they also made the one in the library's computer lab? Or the on in the closet for that matter. Well, we know that they had their knife at the &lt;a href="https://youtu.be/wBS1MNkVPGw"&gt;end of chapter 1&lt;/a&gt;, and only Toby Fox knows what they did before chapter 1.&lt;br /&gt;In the end of chapter 2, they rips they soul out before creating the new fountain, and shuffling around outside; and slashing Toriel's tires. In fact, they rips out their heart in the end of chapter 1, too. Afterward, they presumably went to library and made a fountain in the computer lab.&lt;/p&gt;
+
+&lt;p&gt;This is a really common theory, but it really needs more evidence to be collected, and more speculating to be done.&lt;br clear="left"/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image taken from &lt;a href="https://deltarune.fandom.com/wiki/"&gt;Fandom&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Quick note from 2024: I'm aware of the design of Kris from that rodeo teaser. I'm pretty much keeping this up for historical reasons at this point. Encase you're wondering, here's Kris' design from there:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src="/blog-files/yeehowdy.webp" type="image/webp" width="100" style="image-rendering:pixelated" alt="Kris, from Deltarune, dressed up in a cowboy outfit." /&gt;&lt;/center&gt;&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">Is_Kris_the_Knight.html</guid>
+        <pubDate>Sat, 23 Oct 2021 00:00:00 GMT</pubDate>
+        <atom:published>2021-10-23T00:00:00Z</atom:published>
+        <atom:updated>2024-02-21T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>Symbols</title>
+        <link>https://steve0greatness.github.io/blog/symbols.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/symbols.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/symbols.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;In our lifes on the internet, we see alot of characters that we don't normally see. Like @, #, &amp;amp;, [], {}, \, ;, and |. But what are thier names, what are their origins, and why do they look like they do? I'm going to try and find out!&lt;br /&gt;Let's start with what they are used for most of the time on the web.&lt;ol&gt;&lt;li&gt;@ is used to mean at. It can also be used to define a username(&lt;span style="font-weight:bold"&gt;@&lt;/span&gt;user), or even emails(person&lt;span style="font-weight:bold"&gt;@&lt;/span&gt;emailprovider.topleveldomain)&lt;/li&gt;&lt;li&gt;The hashtag, #, is used for tagging posts to topics(&lt;span style="font-weight:bold"&gt;#&lt;/span&gt;NumberOneProgrammer). It is also sometimes used to define a number(&lt;span style="font-weight:bold"&gt;#&lt;/span&gt;1). It's also used in CSS to define IDs, and in urls to scroll down to a certain part of the page(&lt;span style="font-weight:bold"&gt;#&lt;/span&gt;theMan).&lt;/li&gt;&lt;li&gt;&amp;amp; is a symbol used to mean "and"(the dog &lt;span style="font-weight:bold"&gt;&amp;amp;&lt;/span&gt; the cat). It is also used in urls to be an addition to the search(?q=look%20mom%20no%hands%21&lt;span style="font-weight:bold"&gt;&amp;amp;&lt;/span&gt;images)&lt;/li&gt;&lt;li&gt;Square brackets([]), are used to define a list in the most widely used programming language on the web, JavaScript(&lt;span style="font-weight:bold"&gt;[&lt;/span&gt;"the dog", "the cat", "the bird", "the plane"&lt;span style="font-weight:bold"&gt;]&lt;/span&gt;). They can also be used in the middle of quotes to give context("Have a nice day!" &lt;span style="font-weight:bold"&gt;[&lt;/span&gt;The mayor&lt;span style="font-weight:bold"&gt;]&lt;/span&gt; shouted)&lt;/li&gt;&lt;li&gt;Curly brackets({}) are used to define a JavaScript object( {person: "Jim", car: "JavaScript car :)"} )&lt;/li&gt;&lt;li&gt;backslash(\) is used in markdown, and JavaScript strings, to define a character that should remain itself, such as &lt;span style="font-weight:bold"&gt;\&lt;/span&gt;# showing up as a # instead of a heading.&lt;/li&gt;&lt;li&gt;Semi-collins(;) are used to define the end of a command in lots of programming languages, like JavaScript(alert("hello world")&lt;span style="font-weight:bold"&gt;;&lt;/span&gt;), PHP(echo "hello world"&lt;span style="font-weight:bold"&gt;;&lt;/span&gt;)&lt;/li&gt;&lt;li&gt;|, or Vertical bar, has no &lt;em&gt;real&lt;/em&gt; use on the web.&lt;/li&gt;&lt;li&gt;~, or tilde, also, doesn't find much use&lt;/li&gt;&lt;li&gt;Grave accents(`) are used to define a multi-lined JavaScript string(&lt;span style="font-weight:bold"&gt;`&lt;/span&gt;this has&lt;br /&gt;2 lines&lt;span style="font-weight:bold"&gt;`&lt;/span&gt;)&lt;/li&gt;&lt;/ol&gt;Those are what they are, but what about their original meanings?&lt;ol&gt;&lt;li&gt;The At-Sign(@) is used to mean at(they're &lt;span style="font-weight:bold"&gt;@&lt;/span&gt; their house), it could also be used for a price(&lt;span style="font-weight:bold"&gt;@&lt;/span&gt;10 pence)&lt;/li&gt;&lt;li&gt;#(pound-sign, hashtag, number-sign, octothorpe, sharp-sign), it's used to mean lb(10 &lt;span style="font-weight:bold"&gt;#&lt;/span&gt;), define numbers(&lt;span style="font-weight:bold"&gt;#&lt;/span&gt;10), define a tag in social media(&lt;span style="font-weight:bold"&gt;#&lt;/span&gt;NumberOneCoder), to define the musical notes that are sharp, or used on telephones to do... something.&lt;/li&gt;&lt;li&gt;Ampersands(&amp;amp;) are used as &amp;amp;, that's it(doges &lt;span style="font-weight:bold"&gt;&amp;amp;&lt;/span&gt; golden retrievers).&lt;/li&gt;&lt;li&gt;[Square Brackets] are used as a way to add context to the middle of a sentence, like "he ate the sausage", but we don't know who "he" is, and what kind of sausage he is eating, so it should be "&lt;span style="font-weight:bold"&gt;[the young boy]&lt;/span&gt; ate the &lt;span style="font-weight:bold"&gt;[cheese filled]&lt;/span&gt; sausage"&lt;/li&gt;&lt;li&gt;{Curly Brackets} don't get much use. They would be used for &lt;span style="font-weight:bold"&gt;{&lt;/span&gt;defining words, lines, sentences as being in a group&lt;span style="font-weight:bold"&gt;}&lt;/span&gt;.&lt;/li&gt;&lt;li&gt;|s are used to define absolute value, like &lt;span style="font-weight:bold"&gt;|-2|&lt;/span&gt; = 2. It can also be used as a replacement for periods, and forward slashed&lt;/li&gt;&lt;li&gt;The backslash doesn't get much real use in writing. In math, it is used to represent the set difference(which I won't really explain), such as a&lt;span style="font-weight:bold"&gt;\&lt;/span&gt;n&lt;/li&gt;&lt;li&gt;The Semicolon is used to seperate ideas in a sentence filled with commas, add seperation between an explaination&lt;span style="font-weight:bold"&gt;;&lt;/span&gt; and a seperator(,) in a list, and merge 2 sentences together without a compound(and, but, or). Such as "I am so happy for them, and I am proud" &amp;amp; "I am so happy; I am proud." act the same. If you'd like a better explaination, I'd suggest you to check out &lt;a href="https://youtu.be/th-zyfvwDdI"&gt;How to use a semicolon&lt;/a&gt; by Ted-Ed, it's a great whatch, and it's presented in an interesting and fun style.&lt;/li&gt;&lt;li&gt;Grave accents(`) are used in some words from other languages, but not much in English. However it can be used in songs and poems to indicate that silent letters aren't silent.&lt;/li&gt;&lt;li&gt;Tildes(~) can be used in a sentence to mean about, for example, &lt;span style="font-weight:bold"&gt;~&lt;/span&gt;10.&lt;/li&gt;&lt;/ol&gt;&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">symbols.html</guid>
+        <pubDate>Sun, 10 Oct 2021 00:00:00 GMT</pubDate>
+        <atom:published>2021-10-10T00:00:00Z</atom:published>
+        <atom:updated>2021-10-10T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>Creating a HTML drop-down list</title>
+        <link>https://steve0greatness.github.io/blog/Creating_HTML_DD_List.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/Creating_HTML_DD_List.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/Creating_HTML_DD_List.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;In order to create a drop-down selection list in HTML, we must first understand why they are important.&lt;/p&gt;
+
+&lt;p&gt;Drop-down lists can be used in lots of ways, from creating a way for people to chose from a strict set of options, to making an on-off switch(even though you should use buttons for that).&lt;/p&gt;
+
+&lt;p&gt;Before we start, here is an example:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Select Image:&lt;/strong&gt; &lt;select id="select" onchange="document.getElementById('img').src = document.getElementById('select').value"&gt;&lt;option value="https://upload.wikimedia.org/wikipedia/commons/a/a2/Paul_von_Hindenburg_%281914%29_von_Nicola_Perscheid.jpg" selected="true"&gt;Img 1&lt;/option&gt;&lt;option value="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Wilfried_Gruhn.jpg/121px-Wilfried_Gruhn.jpg"&gt;Img 2&lt;/option&gt;&lt;option value="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Blackcap_%28Sylvia_atricapilla%29_male.jpg/129px-Blackcap_%28Sylvia_atricapilla%29_male.jpg"&gt;Img 3&lt;/option&gt;&lt;option value="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Lt._Gen._Nguy%E1%BB%85n_V%C4%83n_Thi%E1%BB%87u_at_Cam_Ranh_Base%2C_October_26%2C_1966.jpg/116px-Lt._Gen._Nguy%E1%BB%85n_V%C4%83n_Thi%E1%BB%87u_at_Cam_Ranh_Base%2C_October_26%2C_1966.jpg"&gt;Img 3&lt;/option&gt;&lt;option value="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Steve_Stricker.jpg/157px-Steve_Stricker.jpg"&gt;Img 4&lt;/option&gt;&lt;option value="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Aegotheles_chrisoptus_-_Catlereigh_Nature_Reserve.jpg/350px-Aegotheles_chrisoptus_-_Catlereigh_Nature_Reserve.jpg"&gt;Img 5&lt;/option&gt;&lt;option value="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Michael_Whelan_-_Lucca_2017.jpg/118px-Michael_Whelan_-_Lucca_2017.jpg"&gt;Img 6&lt;/option&gt;&lt;option value="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/St_Pancras_Railway_Station_2012-06-23.jpg/152px-St_Pancras_Railway_Station_2012-06-23.jpg"&gt;Img 7&lt;/option&gt;&lt;option value="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Mae_La_refugee_camp_TFA.jpg/162px-Mae_La_refugee_camp_TFA.jpg"&gt;Img 8&lt;/option&gt;&lt;option value="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/JimmyCarterPortrait_%28cropped%29.jpg/121px-JimmyCarterPortrait_%28cropped%29.jpg"&gt;Img 9&lt;/option&gt;&lt;/select&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img id="img" src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Paul_von_Hindenburg_%281914%29_von_Nicola_Perscheid.jpg" style="width: auto; height: 10em;" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Images from &lt;a href="https://en.wikipedia.org"&gt;Wikipedia&lt;/a&gt;, on &lt;a href="https://web.archive.org/web/20211001135954/https://en.wikipedia.org/wiki/Main_Page"&gt;Oct. 2nd&lt;/a&gt; &amp;amp; &lt;a href="https://web.archive.org/web/20211002095505/https://en.wikipedia.org/wiki/Main_Page"&gt;1st, 2021&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;For some weird reason, it's not in &lt;code&gt;&amp;lt;input&amp;gt;&lt;/code&gt;, it has it's own tags: &lt;code&gt;&amp;lt;select&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;option&amp;gt;&lt;/code&gt;. Using these is a little like making a list, if you've ever made one. Here's an example bit of HTML:&lt;/p&gt;
+
+&lt;div class="codehilite"&gt;
+&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;select&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;option&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;op 1&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;option&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;option&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;op 2&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;option&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;select&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Like all &lt;code&gt;input&lt;/code&gt;s, &lt;code&gt;select&lt;/code&gt; can have an id and name, and like &lt;code&gt;input[type=radio]&lt;/code&gt;, &lt;code&gt;option&lt;/code&gt; can have a value.&lt;/p&gt;
+
+&lt;p&gt;However, you may not know some things that could be useful here, such as defaulting, or making things update upon being changed, well, you can do defaulting with &lt;code&gt;selected&lt;/code&gt; in the &lt;code&gt;&amp;lt;option&amp;gt;&lt;/code&gt; that you want to be preselected. Changes done the page upon the change of the selection in the drop-down(or anything else that can be changed by the user) is &lt;code&gt;onchange="submitFunction()"&lt;/code&gt; being placed in the &lt;code&gt;&amp;lt;select&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Let's check back on the code that we made at the code example:&lt;/p&gt;
+
+&lt;div class="codehilite"&gt;
+&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;select&lt;/span&gt; &lt;span class="na"&gt;onchange&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;submitFunction()&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;selection&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;option&lt;/span&gt; &lt;span class="na"&gt;value&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;op1&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;selected&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;op 1&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;option&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;option&lt;/span&gt; &lt;span class="na"&gt;value&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;op2&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;op 2&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;option&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;select&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Inorder to access the selected option with JavaScript, use &lt;code&gt;document.getElementById("selection").value&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;That's basically it, feel free to &lt;code&gt;CTRL + C&lt;/code&gt; &lt;code&gt;CTRL + V&lt;/code&gt; it. /s&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">Creating_HTML_DD_List.html</guid>
+        <pubDate>Fri, 01 Oct 2021 00:00:00 GMT</pubDate>
+        <atom:published>2021-10-01T00:00:00Z</atom:published>
+        <atom:updated>2024-01-26T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>YouTube needs to have an open REST API</title>
+        <link>https://steve0greatness.github.io/blog/Youtube_needs_a_Rest_API.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/Youtube_needs_a_Rest_API.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/Youtube_needs_a_Rest_API.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;&lt;em&gt;2024 Note: I don't care anymore. I'm keeping this around for historical reasons at this point.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Youtube needs an open Rest API. Here are some reasons:
+1. It makes my life easier, as I don't need to write a billion lines of code, and not go thought the &lt;strong&gt;&lt;em&gt;paid service&lt;/em&gt;&lt;/strong&gt; known as google cloud console, to get an api key.
+2. It means that you only need to use &lt;code&gt;fetch()&lt;/code&gt; on it.
+3. We don't need the most in depth api.&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">Youtube_needs_a_Rest_API.html</guid>
+        <pubDate>Wed, 29 Sep 2021 00:00:00 GMT</pubDate>
+        <atom:published>2021-09-29T00:00:00Z</atom:published>
+        <atom:updated>2024-02-02T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>How to Make the perfect Tea.</title>
+        <link>https://steve0greatness.github.io/blog/How_To_Make_Tea.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/How_To_Make_Tea.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/How_To_Make_Tea.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;&lt;em&gt;This post is subjective, there's no &lt;strong&gt;right&lt;/strong&gt; answer to "what is the perfect tea."&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Tea is the perfect fit for most meals, breakfast, 2nd breakfast, morning tea, lunch, afTernoon tea, dinner, or supper.&lt;/p&gt;
+
+&lt;p&gt;But how do I make it? Here's how I make my tea.&lt;/p&gt;
+
+&lt;h2 id="step-1"&gt;Step 1&lt;/h2&gt;
+
+&lt;p&gt;The first step is to get the brand of tea you like. I personally like stuff such as Mighty Leaf, it tastes strong, and your able to use it 3 times without it getting weaker, and even then, you can still use it more, it really doesn't lose it's weakness.&lt;/p&gt;
+
+&lt;h2 id="step-2"&gt;Step 2&lt;/h2&gt;
+
+&lt;p&gt;Get a mug, or tea cup. I personally like mugs, as they are normally bigger, meaning you don't have to refill as much as a tea cup.&lt;/p&gt;
+
+&lt;h2 id="step-3"&gt;Step 3&lt;/h2&gt;
+
+&lt;p&gt;Get your tea, if you're using loose leaf, I'd use a smaller cup to make it, then use a strainer to the leaves out, as it adds texture that I don't like personally, otherwise just put the tea bag in, it is at this point that I like to stir it.&lt;/p&gt;
+
+&lt;h2 id="final-step"&gt;Final Step&lt;/h2&gt;
+
+&lt;p&gt;Enjoy.&lt;/p&gt;
+
+&lt;p&gt;You can add sugar and &lt;s&gt;milk&lt;/s&gt; cream, if you're into those kinda things... even lemon if you really want.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/blog-files/English_teaware.jpg" type="image/jpeg" width="250" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image source: &lt;a href="https://commons.wikimedia.org/wiki/User:Sgtblackpepper"&gt;@Sgtblackpepper@en.wikipedia.org&lt;/a&gt;; &lt;a href="https://en.wikipedia.org/wiki/File:English_teaware.jpg"&gt;image&lt;/a&gt;; Licensed under &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en"&gt;CC BY-SA 4.0&lt;/a&gt;. This upload is not endorsed by the image rights holder.&lt;/em&gt;&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">How_To_Make_Tea.html</guid>
+        <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
+        <atom:published>2021-09-28T00:00:00Z</atom:published>
+        <atom:updated>2024-02-02T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>Why inspect-element is useful</title>
+        <link>https://steve0greatness.github.io/blog/Why-inspect-element-is-a-useful-tool.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/Why-inspect-element-is-a-useful-tool.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/Why-inspect-element-is-a-useful-tool.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;&lt;div class="notice"&gt;This post isn't very good, and I'm not proud of it.&lt;/div&gt;So, as of currently, my &lt;a href="https://ocular.jeffalo.net/user/Steve0Greatness"&gt;Ocular Status&lt;/a&gt; is &lt;span style="font-style: italic; color: #0dbfb7; background-color: #0f0f0f;"&gt;Mobile needs a better browser! #MobileSmartBrowser! (Er/Him)&lt;/span&gt;. Part of the reason for this is so that inspect can be on mobile.&lt;p&gt;but what makes inspect so important?&lt;/p&gt;Well I'm glad I asked!&lt;div&gt;So on GitHub, you only have 2000 actions you can do(on the free plan). So that means you need to use them carefully, make sure that you won't do something that wastes an action.&lt;/div&gt;It helps you fix any mistake, before you make anymore. &lt;div&gt;Of course, you can always download the file, and edit it offline. But inspect element is easier, live, and requires less space in your hard-drive.&lt;/div&gt;Thanks for coming to my Ted-talk.😜🤪&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">Why-inspect-element-is-a-useful-tool.html</guid>
+        <pubDate>Mon, 17 May 2021 00:00:00 GMT</pubDate>
+        <atom:published>2021-05-17T00:00:00Z</atom:published>
+        <atom:updated>2021-05-17T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>How to Copy and Paste on mobile</title>
+        <link>https://steve0greatness.github.io/blog/How-to-copy-and-paste-on-mobile.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/How-to-copy-and-paste-on-mobile.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/How-to-copy-and-paste-on-mobile.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;div class="notice"&gt;This post isn't very good, and I'm not proud of it.&lt;/div&gt;
+
+&lt;p&gt;Recently, I've been seeing a lot of people coming up with one excuse for not linking the duplicate topic in the suggestions forum. They say something like, &lt;q&gt;I'm on mobile!!!!! &amp;#128534;&amp;#128557;&amp;#128555;&lt;/q&gt; this is not a correct argument, so I've decided to make this post to prove it.&lt;/p&gt;
+
+&lt;h2 id="safariios"&gt;Safari/iOS&lt;/h2&gt;
+
+&lt;p&gt;The way that you copy and paste on Safari is by double taping on the text, then dragging until you've selected all the text(the next bit works for links, not this)&lt;/p&gt;
+
+&lt;h3 id="coping-links"&gt;Coping links&lt;/h3&gt;
+
+&lt;p&gt;Tap and hold on the link until you see:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/blog-files/iOS_Copy.jpg" type="image/jpeg" alt="open, open in background, open in new window, download link file, add to reading list, *copy*, share" loading="lazy" width="300" height="242" /&gt;&lt;/p&gt;
+
+&lt;h3 id="paste"&gt;Paste&lt;/h3&gt;
+
+&lt;p&gt;Going to any textbox, in the top-lefT-hand conner, you should see a little clipboard icon(as long as you aren't selecting any text), press it. tap "copy"(circled in red).&lt;/p&gt;
+
+&lt;h2 id="chromeandroid"&gt;Chrome/Android&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Note: I don't own an android tablet or phone, so take this with a grain of salt&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Press and hold until a few selection boxes come up(might work for links)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Chromium&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/blog-files/Android_Chrome_Copy.png" type="image/png" loading="lazy" width="300" height="551" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Firefox/Gecko&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/blog-files/Android_Firefox_Copy.png" type="image/png" loading="lazy" width="300" height="289" /&gt;&lt;/p&gt;
+
+&lt;h3 id="pasting"&gt;Pasting&lt;/h3&gt;
+
+&lt;p&gt;Tap and hold on the text box, you should see "paste," now click that(highlighted in red).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/blog-files/Android_Paste.png" type="image/png" loading="lazy" width="300" height="115" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;All images are self-sourced.&lt;/small&gt;&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">How-to-copy-and-paste-on-mobile.html</guid>
+        <pubDate>Wed, 05 May 2021 00:00:00 GMT</pubDate>
+        <atom:published>2021-05-05T00:00:00Z</atom:published>
+        <atom:updated>2024-01-03T00:00:00Z</atom:updated>
+    </item>
+    
+    <item>
+        <title>How to Make Scratch Mockups</title>
+        <link>https://steve0greatness.github.io/blog/How-To-make-mockups.html</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/How-To-make-mockups.txt" />
+        <description>
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/How-To-make-mockups.html"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;The first step to making a mockup is to open the &lt;abbr title="Developer Tools"&gt;&lt;a href="https://developer.chrome.com/docs/devtools/"&gt;DevTools&lt;/a&gt;&lt;/abbr&gt;. This can be done with the keyboard shortcuts &lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;i&lt;/code&gt; or &lt;code&gt;F12&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;This DevTools menu allows you to do many cool things, such as create new elements, and modify existing ones. In all browsers(that I know of) you can use a little selector at the top-left of the DevTools panel to enable a mode that if you click on an area of the screen, it brings you to the element in question within the DevTools panel.&lt;/p&gt;
+
+&lt;p&gt;There's not much else advice I can give you. Just look around the Scratch site to get inspiration, and then either create or edit an element on a page you like to fit your needs.&lt;/p&gt;
+
+        </description>
+        <guid isPermaLink="false">How-To-make-mockups.html</guid>
+        <pubDate>Thu, 22 Apr 2021 00:00:00 GMT</pubDate>
+        <atom:published>2021-04-22T00:00:00Z</atom:published>
+        <atom:updated>2024-01-03T00:00:00Z</atom:updated>
+    </item>
+    
+</channel>
+
+</rss> 
