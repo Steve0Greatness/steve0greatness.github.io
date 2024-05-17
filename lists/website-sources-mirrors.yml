@@ -1,6 +1,6 @@
 title: Mirrors of Site
 paragraph: A list of Source and site mirrors
-  list:
+list:
   - type: category
     title: Source Code
     id: source-code

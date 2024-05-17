@@ -162,7 +162,7 @@ def GetLists():
             "content": "",
             "filename": slug
         }
-        with open("lists/" + slug) as ListYML:
+        with open("lists/" + slug, encoding="utf-8") as ListYML:
             ListDict = LoadYML(ListYML.read())
             List["title"] = ListDict["title"]
             if "paragraph" in ListDict:
