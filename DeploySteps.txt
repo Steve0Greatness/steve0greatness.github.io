@@ -1,0 +1,14 @@
+== How I Deploy This Site ==
+
+[] Push to Git sources
+[] Run build.py
+[] Generate a ZIP from the build directory
+[] Upload ZIP to Nekoweb 
+[] Upload ZIP to Cloudflare pages
+[] CD into build directory
+[] Push to Neocities
+[] Push to Surge
+[] Delete pages branch if exists
+[] Create orphaned pages branch
+[] Move content of build directory to pages branch root
+[] Push to Git sources' pages branches
