@@ -1,6 +1,6 @@
 title: Mirrors of Site
-paragraph: This is a list of all official mirrors of the sites source, the site itself, or both.
-list:
+paragraph: A list of Source and site mirrors
+  list:
   - type: category
     title: Source Code
     id: source-code
@@ -21,30 +21,36 @@ list:
   - type: category
     title: Websites
     id: websites
+    paragraph: I'm not gonna add to this list of mirrors anymore. I'm thinking I'm gonna start pretty much exclusively distributing my site on <a href="https://steve0greatness.nekoweb.org">Nekoweb</a>. It's a bit easier for me to maintain. The GitHub mirror will still be semi-up-to-date, but it may be behind the Nekoweb one(it's just easier to leave it as it is, at least for me).
     list:
-      - type: link
-        href: https://steve0greatness.codeberg.page/
-        text: Codeberg
-      - type: link
-        href: https://steve0greatness.gitlab.io/
-        text: GitLab
       - type: link
         href: https://steve0greatness.github.io/
         text: GitHub
       - type: link
-        href: https://steve0greatness.roundabout-host.com/
-        text: Roundabout
-        comment: Unstable
-      - type: link
-        href: https://steve0greatness.neocities.org/
-        text: Neocities
-        comment: Some stuff does not work
-      - type: link
         href: https://steve0greatness.nekoweb.org/
         text: Nekoweb
       - type: link
+        href: https://steve0greatness.codeberg.page/
+        text: Codeberg
+        comment: Discontinued
+      - type: link
+        href: https://steve0greatness.gitlab.io/
+        text: GitLab
+        comment: Discontinued
+      - type: link
+        href: https://steve0greatness.roundabout-host.com/
+        text: Roundabout
+        comment: Discontinued
+      - type: link
         href: https://steve0greatness.surge.sh/
         text: Surge.sh
+        comment: Discontinued
       - type: link
         href: https://steve0greatness.pages.dev/
         text: Cloudflare Pages
+        comment: Discontinued
+      - type: link
+        href: https://steve0greatness.neocities.org/
+        text: Neocities
+        comment: Some stuff does not work, Discontinued
+
