@@ -1,13 +1,25 @@
 == How I Deploy This Site ==
 
+=== Automated Deployments and Setup ===
+
 [] Push to Git sources
 [] Run build.py
+
+=== Nekoweb ===
+
 [] Generate a ZIP from the build directory
 [] Upload ZIP to Nekoweb 
-[] Upload ZIP to Cloudflare pages
+
+=== Neocities, Surge.sh, Page.dev ===
+
 [] CD into build directory
 [] Push to Neocities
 [] Push to Surge
+[] Generate ZIP of contents
+[] Upload ZIP to Cloudflare pages
+
+=== Roundabout, Codeberg ===
+
 [] Delete pages branch if exists
 [] Create orphaned pages branch
 [] Move content of build directory to pages branch root
