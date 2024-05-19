@@ -35,9 +35,8 @@ main {
     list-style: none;
     padding: 8px;
     box-sizing: border-box;
-    margin: 16px auto 0;
+    margin: 0 auto;
     width: 60vw;
-    /*border: 1px solid black;*/
     background-color: #19191b;
 }
 
