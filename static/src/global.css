@@ -152,3 +152,59 @@ samp {
 	font-size: .85rem;
 	white-space: pre-wrap;
 }
+
+.button-hotlink {
+    display: block;
+    margin-top: 3px;
+}
+
+input,
+textarea {
+    appearance: none;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    width: 1em;
+    height: 1em;
+}
+
+input[type=radio] {
+    border-radius: 100%;
+}
+
+input:is([type=radio], [type=checkbox]):checked {
+    background-color: #f00;
+}
+
+.ticker-wrapper {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+}
+
+.ticker-wrapper .ticker {
+    animation: infinite linear ticker 14s;
+    white-space: nowrap;
+    display: inline-block;
+    min-width: 100%;
+    box-sizing: content-box;
+}
+
+.ticker-wrapper.pauseonhover:hover > * {
+    animation-play-state: paused;
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
