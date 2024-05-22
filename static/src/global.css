@@ -208,3 +208,6 @@ input:is([type=radio], [type=checkbox]):checked {
     }
 }
 
+.cool-people-prj :any-link {
+    text-decoration: none;
+}
