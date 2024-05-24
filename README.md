@@ -1,5 +1,8 @@
 # Steve0Greatness' Website
 
+Note that whilst this repository is the official code of my website, the only offically support
+depolyment of this code is [steve0greatness.nekoweb.org](https://steve0greatness.nekoweb.org).
+
 This is the static site generator of my website! It's written completely in
 Python, using the libraries Jinja2(templating), Markdown2(blog posts), and PyYAML(lists).
 
