@@ -190,7 +190,6 @@ input:is([type=radio], [type=checkbox]):checked {
     animation: infinite linear ticker 14s;
     white-space: nowrap;
     display: inline-block;
-    min-width: 100%;
     box-sizing: content-box;
 }
 
@@ -200,14 +199,26 @@ input:is([type=radio], [type=checkbox]):checked {
 
 @keyframes ticker {
     0% {
-        transform: translateX(100%);
+        margin-left: 100%;
+        transform: translateX(0%);
     }
 
     100% {
+        margin-left: 0;
         transform: translateX(-100%);
     }
 }
 
 .cool-people-prj :any-link {
     text-decoration: none;
+}
+
+@media (prefers-reduced-motion) {
+    .ticker-wrapper .ticker {
+        animation: none;
+    }
+
+    .ticker-wrapper {
+        overflow: scroll;
+    }
 }
