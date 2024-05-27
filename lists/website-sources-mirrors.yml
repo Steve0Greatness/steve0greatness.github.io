@@ -20,11 +20,12 @@ list:
     paragraph: I'm not gonna add to this list of mirrors anymore. I'm thinking I'm gonna start pretty much exclusively distributing my site on <a href="https://steve0greatness.nekoweb.org">Nekoweb</a>. It's a bit easier for me to maintain. The GitHub mirror will still be semi-up-to-date, but it may be behind the Nekoweb one(it's just easier to leave it as it is, at least for me).
     list:
       - type: link
-        href: https://steve0greatness.github.io/
-        text: GitHub
-      - type: link
         href: https://steve0greatness.nekoweb.org/
         text: Nekoweb
+        comment: Primary webite
+      - type: link
+        href: https://steve0greatness.github.io/
+        text: GitHub
       - type: link
         href: https://steve0greatness.codeberg.page/
         text: Codeberg
