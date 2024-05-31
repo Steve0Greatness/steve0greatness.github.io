@@ -222,3 +222,11 @@ input:is([type=radio], [type=checkbox]):checked {
         overflow: scroll;
     }
 }
+
+.ticker-wrapper.ticker-reversed .ticker {
+    animation-direction: reverse;
+}
+
+.cool-people-prj-no-bttn :any-link {
+    margin-right: 5px;
+}
