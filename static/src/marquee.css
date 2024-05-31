@@ -1,0 +1,50 @@
+.ticker-wrapper {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+}
+
+.ticker-wrapper .ticker {
+    animation: infinite linear ticker 14s;
+    white-space: nowrap;
+    display: inline-block;
+    box-sizing: content-box;
+}
+
+.ticker-wrapper.pauseonhover:hover > * {
+    animation-play-state: paused;
+}
+
+@keyframes ticker {
+    0% {
+        margin-left: 100%;
+        transform: translateX(0%);
+    }
+
+    100% {
+        margin-left: 0;
+        transform: translateX(-100%);
+    }
+}
+
+.cool-people-prj :any-link {
+    text-decoration: none;
+}
+
+@media (prefers-reduced-motion) {
+    .ticker-wrapper .ticker {
+        animation: none;
+    }
+
+    .ticker-wrapper {
+        overflow: scroll;
+    }
+}
+
+.ticker-wrapper.ticker-reversed .ticker {
+    animation-direction: reverse;
+}
+
+.cool-people-prj-no-bttn :any-link {
+    margin-right: 5px;
+}
