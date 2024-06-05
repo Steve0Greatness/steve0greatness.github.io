@@ -10,6 +10,11 @@ from yaml import safe_load as LoadYML
 from re import sub as RegReplace
 from typing import Literal
 
+def GetCurTime():
+    return datetime.now().strftime("%Y-%m-%d %H:%M:%S") 
+
+START_TIME = GetCurTime()
+
 DEPLOY_BUILD_DIR = {
     "gh-pages-deploy": "build",
     "gl-pages-deploy": "public",
@@ -190,7 +195,10 @@ def RenderPosts():
                             PlaintextPath=post["plaintext"],
                             IsDraft=post["is-draft"],
                             OpenGraphDate=post["opengraph-date"],
-                            post=post
+                            post=post,
+                            CompileTime=GetCurTime(),
+                            SiteCompileTime=START_TIME,
+                            ViewName="blog-post.html"
                         )
         print("Building blog-posts/%s to %s/blog/%s" % (post["origin"], BUILD_DIRECTORY, post["pathname"]))
         with open(BUILD_DIRECTORY + "/blog/" + post["pathname"], "w", encoding="utf-8") as PostHTMLFile:
@@ -247,12 +255,28 @@ def RenderLists():
         Title = List["title"]
         print("%s -> %s" % ("lists/" + List["filename"], BUILD_DIRECTORY + FileLocation))
         with open(BUILD_DIRECTORY + FileLocation, "w") as file:
-            file.write(RenderTemplate("list.html", Content=List["content"], Title=Title, Location=FileLocation))
+            file.write(RenderTemplate(
+                "list.html",
+                Content=List["content"],
+                Title=Title,
+                Location=FileLocation,
+                CompileTime=GetCurTime(),
+                SiteCompileTime=START_TIME,
+                ViewName="blog-post.html"
+            ))
         ListIndex += "<li><a href=\"%s\">%s</a></li>" % (FileLocation, Title)
     ListIndex += "</ul>"
     print("Building list index")
     with open(BUILD_DIRECTORY + "/list/index.html", "w") as file:
-        file.write(RenderTemplate("list-index.html", Content=ListIndex))
+        file.write(
+            RenderTemplate(
+                            "list-index.html",
+                            Content=ListIndex,
+                            CompileTime="",
+                            SiteCompileTime="",
+                            ViewName="list-index.html"
+            )
+        )
 
 def main():
     global PostList
@@ -272,7 +296,15 @@ def main():
     print("Building pages")
     for file, path in PAGES.items():
         AllowSitemap = file not in DISALLOWED_SITEMAP
-        RenderPage(file, path, AllowSitemap, PostList=PostList)
+        RenderPage(
+            file,
+            path,
+            AllowSitemap,
+            PostList=PostList,
+            CompileTime=GetCurTime(),
+            SiteCompileTime=START_TIME,
+            ViewName=file
+        )
     
     print("Building redirects")
     for OldLocation, NewLocation in REDIRECTS.items():
