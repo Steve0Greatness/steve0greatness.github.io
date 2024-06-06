@@ -8,12 +8,12 @@
 <meta property="og:title" content="{{ Title }}" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="{{ OpenGraphDate }}T00:00:00Z" />
-<meta property="article:author" content"https://steve0greatness.github.io" />
+<meta property="article:author" content="https://steve0greatness.nekoweb.org/" />
 {% if Revised %}<meta property="article:modified_time" content="{{ post["opengraph-update"] }}T00:00:00Z" />{% endif %} 
 <meta property="profile:first_name" content="Steve0Greatness" />
 <meta property="profile:username" content="Steve0Greatness" />
 <meta property="profile:gender" content="male" />
-<meta property="og:url" content="https://steve0greatness.github.io/blog/{{PostPath}}" />
+<meta property="og:url" content="https://steve0greatness.nekoweb.org/blog/{{PostPath}}" />
 {% endblock %}
 {% from "_macros.html" import GenerateBreadcrumbs %}
 {% block breadcrumbs %}{{ GenerateBreadcrumbs([{ "href": "/blog","title": "Blog Index" }, {"href": "/blog/" + PostPath, "title": Title}]) }}{% endblock %}
@@ -23,7 +23,7 @@
     <header>
         <div role="toolbar" class="toolbar">
             <strong>Share</strong>
-            <a href="https://toot.kytta.dev/?text=Take a look at this article by @S0G@mastodon.social: https://steve0greatness.github.io/blog/{{PostPath}}" title="Share to Mastodon">
+            <a href="https://toot.kytta.dev/?text=Take a look at this article by @S0G@mastodon.social: https://steve0greatness.nekoweb.org/blog/{{PostPath}}" title="Share to Mastodon">
                 <img src="/toot-kytta-dev-icon.png" width="16" height="16" aria-hidden="true" title="Share to Mastodon" />
             </a>
             <a href="/blog/{{PostPath}}" title="Direct link">
