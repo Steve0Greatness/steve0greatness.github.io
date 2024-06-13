@@ -1,0 +1,48 @@
+abbr:has(:any-link) {
+	text-decoration: none;
+}
+
+kbd {
+	white-space: pre-wrap;	
+	font-family: "mononoki", monospace;
+	display: inline-block;
+	font-size: .85rem;
+}
+
+:not(samp) kbd:not(:has(kbd)) {
+	background-color: #222728;
+	color: currentColor;
+	border: currentColor 1px solid;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 1px 0;
+}
+
+samp kbd {
+	display: block;
+}
+
+samp {
+	background-color: #282722;
+	color: #fff;
+	font-family: "mononoki", monospace;
+	padding: 10px;
+	display: block;
+	font-size: .85rem;
+	white-space: pre-wrap;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    width: 1em;
+    height: 1em;
+}
+
+input[type=radio] {
+    border-radius: 100%;
+}
+
+input:is([type=radio], [type=checkbox]):checked {
+    background-color: #f00;
+}
+
