@@ -1,3 +1,9 @@
+# This code is licensed under the LGPL.
+# The reason for such is that it allows for the use of it
+# within proprietry applications.
+#
+# To view a copy of the LGPL, please refer to
+# https://www.gnu.org/licenses/lgpl-3.0.en.html
 from Renderers import RenderTemplate, RenderMarkdown
 from sys import argv
 from shutil import rmtree as DeleteDirectory
