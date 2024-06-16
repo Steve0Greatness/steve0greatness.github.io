@@ -21,12 +21,12 @@ html[data-theme=dark] {
     --buttonBorder: #333;
     --buttonColor: #fff;
 }
-html[data-theme=clown] {
+html[data-theme=hotdogstand] {
     background: #f00;
-    color: #00f;
-    --buttonBackground: #050;
-    --buttonBorder: #0a0;
-    --buttonColor: #0f0;
+    color: #fff;
+    --buttonBackground: #ff0;
+    --buttonBorder: #000;
+    --buttonColor: #000;
 }
 button {
     background: var(--buttonBackground);
@@ -44,7 +44,7 @@ Now we need to create a button that we will use to change the `[data-theme]` att
 Now, it is time to write the JavaScript. First, you'll want to make a constant with the themes you filled into your CSS, for me, that was `dark`, `light`, and `clown`. I'll name this `themes`.
 
 ```javascript
-const themes = ["light", "dark", "clown"];
+const themes = ["light", "dark", "hotdogstand"];
 ```
 
 We now need to query the <abbr title="Document Object Model">DOM</abbr> for our theme switch button. This can be done in 2 ways: `document.querySelector` or `document.getElementById`; personally, I prefer `querySelector`, as it allows you to write a CSS selector to get an element from the DOM, allowing for shorter, more digestible, code.
