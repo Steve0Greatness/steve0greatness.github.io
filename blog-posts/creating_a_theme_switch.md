@@ -1,6 +1,6 @@
 title: Create a Theme Switch
 date: 2021 Dec 08
-updated: 2024 Feb 03
+updated: 2024 Jun 15
 
 This is a simple tutorial on how to make a simple theme switcher.
 
