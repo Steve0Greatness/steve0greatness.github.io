@@ -1,1 +1,1 @@
-If a website doesn't say to hotlink thier button, I won't hotlink their button.
+If a website says to not hotlink their button, or I make my own button for them, then it goes here.
