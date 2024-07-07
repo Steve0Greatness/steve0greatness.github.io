@@ -51,9 +51,11 @@ DISALLOWED_SITEMAP = {
 
 REDIRECTS = {
     "link-tree.html": "list/link-tree.html", # Old location -> new location
+    "extras.html": "https://steve0greatness.github.io/extras",
+    "guestbook.html": "https://steve0greatness.atabook.org/",
 }
 
-SITEMAP_HREF = "https://steve0greatness.github.io/"
+SITEMAP_HREF = "https://steve0greatness.nekoweb.org/"
 sitemap = [
     SITEMAP_HREF + "blog/",
     SITEMAP_HREF,
@@ -61,9 +63,9 @@ sitemap = [
 
 def EscapeHTMLForRSS(HTML: str) -> str:
     values = {
-        "&": "&amp;", # this is here for a reason, do not change order.
+        "&": "&amp;", # & is first for a reason, do not change it's location.
         "<": "&lt;",
-        ">": "&gt;",
+        ">": "&gt;", 
         "§": "&#xa7;",
     }
     RssHtml = HTML
