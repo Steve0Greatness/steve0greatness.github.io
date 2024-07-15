@@ -50,8 +50,8 @@ DISALLOWED_SITEMAP = {
 }
 
 REDIRECTS = {
-    "link-tree.html": "list/link-tree.html", # Old location -> new location
-    "extras.html": "https://steve0greatness.github.io/extras",
+        "link-tree.html": "https://steve0greatness.nekoweb.org/list/link-tree.html", # Old location -> new location
+    "extras.html": "https://steve0greatness.nekoweb.org/extras",
     "guestbook.html": "https://steve0greatness.atabook.org/",
 }
 
@@ -228,28 +228,28 @@ def CreateJSONFeed():
     CreatedJSON = {
         "version": "https://jsonfeed.org/version/1",
         "title": "Steve0Greatness' Blog",
-        "home_page_url": "https://steve0greatness.github.io",
-        "feed_url": "https://steve0greatness.github.io/blog/feed.rss",
+        "home_page_url": "https://steve0greatness.nekoweb.org",
+        "feed_url": "https://steve0greatness.nekoweb.org/blog/feed.rss",
         "language": "en-US",
-        "favicon": "https://steve0greatness.github.io/favicon.ico",
+        "favicon": "https://steve0greatness.nekoweb.org/favicon.ico",
         "description": "A blog by a human being.",
         "authors": [
             {
                 "name": "Steve0Greatness",
-                "url": "https://steve0greatness.github.io"
+                "url": "https://steve0greatness.nekoweb.org"
             }
         ],
         "items": []
     }
     for post in PostList:
         CreatedJSON["items"].append({
-            "id": "https://steve0greatness.github.io/blog/" + post["pathname"],
+            "id": "https://steve0greatness.nekoweb.org/blog/" + post["pathname"],
 			"title": "JSON Feed version 1.1",
-			"icon": "https://steve0greatness.github.io/favicon.ico",
+			"icon": "https://steve0greatness.nekoweb.org/favicon.ico",
 			"content_html": post["content"],
 			"date_published": post["atom-post-time"],
             "date_modified": post["atom-update-time"],
-			"url": "https://steve0greatness.github.io/blog/" + post["pathname"]
+			"url": "https://steve0greatness.nekoweb.org/blog/" + post["pathname"]
         })
     with open(BUILD_DIRECTORY + "/blog/feed.json", "w") as JSONFeedFile:
         DumpJSON(CreatedJSON, JSONFeedFile)

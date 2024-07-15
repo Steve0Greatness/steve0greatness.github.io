@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <id>https://steve0greatness.github.io/blog/</id>
-    <link type="text/html" rel="alternate" href="https://steve0greatness.github.io/blog/" />
-    <link type="application/atom+xml" rel="self" href="https://steve0greatness.github.io/blog/feed.atom" />
+    <id>https://steve0greatness.nekoweb.org/blog/</id>
+    <link type="text/html" rel="alternate" href="https://steve0greatness.nekoweb.org/blog/" />
+    <link type="application/atom+xml" rel="self" href="https://steve0greatness.nekoweb.org/blog/feed.atom" />
     <title>Steve0Greatness' Blog</title>
     <subtitle>A blog by a human being</subtitle>
     <author>
         <name>Steve0Greatness</name>
-        <uri>https://steve0greatness.github.io</uri>
+        <uri>https://steve0greatness.nekoweb.org</uri>
     </author>
     <generator>Custom w/Jinja</generator>
     <updated>{{PostList[0]["atom-update-time"]}}</updated>
     {% for post in PostList %}
     <entry>
 	    <title>{{post["title"]}}</title>
-        <link type="text/html" rel="alternate" href="https://steve0greatness.github.io/blog/{{post['pathname']}}" />
-        <link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/{{post['plaintext']}}" />
+        <link type="text/html" rel="alternate" href="https://steve0greatness.nekoweb.org/blog/{{post['pathname']}}" />
+        <link type="text/plain" rel="alternate" href="https://steve0greatness.nekoweb.org/blog/{{post['plaintext']}}" />
         <content type="html">
-            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/{{post['pathname']}}"&gt;read this article online&lt;/a&gt;,&lt;/p&gt;
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.nekoweb.org/blog/{{post['pathname']}}"&gt;read this article online&lt;/a&gt;,&lt;/p&gt;
             {{post["rss-content"]}}
         </content>
-	<id>https://steve0greatness.github.io/blog/{{post['pathname']}}</id>
+	    <id>https://steve0greatness.nekoweb.org/blog/{{post['pathname']}}</id>
         <published>{{post['atom-post-time']}}</published>
 		<updated>{{post['atom-update-time']}}</updated>
     </entry>

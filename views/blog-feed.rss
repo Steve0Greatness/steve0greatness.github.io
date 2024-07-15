@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" >
 
 <channel>
-    <atom:link href="https://steve0greatness.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+    <atom:link href="https://steve0greatness.nekoweb.org/blog/feed.rss" rel="self" type="application/rss+xml" />
     <title>Steve0Greatness' Blog</title>
-    <link>https://steve0greatness.github.io/</link>
+    <link>https://steve0greatness.nekoweb.org/</link>
     <description>A blog by a human being.</description>
     <language>en-us</language>
     <generator>Custom w/Jinja</generator>
     <image>
-        <link>https://steve0greatness.github.io/</link>
+        <link>https://steve0greatness.nekoweb.org/</link>
         <title>Steve0Greatness' Blog</title>
-        <url>https://steve0greatness.github.io/RSS-Img.png</url>
+        <url>https://steve0greatness.nekoweb.org/RSS-Img.png</url>
         <description>A blog by a human being.</description>
         <height>144</height>
         <width>120</width>
@@ -19,10 +19,10 @@
     {% for post in PostList %}
     <item>
         <title>{{post["title"]}}</title>
-        <link>https://steve0greatness.github.io/blog/{{post["pathname"]}}</link>
-        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.github.io/blog/{{post['plaintext']}}" />
+        <link>https://steve0greatness.nekoweb.org/blog/{{post["pathname"]}}</link>
+        <atom:link type="text/plain" rel="alternate" href="https://steve0greatness.nekoweb.org/blog/{{post['plaintext']}}" />
         <description>
-            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.github.io/blog/{{post['pathname']}}"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;Depending on your Feed reader, you may want to &lt;a href="https://steve0greatness.nekoweb.org/blog/{{post['pathname']}}"&gt;read this article online&lt;/a&gt;.&lt;/p&gt;
             {{post["rss-content"]}}
         </description>
         <guid isPermaLink="false">{{post['pathname']}}</guid>
