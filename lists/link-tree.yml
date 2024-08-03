@@ -151,6 +151,9 @@ list:
       - type: link
         href: https://roundabout-host.com/steve0greatness/
         text: Roundabout
+      - type: link
+        href: https://git.gay/Steve0Greatness
+        text: git.gay
   - type: category
     title: Game Services
     id: gaming
