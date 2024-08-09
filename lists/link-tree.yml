@@ -27,6 +27,14 @@ list:
         href: https://www.threads.net/@steve0greatness
         text: Threads
         comment: often inactive
+      - type: link
+        href: https://darflen.com/users/steve0greatness
+        text: Darflen
+        comment: often inactive
+      - type: link
+        href: https://postlit.dev/users/steve0greatness/
+        text: Postlit.dev
+        comment: often inactive
   - type: category
     title: Content/Cloud Hosts
     id: content-hosting
