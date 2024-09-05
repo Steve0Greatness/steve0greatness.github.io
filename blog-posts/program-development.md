@@ -44,7 +44,7 @@ can't be mixed and matched.
   commits.
 
 *Note that a commit history being available doesn't mean a source history is
-available, for that, see the nexte section.*
+available, for that, see the next section.*
 
 ### When is the source code released?
 
