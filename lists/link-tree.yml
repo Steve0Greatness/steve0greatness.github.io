@@ -237,12 +237,15 @@ list:
     id: wikis
     list:
       - type: link
+        href: https://meta.miraheze.org/wiki/Special:CentralAuth/Steve0Greatness
+        text: Miraheze
+      - type: link
         href: https://developer.valvesoftware.com/wiki/User:Steve0Greatness
         text: Valve Developer Community
         comment: often inactive
       - type: link
-        href: https://en.wikipedia.org/wiki/User:Steve0Greatness
-        text: English Wikipedia
+        href: https://commons.wikimedia.org/wiki/Special:CentralAuth/Steve0Greatness
+        text: Wikimedia
         comment: often inactive
       - type: link
         href: https://wiki.teamfortress.com/wiki/User:Steve0Greatness
@@ -252,10 +255,9 @@ list:
         href: http://www.wikidot.com/user:info/steve0greatness
         text: Wikidot
         comment: often inactive
-      - type: link
-        href: https://satisfactory.wiki.gg/wiki/User:Steve0Greatness
-        text: Satisfactory Wiki
-        comment: often inactive
+      - type: text
+        text: "Wiki.gg, <code>User:Steve0Greatness</code>"
+        comment: "often inactive; no page for all user contributions"
       - type: link
         href: https://en.scratch-wiki.info/wiki/User:Steve0Greatness
         text: English Scratch Wiki
@@ -268,20 +270,12 @@ list:
         href: https://community.fandom.com/wiki/User:Steve0Greatness
         text: Fandom
       - type: link
-        href: https://meta.miraheze.org/wiki/User:Steve0Greatness
-        text: Miraheze
-        comment: often inactive
-      - type: link
         href: https://www.mediawiki.org/wiki/User:Steve0Greatness
         text: Mediawiki
         comment: often inactive
       - type: link
         href: https://libregamewiki.org/User:Steve0Greatness
         text: libreGameWiki
-        comment: often inactive
-      - type: link
-        href: https://wiki.meower.org/wiki/User:Steve-Zero-Greatness
-        text: Meower wiki
         comment: often inactive
       - type: link
         href: https://doomwiki.org/wiki/User:Steve0Greatness
