@@ -256,8 +256,8 @@ list:
         text: Wikidot
         comment: often inactive
       - type: text
-        text: "Wiki.gg, <code>User:Steve0Greatness</code>"
-        comment: "often inactive; no page for all user contributions"
+        text: "Wiki.gg, <code>Steve0Greatness</code>"
+        comment: "often inactive; <a href=\"https://support.wiki.gg/wiki/Lookup_User\">find contributions</a>--this is slow and kinda bad"
       - type: link
         href: https://en.scratch-wiki.info/wiki/User:Steve0Greatness
         text: English Scratch Wiki
