@@ -50,8 +50,8 @@ DISALLOWED_SITEMAP = {
 }
 
 REDIRECTS = {
-        "link-tree.html": "https://steve0greatness.nekoweb.org/list/link-tree.html", # Old location -> new location
-    "extras.html": "https://steve0greatness.nekoweb.org/extras",
+    "link-tree.html": "/list/link-tree.html", # Old location -> new location
+    "extras.html": "https://steve0greatness.github.io/extras",
     "guestbook.html": "https://steve0greatness.atabook.org/",
 }
 
