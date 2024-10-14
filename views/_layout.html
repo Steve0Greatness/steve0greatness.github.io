@@ -5,12 +5,68 @@
     {% block Head %}
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>{% block title %}{% endblock %}</title>
     <style>
         html {
             color-scheme: dark;
+            background-image:
+                url("/bg2.gif"),
+                url("/bg1.gif");
+            animation: movestars 115s linear infinite;
+            background-size: 5rem;
+            image-rendering: pixelated;
+        }
+        @keyframes movestars {
+            from {
+                background-position: 0 0, 0 0;
+            }
+            to {
+                background-position: 1000px -1500px, -500px 500px;
+            }
+        }
+
+        body {
+            min-height: 100vh;
+            width: 60vw;
+            background-color: #100010;
+            margin: 0;
+            padding: 8px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+        }
+        header h2 {
+            flex: 1;
+        }
+
+        main {
+            margin: .25em 0;
+            padding: .5em .3em;
+
+            border: solid #fff;
+            border-width: 1px 0;
+            border-radius: 4px;
+        }
+        footer {
+            display: flex;
+            align-items: first baseline;
+            gap: 35px;
+        }
+
+        .breadcrumbs {
+            margin: 0;
+        }
+        .breadcrumbs li {
+            display: inline;
+        }
+        .breadcrumbs li:not(:last-child)::after {
+            content: "/"
         }
     </style>
+
     <meta property="og:locale" content="en_US" />
     <meta property="og:site_name" content="Steve0Greatness" />
     <meta property="og:image" content="/OG-Image.png" />
