@@ -44,7 +44,7 @@ jobs:
         - name: Download build results
           uses: actions/download-artifact@v4
         - name: Deploy to Nekoweb
-          uses: mp-pinheiro/nekoweb-deploy@main
+          uses: mp-pinheiro/nekoweb-deploy@dev
           with:
             API_KEY: ${{ secrets.NEKOWEB_API_KEY }}
             BUILD_DIR: "/home/runner/work/WikiGen/WikiGen/artifact"
