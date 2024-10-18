@@ -51,4 +51,5 @@ jobs:
             DEPLOY_DIR: "/build"
             CLEANUP: "True"
             DELAY: "0.5"
+            DEBUG: "True"
             NEKOWEB_PAGENAME: "steve0greatness"
