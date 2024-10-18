@@ -1,15 +1,3 @@
-Not all files within this directory may fall under the GPL-3.0 license.
-Files that don't fall under the repository's license are listed below:
-
-=> Open Source
-
-fonts/inter/*
-# License > SIL Open Font License (OFL) version 1.1 : https://openfontlicense.org/
-# Source  > https://github.com/rsms/inter
-fonts/mononoki/*
-# License > SIL Open Font License (OFL) version 1.1 : https://openfontlicense.org/
-# Source  > https://github.com/madmalik/mononoki
-
 => Creative Commons
 
 # See individual, provided URLs, for more details
