@@ -47,7 +47,7 @@ jobs:
           uses: mp-pinheiro/nekoweb-deploy@dev
           with:
             API_KEY: ${{ secrets.NEKOWEB_API_KEY }}
-            BUILD_DIR: "/home/runner/work/WikiGen/WikiGen/artifact"
+            BUILD_DIR: "/home/runner/work/steve0greatness.github.io/steve0greatness.github.io/artifact"
             DEPLOY_DIR: "/build"
             CLEANUP: "True"
             DELAY: "0.5"
