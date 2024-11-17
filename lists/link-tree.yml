@@ -64,6 +64,10 @@ list:
         text-type: text/markdown
         comment: often inactive
       - type: link
+        href: https://penguinmod.com/profile?user=Steve
+        text: PenguinMod
+        comment: often inactive
+      - type: link
         href: https://glitter-graphics.com/users/steve0greatness
         text: Glitter Graphics
         comment: often inactive
