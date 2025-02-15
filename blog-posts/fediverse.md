@@ -1,5 +1,5 @@
 title: The fediverse
-date: 2025 Feb 03
+date: 2025 Feb 14
 
 The <abbr title="federated universe">fediverse</abbr> is a technology that lets users of independant services, such as
 social media and video hosting websites (&#xE0; la YouTube), communicate without both users needing to be using the same
@@ -42,8 +42,8 @@ decentralized. that's all.
 I'm aware that most people think of decentralization as a bad word, and I know exactly why that is: cryptocurrency.
 Cryptocurrency has, for quite a long while, been seen as bad in many ways (of which I don't feel like getting into);
 because of this, it's mostly soiled the words "decentralized" and "crypto" (many even refer to cryptocurrency as just
-"crypto," and genuinely STFU, stop doing that, crypto is short for cryptography; cryptocurrency is literally just short
-for cryptographic currency, and it's called that for reasons that do not matter to why it's mainly seen as bad now).
+"crypto," and I just want to say this: crypto is short for cryptography not cryptocurrency, that is literally just short
+for cryptographic currency, and it's called that for reasons that do not matter to why it's bad).
 
 I'm aware that's a bit rambly, but if you *really* don't like the word "decentralization," you can also call it
 federation (they're not exactly the same concepts, but for the purposes of the fediverse, they are).
