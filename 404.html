@@ -15,6 +15,6 @@ If you weren't redirected automatically, please report this to the webmaster man
 
 <script>
     if (location.pathname.startsWith("/sites/"))
-        location.replace("/webring" + location.path);
+        location.replace("/webring" + location.pathname);
     document.querySelector("#new-site").href += location.pathname;
 </script>
