@@ -1,5 +1,6 @@
 title: Defining Development and Release Strategies of FLOSS
 date: 2024 Jul 30
+updated: 2025 Mar 31
 
 Many programs are Free/Libre and Open Source, both of those
 are very well defined so I'm not going to waste my or your
@@ -60,3 +61,11 @@ available, for that, see the next section.*
 Thank you for reading this pointless blog post. I know nobody is ever gonna get
 use out of it.
 
+## Edit: example
+
+Google recently announced it'd be developing Andriod more privately. From the
+way I've heard it described, it would seem to be historical,
+arbitrarily-source, centered, and non-community-driven.
+
+Also, SQLite would probably be historical, sourced-per-commit,
+community-supported, and centered.
